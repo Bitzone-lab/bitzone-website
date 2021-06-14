@@ -1,5 +1,5 @@
-import Hello from '../sections/home/Hello'
+import Header from '../sections/home/Header'
 
 export default function Home() {
-    return <Hello />
+    return <Header />
 }
