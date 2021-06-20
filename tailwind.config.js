@@ -1,4 +1,5 @@
 module.exports = {
+    // mode: 'jit',
     future: {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
@@ -8,7 +9,12 @@ module.exports = {
     purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
     theme: {
         extend: {
+            backgroundColor: {
+                navbar: 'rgba(74,37,170,0.5)'
+            },
             backgroundImage: {
+                'navbar-hidden':
+                    'linear-gradient(111.34deg, #7f52dd 0%, #00007a 100%)',
                 'linear-accent':
                     'linear-gradient(165.74deg, rgba(183, 174, 8, 0.18) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(165.98deg, #FFFF7E 0%, #EDE04B 101.39%)',
                 'linear-primary':
