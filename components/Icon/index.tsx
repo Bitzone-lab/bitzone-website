@@ -1,4 +1,3 @@
-import * as React from 'react'
 import Hamburger from './Hamburger'
 import ArrowLeft from './ArrowLeft'
 import Close from './Close'
