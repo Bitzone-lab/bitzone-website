@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <nav>
-            <div className="bg-navbar h-16 fixed top-0 flex items-center justify-between w-full px-4">
+            <div className="bg-navbar h-16 fixed top-0 flex items-center justify-between w-full px-4 backdrop-blur-lg backdrop-filter">
                 <div onClick={() => setShow(true)}>
                     <Icon size={20} pointer name="hamburger" />
                 </div>
