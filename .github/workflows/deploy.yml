@@ -2,7 +2,7 @@ name: Deploy to github pages
 
 on:
   pull_request:
-    branches: all
+    branches: [main, develop]
 
   workflow_dispatch:
 
