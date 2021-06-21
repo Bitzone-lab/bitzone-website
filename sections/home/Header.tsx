@@ -1,18 +1,29 @@
-import * as React from 'react'
+import Icon from '../../components/Icon'
 
 export default function Header() {
     return (
-        <header className="h-screen w-full flex flex-col p-4 pt-24 bg-gradient-to-r from-purple-600 to-purple-900 text-white">
-            <h1 className="text-5xl mb-6 font-bold">
-                Construye tu futuro de Bitzone
-            </h1>
-            <p className="mb-9 text-xl">
-                En Bitzone contamos con los profesionales para construir tu
-                futuro
-            </p>
-            <a className="font-bold" href="#">
-                Descubre cómo
-            </a>
+        <header className="hero min-h-screen bg-linear-primary text-white">
+            <div className="hero-content text-neutral-content">
+                <div className="max-w-md">
+                    <h1 className="mb-5 text-5xl font-bold leading-tight">
+                        Construye tu futuro con Bitzone
+                    </h1>
+                    <p className="mb-10 text-2xl">
+                        En Bitzone contamos con los profesionales para construir
+                        tu futuro
+                    </p>
+                    <div className="flex items-center text-accent">
+                        <a className="text-xl font-bold" href="#">
+                            Descrube cómo
+                        </a>
+                        <Icon
+                            className="ml-2 mt-1"
+                            name="arrow-right"
+                            size={15}
+                        />
+                    </div>
+                </div>
+            </div>
         </header>
     )
 }
