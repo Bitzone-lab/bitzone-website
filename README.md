@@ -1,5 +1,6 @@
 Bitzone Website
 =======
+[![Deploy to github pages](https://github.com/Bitzone-lab/bitzone-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/Bitzone-lab/bitzone-website/actions/workflows/deploy.yml)
 ## Getting Started
 
 First, run the development server:
