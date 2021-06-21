@@ -10,7 +10,8 @@ module.exports = {
     theme: {
         extend: {
             backgroundColor: {
-                navbar: 'rgba(74,37,170,0.5)'
+                navbar: 'rgba(74,37,170,0.5)',
+                footer: '#00007A'
             },
             backgroundImage: {
                 'navbar-hidden':
