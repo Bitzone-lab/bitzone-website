@@ -18,7 +18,7 @@ module.exports = {
                 'linear-accent':
                     'linear-gradient(165.74deg, rgba(183, 174, 8, 0.18) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(165.98deg, #FFFF7E 0%, #EDE04B 101.39%)',
                 'linear-primary':
-                    'linear-gradient(165.74deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(165.98deg, #7F52DD 0%, #00007A 101.39%)',
+                    'linear-gradient(111.34deg, #7F52DD 0%, #00007A 100%)',
                 'linear-black':
                     'linear-gradient(165.46deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100.43%), linear-gradient(165.72deg, #2F2F2F 0%, #000000 100.04%)',
                 'linear-green':
