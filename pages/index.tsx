@@ -1,13 +1,13 @@
 import Footer from '../components/Footer'
+import Header from '../sections/home/Header'
 import Navbar from '../components/Navbar'
-import Hello from '../sections/home/Hello'
 
 export default function Home() {
     return (
         <>
             <Navbar />
-            <Hello />
             <Footer />
+            <Header />
         </>
     )
 }
