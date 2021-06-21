@@ -1,4 +1,4 @@
-function ArrowLeft(props) {
+function ArrowLeft(props: React.SVGProps<SVGSVGElement>) {
     return (
         <svg
             width="1em"
