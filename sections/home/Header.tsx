@@ -5,7 +5,7 @@ export default function Header() {
         <header className="hero min-h-screen bg-linear-primary text-white">
             <div className="hero-content text-neutral-content pb-40">
                 <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl font-bold leading-tight">
+                    <h1 className="mb-5 text-5xl font-bold font-sofia leading-tight">
                         Construye tu futuro con Bitzone
                     </h1>
                     <p className="mb-10 text-2xl">
@@ -13,7 +13,7 @@ export default function Header() {
                         tu futuro
                     </p>
                     <div className="flex items-center text-accent">
-                        <a className="text-xl font-bold" href="#">
+                        <a className="text-xl font-bold font-sofia" href="#">
                             Descrube cómo
                         </a>
                         <Icon

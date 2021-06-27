@@ -40,10 +40,10 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="flex flex-col text-white items-center px-8 text-2xl">
-                    <a className="py-2">Nosotros</a>
-                    <a className="py-2">Servicios</a>
-                    <a className="py-2">Proyectos</a>
-                    <a className="py-2">Contacto</a>
+                    <a className="font-sofia py-2">Nosotros</a>
+                    <a className="font-sofia py-2">Servicios</a>
+                    <a className="font-sofia py-2">Proyectos</a>
+                    <a className="font-sofia py-2">Contacto</a>
                 </div>
             </div>
         </nav>

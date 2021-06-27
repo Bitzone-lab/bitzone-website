@@ -45,14 +45,14 @@ export default function Contacts() {
                     />
                 </div>
             </div>
-            <div>
+            <div className="mb-14">
                 <p className="text-tagline font-bold text-sm mb-5">
                     CONFÍAN EN NOSOTROS
                 </p>
-                <h2 className="text-subtle font-bold text-3xl mb-5">
+                <h2 className="text-subtle font-bold font-sofia text-4xl mb-10">
                     Construimos el futuro del Perú y del mundo
                 </h2>
-                <p className="text-normal text-base">
+                <p className="text-normal text-base text-xl">
                     Contamos con experiencia realizando proyectos de software
                     para empresas tanto peruanas como extranjeras. Somos
                     reconocidos por la calidad de nuestro equipo y nuestro
