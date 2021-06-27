@@ -42,6 +42,9 @@ module.exports = {
                 subtle: 'rgba(28, 14, 64, 0.87)',
                 normal: 'rgba(28, 14, 64, 0.5)',
                 tagline: 'rgba(28, 14, 64, 0.25)'
+            },
+            dropShadow: {
+                contact: '0px 2px 30px rgba(48, 70, 89, 0.15)'
             }
         }
     },
