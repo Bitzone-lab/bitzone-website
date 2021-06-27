@@ -6,7 +6,7 @@ export default function Navbar() {
 
     return (
         <nav>
-            <div className="bg-navbar h-16 fixed top-0 flex items-center justify-between w-full px-4 backdrop-blur-lg backdrop-filter">
+            <div className="bg-navbar h-16 fixed top-0 flex items-center justify-between w-full px-4 backdrop-blur-lg backdrop-filter z-30">
                 <div onClick={() => setShow(true)}>
                     <Icon size={20} pointer name="hamburger" />
                 </div>
@@ -23,7 +23,7 @@ export default function Navbar() {
             <div
                 className={`${
                     show ? 'px-4 w-full' : 'w-0'
-                } h-full fixed z-10 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
+                } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
             >
                 <div className="flex items-center justify-between h-16">
                     <div className="w-6"></div>

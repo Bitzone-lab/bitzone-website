@@ -17,5 +17,9 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(/fonts/Sofia-Pro-Bold-Az.otf);
+  src: url(/fonts/SofiaPro-Bold-Az.otf);
+}
+
+.wrapper-contact {
+    @apply bg-white h-52 filter drop-shadow-contact flex justify-center items-center;
 }
