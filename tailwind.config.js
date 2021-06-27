@@ -29,7 +29,9 @@ module.exports = {
                 'linear-green':
                     'linear-gradient(249.52deg, #6FCF97 0%, #219653 100%)',
                 'radial-accent':
-                    'radial-gradient(50% 50% at 50% 50%, #FFFF7E 0%, #EDE04B 100%)'
+                    'radial-gradient(50% 50% at 50% 50%, #FFFF7E 0%, #EDE04B 100%)',
+                'call-to-contact':
+                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call_to_contact.jpg)'
             },
             colors: {
                 background: '#EEEEEE',

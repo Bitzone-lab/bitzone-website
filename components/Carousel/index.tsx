@@ -1,3 +1,5 @@
+import Button from '../Button'
+
 export interface Content {
     title: string
     subtitle: string
@@ -27,9 +29,7 @@ export default function Carousel(props: { content: Content[] }) {
                                 {data.title}
                             </h1>
                             <p className="mb-5 text-md">{data.textarea}</p>
-                            <button className="btn btn-accent font-sofia rounded-none normal-case text-lg">
-                                Descúbrelo
-                            </button>
+                            <Button>Descúbrelo</Button>
                         </div>
                     </div>
                 ))}

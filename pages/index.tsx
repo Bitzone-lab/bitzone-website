@@ -3,6 +3,7 @@ import Header from '../sections/home/Header'
 import WeAre from '../sections/home/WeAre'
 import Navbar from '../components/Navbar'
 import Contacts from '../sections/home/Contacts'
+import CallToContact from '../sections/home/CallToContact'
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Header />
             <WeAre />
             <Contacts />
+            <CallToContact />
             <Footer />
         </>
     )
