@@ -5,7 +5,7 @@ export default function Contacts() {
                 <div className="wrapper-contact">
                     <img
                         className="object-cover"
-                        width="95px"
+                        width="80px"
                         height="29px"
                         src="img/advance-logo.png"
                     />
@@ -13,15 +13,15 @@ export default function Contacts() {
                 <div className="wrapper-contact mt-6">
                     <img
                         className="object-cover"
-                        width="95px"
+                        width="80px"
                         height="29px"
                         src="img/advance-logo.png"
                     />
                 </div>
                 <div className="wrapper-contact">
                     <img
-                        className='object-cover'
-                        width="95px"
+                        className="object-cover"
+                        width="80px"
                         height="29px"
                         src="img/inokuos-logo.png"
                     />
@@ -29,15 +29,15 @@ export default function Contacts() {
                 <div className="wrapper-contact">
                     <img
                         className="object-cover"
-                        width="95px"
+                        width="80px"
                         height="29px"
                         src="img/inversiones-laCruz-logo.png"
                     />
                 </div>
                 <div className="wrapper-contact mt-5">
                     <img
-                    className="object-cover"
-                        width="95px"
+                        className="object-cover"
+                        width="80px"
                         height="29px"
                         src="img/mtr-advance-logo.png"
                     />
@@ -45,7 +45,7 @@ export default function Contacts() {
                 <div className="wrapper-contact">
                     <img
                         className="object-cover"
-                        width="95px"
+                        width="80px"
                         height="29px"
                         src="img/mtr-advance-logo.png"
                     />
