@@ -3,13 +3,17 @@ export default function Footer() {
         <footer className="bg-footer text-white px-4 pt-10 pb-3 w-full">
             <div className="grid grid-cols-2 gap-y-12 pb-3">
                 <div>
-                    <p className="text-base font-bold mb-5">Acerca de</p>
+                    <p className="text-base font-bold font-sofia mb-5">
+                        Acerca de
+                    </p>
                     <p className="text-base font-light mb-5">Nosotros</p>
                     <p className="text-base font-light mb-5">Servicios</p>
                     <p className="text-base font-light">Proyectos</p>
                 </div>
                 <div>
-                    <p className="text-base font-bold mb-5">Información</p>
+                    <p className="text-base font-bold font-sofia mb-5">
+                        Información
+                    </p>
                     <p className="text-base font-light mb-5">
                         Política de priv.
                     </p>
@@ -20,7 +24,9 @@ export default function Footer() {
                     <p className="text-base font-light">Cfg. de cookies</p>
                 </div>
                 <div>
-                    <p className="text-base font-bold mb-5">Contacto</p>
+                    <p className="text-base font-bold font-sofia mb-5">
+                        Contacto
+                    </p>
                     <p className="text-base font-light mb-5">
                         hello@bitzone.lat
                     </p>

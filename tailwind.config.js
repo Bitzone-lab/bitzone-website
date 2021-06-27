@@ -8,6 +8,10 @@ module.exports = {
     },
     purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
     theme: {
+        fontFamily: {
+            sans: ['Overpass', 'system-ui'],
+            sofia: ['Sofia', 'system-ui']
+        },
         extend: {
             backgroundColor: {
                 navbar: 'rgba(74,37,170,0.5)',

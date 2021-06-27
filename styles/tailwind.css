@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts/Overpass-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/Sofia-Pro-Bold-Az.otf);
+}
