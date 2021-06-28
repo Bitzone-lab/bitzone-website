@@ -23,3 +23,7 @@
 .wrapper-contact {
     @apply bg-white h-52 filter drop-shadow-contact flex justify-center items-center;
 }
+
+.label-form {
+    @apply text-subtle font-sofia text-sm mb-3;
+}
