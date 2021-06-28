@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import Icon from '../../components/Icon'
 
 function Direction({ children, className = '' }) {
@@ -11,21 +12,17 @@ function Direction({ children, className = '' }) {
 }
 
 export default function WhyWe() {
+    const { t } = useTranslation()
     return (
         <section className="px-4 py-12">
             <h2 className="text-tagline font-sofia text-lg mb-6">
-                ¿POR QUÉ NOSOTROS?
+                {t('WHY WE?')}
             </h2>
             <h1 className="text-3xl font-sofia mb-3 text-subtle">
-                Estamos en constante crecimiento
+                {t('We are constantly growing')}
             </h1>
             <p className="text-lg text-subtle">
-                Trabajamos en un entorno donde impera la creatividad y la
-                personalidad de cada uno de los integrantes de nuestro equipo y
-                es, a través de ellos, que constantemente estamos creciendo como
-                organización, como personas y como agentes capaces de adecuarnos
-                a los cambios que requieran nuestros proyectos o nuestros
-                propios procesos.
+                {t('We work in an environment where the creativity...')}
             </p>
             <div className="carousel mt-4 mb-4">
                 <div className="bg-linear-primary carousel-item p-10">
