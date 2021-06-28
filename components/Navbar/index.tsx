@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Icon from '../Icon'
+import Link from 'next/link'
 
 export default function Navbar() {
     const [show, setShow] = useState(false)
@@ -40,10 +41,14 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="flex flex-col text-white items-center px-8 text-2xl">
-                    <a className="font-sofia py-2">Nosotros</a>
+                    <Link href="/">
+                        <a className="font-sofia py-2">Nosotros</a>
+                    </Link>
                     <a className="font-sofia py-2">Servicios</a>
                     <a className="font-sofia py-2">Proyectos</a>
-                    <a className="font-sofia py-2">Contacto</a>
+                    <Link href="/contacts">
+                        <a className="font-sofia py-2">Contacto</a>
+                    </Link>
                 </div>
             </div>
         </nav>

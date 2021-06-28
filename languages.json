@@ -22,5 +22,37 @@
   "We have experience carrying out projects...":{
     "es": "Contamos con experiencia realizando proyectos de software para empresas tanto peruanas como extranjeras. Somos reconocidos por la calidad de nuestro equipo y nuestro trabajo. ¿Qué esperas que construyamos juntos el futuro que tanto anhelas?",
     "en": "We have experience carrying out software projects for both Peruvian and foreign companies. We are recognized for the quality of our team and our work. What do you hope that we build together the future that you long for?"
+  },
+  "Get in contact with us": {
+    "es": "Ponte en contacto con nosotros",
+    "en": "Get in contact with us"
+  },
+  "We will respond to you in a maximum of 2 business days": {
+    "es": "Te responderemos en un máximo de 2 días hábiles",
+    "en": "We will respond to you in a maximum of 2 business days"
+  },
+  "Name": {
+    "es": "Nombre",
+    "en": "Name"
+  },
+  "Reason": {
+    "es": "Motivo",
+    "en": "Reason"
+  },
+  "Tell us your reasons, questions...": {
+    "es": "Cuéntanos tus motivos, consultas, idea de proyecto... ¡Queremos escucharte!",
+    "en": "Tell us your reasons, questions, project idea ... We want to hear from you!"
+  },
+  "Cool!": {
+    "es": "Genial!",
+    "en": "Cool!"
+  },
+  "Thank you for taking this first...": {
+    "es": "Gracias por dar este primer paso junto con nosotros. Te estaremos respondiendo lo más pronto posible.",
+    "en": "Thank you for taking this first step together with us. We will be answering you as soon as possible."
+  },
+  "Back to home": {
+    "es": "Regresar a home",
+    "en": "Back to home"
   }
 }
