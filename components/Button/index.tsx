@@ -2,11 +2,15 @@ import * as React from 'react'
 
 export interface PropsButton {
     children: any
-    onClick: any
-    className: string
+    onClick?: () => void
+    className?: string
 }
 
-export default function Button({ children, onClick, className }: PropsButton) {
+export default function Button({
+    children,
+    onClick = () => null,
+    className = ''
+}: PropsButton) {
     return (
         <button
             onClick={onClick}
@@ -15,9 +19,4 @@ export default function Button({ children, onClick, className }: PropsButton) {
             {children}
         </button>
     )
-}
-
-Button.defaultProps = {
-    className: '',
-    onClick: () => null
 }
