@@ -1,4 +1,5 @@
 import Carousel, { Content } from '../../components/Carousel'
+
 const data: Content[] = [
     {
         title: 'Construimos soluciones a la medida de tus necesidades',
