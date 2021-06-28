@@ -6,11 +6,8 @@ export default function FormContact() {
     const [success, setSuccess] = useState(false)
     const { t } = useTranslation()
     return (
-        <section
-            style={{ height: '1015px' }}
-            className="bg-white h-96 relative"
-        >
-            <div className="h-2/4 bg-contact-form bg-cover"></div>
+        <section style={{ height: '1015px' }} className="bg-white relative">
+            <div className="h-2/4 bg-contact-form bg-center" />
             <div className="bg-transparent absolute top-0 w-full h-full flex justify-center items-end">
                 {!success && (
                     <form
