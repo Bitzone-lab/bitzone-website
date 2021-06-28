@@ -54,7 +54,7 @@ export default function Contacts() {
                     />
                 </div>
             </div>
-            <div className="mb-14">
+            <div className="mb-14 pt-4">
                 <p className="text-tagline font-bold text-sm mb-5">
                     {t('TRUST US')}
                 </p>
