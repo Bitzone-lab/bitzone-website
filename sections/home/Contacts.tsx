@@ -1,4 +1,7 @@
+import { useTranslation } from 'react-i18next'
+
 export default function Contacts() {
+    const { t } = useTranslation()
     return (
         <section className="grid grid-rows-2 p-4">
             <div className="grid grid-cols-3 gap-x-5 gap-y-5 mb-5 mt-6">
@@ -53,17 +56,13 @@ export default function Contacts() {
             </div>
             <div className="mb-14">
                 <p className="text-tagline font-bold text-sm mb-5">
-                    CONFÍAN EN NOSOTROS
+                    {t('TRUST US')}
                 </p>
                 <h2 className="text-subtle font-bold font-sofia text-4xl mb-10">
-                    Construimos el futuro del Perú y del mundo
+                    {t('We build the future of Peru and the world')}
                 </h2>
                 <p className="text-normal text-xl">
-                    Contamos con experiencia realizando proyectos de software
-                    para empresas tanto peruanas como extranjeras. Somos
-                    reconocidos por la calidad de nuestro equipo y nuestro
-                    trabajo. ¿Qué esperas que construyamos juntos el futuro que
-                    tanto anhelas?
+                    {t('We have experience carrying out projects...')}
                 </p>
             </div>
         </section>
