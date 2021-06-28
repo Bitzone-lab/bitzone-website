@@ -10,7 +10,7 @@ function ArrowLeft(props: React.SVGProps<SVGSVGElement>) {
         >
             <path
                 d="M19 12H5M12 19l-7-7 7-7"
-                stroke="#fff"
+                stroke={props.color}
                 strokeWidth={2}
                 strokeLinecap="square"
                 strokeLinejoin="round"

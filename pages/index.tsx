@@ -4,6 +4,7 @@ import WeAre from '../sections/home/WeAre'
 import Navbar from '../components/Navbar'
 import Contacts from '../sections/home/Contacts'
 import CallToContact from '../sections/home/CallToContact'
+import WhyWe from '../sections/home/WhyWe'
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Navbar />
             <Header />
             <WeAre />
+            <WhyWe />
             <Contacts />
             <CallToContact />
             <Footer />

@@ -23,6 +23,7 @@ export default function Header() {
                             className="ml-2 mt-1"
                             name="arrow-right"
                             size={15}
+                            color="#EDE04B"
                         />
                     </div>
                 </div>
