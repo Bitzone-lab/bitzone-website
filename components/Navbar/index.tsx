@@ -1,25 +1,51 @@
 import { useState } from 'react'
 import Icon from '../Icon'
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 export default function Navbar() {
     const [show, setShow] = useState(false)
+    const { t } = useTranslation()
 
     return (
         <nav>
             <div className="bg-navbar h-16 fixed top-0 flex items-center justify-between w-full px-4 backdrop-blur-lg backdrop-filter z-30">
-                <div onClick={() => setShow(true)}>
+                <div className="xl:hidden" onClick={() => setShow(true)}>
                     <Icon size={20} pointer name="hamburger" />
                 </div>
-                <div>
+                <div className="flex">
                     <img
                         height="20px"
                         width="40px"
                         alt="logo"
                         src="img/logo_image.svg"
                     />
+                    <img
+                        className="hidden xl:block bg-cover xl:pl-2"
+                        alt="logo text"
+                        src="img/logo.png"
+                    />
                 </div>
-                <div></div>
+                <div className="hidden text-white text-base xl:block">
+                    <Link href="/">
+                        <a className="font-sofia font-medium pr-14">
+                            {t('We')}
+                        </a>
+                    </Link>
+                    <a className="font-sofia font-medium pr-14">
+                        {t('Services')}
+                    </a>
+                    <a className="font-sofia font-medium">{t('Projects')}</a>
+                </div>
+                <div className="hidden text-white text-base xl:flex">
+                    <Link href="/contacts">
+                        <a className="font-sofia font-bold pr-10">
+                            {t('Contact')}
+                        </a>
+                    </Link>
+                    <img alt="icon accesibility" src="img/Accesibility.png" />
+                </div>
+                <div className="block xl:hidden"></div>
             </div>
             <div
                 className={`${
@@ -42,12 +68,12 @@ export default function Navbar() {
                 </div>
                 <div className="flex flex-col text-white items-center px-8 text-2xl">
                     <Link href="/">
-                        <a className="font-sofia py-2">Nosotros</a>
+                        <a className="font-sofia py-2">{t('We')}</a>
                     </Link>
-                    <a className="font-sofia py-2">Servicios</a>
-                    <a className="font-sofia py-2">Proyectos</a>
+                    <a className="font-sofia py-2">{t('Services')}</a>
+                    <a className="font-sofia py-2">{t('Projects')}</a>
                     <Link href="/contacts">
-                        <a className="font-sofia py-2">Contacto</a>
+                        <a className="font-sofia py-2">{t('Contact')}</a>
                     </Link>
                 </div>
             </div>
