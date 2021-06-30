@@ -27,3 +27,11 @@
 .label-form {
     @apply text-subtle font-sofia text-sm mb-3;
 }
+
+.wrapper-image-why-whe {
+    @apply border-2 border-dashed border-accent flex justify-center items-center px-5 py-8;
+}
+
+.active-wrapper-image-why-whe {
+    @apply rounded-sm bg-why-whe-wrapper-image shadow-wrapper-image-why-whe;
+}

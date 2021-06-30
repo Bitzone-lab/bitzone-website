@@ -15,7 +15,8 @@ module.exports = {
         extend: {
             backgroundColor: {
                 navbar: 'rgba(74,37,170,0.5)',
-                footer: '#00007A'
+                footer: '#00007A',
+                'why-whe': '#4A25AA'
             },
             backgroundImage: {
                 'navbar-hidden':
@@ -33,7 +34,9 @@ module.exports = {
                 'call-to-contact':
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call_to_contact.jpg)',
                 'contact-form':
-                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)'
+                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)',
+                'why-whe-wrapper-image':
+                    'linear-gradient(225deg, #FFFF7E 0%, #EDE04B 100%)'
             },
             colors: {
                 background: '#EEEEEE',
@@ -53,6 +56,12 @@ module.exports = {
             },
             dropShadow: {
                 contact: '0px 2px 30px rgba(48, 70, 89, 0.15)'
+            },
+            borderColor: {
+                accent: '#EDE04B'
+            },
+            boxShadow: {
+                'wrapper-image-why-whe': '0px 4px 4px 2px rgba(0, 0, 0, 0.25)'
             }
         }
     },
