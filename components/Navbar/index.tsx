@@ -53,35 +53,35 @@ export default function Navbar() {
                     </div>
                     <div className="block xl:hidden"></div>
                 </div>
-                <div
-                    className={`${
-                        show ? 'px-4 w-full' : 'w-0'
-                    } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
-                >
-                    <div className="flex items-center justify-between h-16">
-                        <div className="w-6"></div>
-                        <div>
-                            <img
-                                height="21px"
-                                width="97px"
-                                alt="logo"
-                                src="img/bitzone.svg"
-                            />
-                        </div>
-                        <div onClick={() => setShow(false)}>
-                            <Icon size={24} pointer name="arrow-left" />
-                        </div>
+            </div>
+            <div
+                className={`${
+                    show ? 'px-4 w-full' : 'w-0'
+                } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
+            >
+                <div className="flex items-center justify-between h-16">
+                    <div className="w-6"></div>
+                    <div>
+                        <img
+                            height="21px"
+                            width="97px"
+                            alt="logo"
+                            src="img/bitzone.svg"
+                        />
                     </div>
-                    <div className="flex flex-col text-white items-center px-8 text-2xl">
-                        <Link href="/">
-                            <a className="font-sofia py-2">{t('We')}</a>
-                        </Link>
-                        <a className="font-sofia py-2">{t('Services')}</a>
-                        <a className="font-sofia py-2">{t('Projects')}</a>
-                        <Link href="/contacts">
-                            <a className="font-sofia py-2">{t('Contact')}</a>
-                        </Link>
+                    <div onClick={() => setShow(false)}>
+                        <Icon size={24} pointer name="arrow-left" />
                     </div>
+                </div>
+                <div className="flex flex-col text-white items-center px-8 text-2xl">
+                    <Link href="/">
+                        <a className="font-sofia py-2">{t('We')}</a>
+                    </Link>
+                    <a className="font-sofia py-2">{t('Services')}</a>
+                    <a className="font-sofia py-2">{t('Projects')}</a>
+                    <Link href="/contacts">
+                        <a className="font-sofia py-2">{t('Contact')}</a>
+                    </Link>
                 </div>
             </div>
         </nav>

@@ -12,7 +12,7 @@ export default function FormContact() {
                 {!success && (
                     <form
                         onSubmit={() => setSuccess(true)}
-                        className="bg-white px-4 py-8 mb-10 max-w-xs w-4/5 sm:max-w-5xl sm:w-4/5 sm:py-14"
+                        className="bg-white px-4 py-8 mb-10 w-11/12 sm:max-w-5xl sm:w-4/5 sm:py-14"
                     >
                         <div className="flex justify-center flex-col mx-auto sm:max-w-xl">
                             <h3 className="text-subtle font-bold text-3xl font-sofia text-center mb-4">
@@ -62,16 +62,16 @@ export default function FormContact() {
                     </form>
                 )}
                 {success && (
-                    <div className="bg-white px-4 py-8 mb-10 max-w-xs sm:max-w-5xl sm:w-9/12 sm:py-14">
+                    <div className="bg-white px-4 py-8 mb-10 w-11/12 sm:max-w-5xl sm:w-9/12 sm:py-14">
                         <div className="mx-auto sm:max-w-xl">
                             <h3 className="text-subtle font-bold text-3xl font-sofia text-center mb-4">
-                                {t('Cool!')}
+                                {t('¡Cool!')}
                             </h3>
-                            <p className="font-light text-subtle font-sans text-base mb-16">
+                            <p className="font-light text-subtle font-sans text-base mb-16 text-center">
                                 {t('Thank you for taking this first...')}
                             </p>
                             <img
-                                className="mx-auto w-full sm:w-64"
+                                className="mx-auto w-64"
                                 src="img/success-contact.svg"
                             />
                             <div className="flex justify-center">
