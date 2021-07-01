@@ -31,7 +31,7 @@ export default function FormContact() {
                                     <input
                                         type="text"
                                         placeholder={t('Name')}
-                                        className="input input-ghost w-full mb-5"
+                                        className="input input-ghost w-full mb-5 text-tagline bg-input rounded-none"
                                     ></input>
                                 </div>
                                 <div className="sm:w-1/2">
@@ -39,7 +39,7 @@ export default function FormContact() {
                                     <input
                                         type="text"
                                         placeholder="ejemplo@mail.com"
-                                        className="input input-ghost w-full mb-5"
+                                        className="input input-ghost w-full mb-5 text-tagline bg-input rounded-none"
                                     ></input>
                                 </div>
                             </div>
@@ -48,12 +48,12 @@ export default function FormContact() {
                                 placeholder={t(
                                     'Tell us your reasons, questions...'
                                 )}
-                                className="textarea h-36 textarea-ghost w-full"
+                                className="textarea h-36 textarea-ghost w-full text-tagline bg-input rounded-none"
                             ></textarea>
                             <div className="flex justify-center">
                                 <Button
                                     onClick={() => setSuccess(true)}
-                                    className="w-full mt-5 sm:w-auto"
+                                    className="w-full px-8 mt-8 sm:w-auto"
                                 >
                                     Enviar
                                 </Button>
@@ -77,7 +77,7 @@ export default function FormContact() {
                             <div className="flex justify-center">
                                 <Button
                                     onClick={() => setSuccess(false)}
-                                    className="w-full mt-16 sm:w-auto"
+                                    className="w-full mt-16 px-8 sm:w-auto"
                                 >
                                     {t('Back to home')}
                                 </Button>
