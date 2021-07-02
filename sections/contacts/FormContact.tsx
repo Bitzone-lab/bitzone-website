@@ -31,7 +31,7 @@ export default function FormContact() {
                                     <input
                                         type="text"
                                         placeholder={t('Name')}
-                                        className="input input-ghost w-full mb-5 text-tagline bg-input rounded-none"
+                                        className="input input-ghost w-full mb-5 text-subtle focus:outline-none  bg-input rounded-none focus-input"
                                     ></input>
                                 </div>
                                 <div className="sm:w-1/2">
@@ -39,7 +39,7 @@ export default function FormContact() {
                                     <input
                                         type="text"
                                         placeholder="ejemplo@mail.com"
-                                        className="input input-ghost w-full mb-5 text-tagline bg-input rounded-none"
+                                        className="input input-ghost w-full mb-5 text-subtle bg-input rounded-none focus:bg-white focus-input"
                                     ></input>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ export default function FormContact() {
                                 placeholder={t(
                                     'Tell us your reasons, questions...'
                                 )}
-                                className="textarea h-36 textarea-ghost w-full text-tagline bg-input rounded-none"
+                                className="textarea resize-none h-36 textarea-ghost w-full text-subtle bg-input rounded-none focus-input"
                             ></textarea>
                             <div className="flex justify-center">
                                 <Button
