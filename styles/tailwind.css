@@ -1,4 +1,3 @@
-/* ./styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,6 +19,10 @@
   src: url(/fonts/SofiaPro-Bold-Az.otf);
 }
 
+* {
+  font-family: 'Overpass', sans-serif;
+}
+
 .wrapper-contact {
     @apply bg-white h-52 filter drop-shadow-contact flex justify-center items-center;
 }
@@ -34,4 +37,8 @@
 
 .active-wrapper-image-why-whe {
     @apply rounded-sm bg-why-whe-wrapper-image shadow-wrapper-image-why-whe;
+}
+
+.focus-input {
+    @apply focus:bg-white focus:ring-offset-primary-light focus:ring-primary-light focus:ring;
 }
