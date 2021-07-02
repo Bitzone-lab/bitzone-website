@@ -8,7 +8,8 @@ module.exports = {
         extend: {
             backgroundColor: {
                 navbar: 'rgba(74,37,170,0.5)',
-                footer: '#00007A'
+                footer: '#00007A',
+                input: '#EEEEEE'
             },
             backgroundImage: {
                 'navbar-hidden':
