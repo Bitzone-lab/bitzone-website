@@ -3,8 +3,8 @@ import Button from '../../components/Button'
 export default function CallToContact() {
     return (
         <section className="p-4 bg-call-to-contact bg-cover">
-            <div className="max-w-5xl mx-auto xl:flex xl:justify-between xl:items-center">
-                <div>
+            <div className="max-w-5xl mx-auto xl:flex xl:justify-center xl:items-center">
+                <div className="xl:mr-40">
                     <h3 className="text-white font-bold font-sofia text-2xl mb-4 mt-4">
                         ¿Quieres hacer tu proyecto realidad?{' '}
                     </h3>
@@ -15,7 +15,6 @@ export default function CallToContact() {
                 <Button className="w-full mb-8 xl:w-auto xl:py-2 xl:px-5">
                     Contáctanos
                 </Button>
-                <div className="hidden xl:block"></div>
             </div>
         </section>
     )
