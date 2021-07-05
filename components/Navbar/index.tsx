@@ -2,9 +2,11 @@ import { useState } from 'react'
 import Icon from '../Icon'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
+import { useRouter } from 'next/router'
 
 export default function Navbar() {
     const [show, setShow] = useState(false)
+    const router = useRouter()
     const { t } = useTranslation()
 
     return (
@@ -20,19 +22,19 @@ export default function Navbar() {
                             width="40px"
                             alt="logo"
                             src="img/logo_image.svg"
+                            onClick={() => router.push('/')}
                         />
                         <img
-                            className="hidden xl:block bg-cover xl:pl-2"
+                            className="hidden xl:block bg-cover xl:pl-2 cursor-pointer"
                             alt="logo text"
                             src="img/logo.png"
+                            onClick={() => router.push('/')}
                         />
                     </div>
                     <div className="hidden text-white text-base xl:block">
-                        <Link href="/">
-                            <a className="font-sofia font-medium pr-14">
-                                {t('We')}
-                            </a>
-                        </Link>
+                        <a className="font-sofia font-medium pr-14">
+                            {t('We')}
+                        </a>
                         <a className="font-sofia font-medium pr-14">
                             {t('Services')}
                         </a>
