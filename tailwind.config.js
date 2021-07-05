@@ -27,7 +27,8 @@ module.exports = {
                 'call-to-contact':
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call_to_contact.jpg)',
                 'contact-form':
-                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)'
+                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)',
+                'bits-img': 'url("/img/bits.png")'
             },
             colors: {
                 background: '#EEEEEE',
