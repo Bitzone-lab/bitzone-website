@@ -42,3 +42,11 @@
 .focus-input {
     @apply focus:bg-white focus:ring-offset-primary-light focus:ring-primary-light focus:ring;
 }
+
+.cut-top{
+  clip-path: polygon(0% 150px, 5% 150px, 5% 0%, 95% 0%, 95% 150px, 100% 150px, 100% 100%, 0 100%);
+}
+
+.full-screen--40 {
+  height: calc(100vh + 10rem);
+}
