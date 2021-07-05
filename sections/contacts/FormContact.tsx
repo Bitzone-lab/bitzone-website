@@ -1,9 +1,13 @@
-import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Button from '../../components/Button'
+import SectionSuccess from './SectionSuccess'
+import Input from '../../components/Input'
+import TextArea from '../../components/TextArea'
+import useForm from '../../hooks/useForm'
+import classnames from 'classnames'
 
 export default function FormContact() {
-    const [success, setSuccess] = useState(false)
+    const { success, sendForm, helpers, clearField, loading } = useForm()
     const { t } = useTranslation()
     return (
         <section style={{ height: '1015px' }} className="bg-white relative">
@@ -11,7 +15,10 @@ export default function FormContact() {
             <div className="bg-transparent absolute top-0 w-full h-full flex justify-center items-end">
                 {!success && (
                     <form
-                        onSubmit={() => setSuccess(true)}
+                        name="contact"
+                        method="post"
+                        data-netlify="true"
+                        onSubmit={sendForm}
                         className="bg-white px-4 py-8 mb-10 w-11/12 sm:max-w-5xl sm:w-4/5 sm:py-14"
                     >
                         <div className="flex justify-center flex-col mx-auto sm:max-w-xl">
@@ -28,32 +35,40 @@ export default function FormContact() {
                                     <label className="label-form">
                                         {t('Name')}
                                     </label>
-                                    <input
-                                        type="text"
+                                    <Input
                                         placeholder={t('Name')}
-                                        className="input input-ghost w-full mb-5 text-subtle focus:outline-none  bg-input rounded-none focus-input"
-                                    ></input>
+                                        name="name"
+                                        helper={helpers.name}
+                                        onFocus={() => clearField('name')}
+                                    />
                                 </div>
                                 <div className="sm:w-1/2">
                                     <label className="label-form">Email</label>
-                                    <input
-                                        type="text"
+                                    <Input
                                         placeholder="ejemplo@mail.com"
-                                        className="input input-ghost w-full mb-5 text-subtle bg-input rounded-none focus:bg-white focus-input"
-                                    ></input>
+                                        name="email"
+                                        helper={helpers.email}
+                                        onFocus={() => clearField('email')}
+                                    />
                                 </div>
                             </div>
                             <label className="label-form">{t('Reason')}</label>
-                            <textarea
+                            <TextArea
+                                name="motivo"
                                 placeholder={t(
                                     'Tell us your reasons, questions...'
                                 )}
-                                className="textarea resize-none h-36 textarea-ghost w-full text-subtle bg-input rounded-none focus-input"
-                            ></textarea>
+                                helper={helpers.motivo}
+                                onFocus={() => clearField('motivo')}
+                            />
+
                             <div className="flex justify-center">
                                 <Button
-                                    onClick={() => setSuccess(true)}
-                                    className="w-full px-8 mt-8 sm:w-auto"
+                                    type="submit"
+                                    className={classnames(
+                                        { loading, disabled: loading },
+                                        'w-full px-8 mt-8 sm:w-auto'
+                                    )}
                                 >
                                     Enviar
                                 </Button>
@@ -61,30 +76,7 @@ export default function FormContact() {
                         </div>
                     </form>
                 )}
-                {success && (
-                    <div className="bg-white px-4 py-8 mb-10 w-11/12 sm:max-w-5xl sm:w-9/12 sm:py-14">
-                        <div className="mx-auto sm:max-w-xl">
-                            <h3 className="text-subtle font-bold text-3xl font-sofia text-center mb-4">
-                                {t('¡Cool!')}
-                            </h3>
-                            <p className="font-light text-subtle font-sans text-base mb-16 text-center">
-                                {t('Thank you for taking this first...')}
-                            </p>
-                            <img
-                                className="mx-auto w-64"
-                                src="img/success-contact.svg"
-                            />
-                            <div className="flex justify-center">
-                                <Button
-                                    onClick={() => setSuccess(false)}
-                                    className="w-full mt-16 px-8 sm:w-auto"
-                                >
-                                    {t('Back to home')}
-                                </Button>
-                            </div>
-                        </div>
-                    </div>
-                )}
+                {success && <SectionSuccess t={t} />}
             </div>
         </section>
     )
