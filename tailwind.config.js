@@ -30,7 +30,8 @@ module.exports = {
                 'contact-form':
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)',
                 'why-whe-wrapper-image':
-                    'linear-gradient(225deg, #FFFF7E 0%, #EDE04B 100%)'
+                    'linear-gradient(225deg, #FFFF7E 0%, #EDE04B 100%)',
+                'bits-img': 'url("/img/bits.png")'
             },
             colors: {
                 background: '#EEEEEE',
