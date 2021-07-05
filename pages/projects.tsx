@@ -1,3 +1,13 @@
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import Header from '../sections/projects/Header'
+
 export default function Projects() {
-    return <div>Proyectos</div>
+    return (
+        <>
+            <Navbar />
+            <Header />
+            <Footer />
+        </>
+    )
 }
