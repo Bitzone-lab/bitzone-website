@@ -1,9 +1,9 @@
 export default function Footer() {
     return (
-        <footer className="bg-footer text-white px-4 pt-10 pb-3 w-full">
+        <footer className="bg-footer text-white px-4 pb-3 w-full">
             <div className="xl:max-w-5xl xl:w-full xl:mx-auto">
-                <div className="grid grid-cols-2 gap-y-12 pb-3">
-                    <div>
+                <div className="flex-wrap flex py-16 xl:justify-between">
+                    <div className="w-1/2 xl:w-auto xl:order-2">
                         <p className="text-base font-bold font-sofia mb-5">
                             Acerca de
                         </p>
@@ -11,7 +11,7 @@ export default function Footer() {
                         <p className="text-base font-light mb-5">Servicios</p>
                         <p className="text-base font-light">Proyectos</p>
                     </div>
-                    <div>
+                    <div className="w-1/2 xl:w-auto xl:order-3">
                         <p className="text-base font-bold font-sofia mb-5">
                             Información
                         </p>
@@ -24,7 +24,7 @@ export default function Footer() {
                         </p>
                         <p className="text-base font-light">Cfg. de cookies</p>
                     </div>
-                    <div>
+                    <div className="w-full mt-11 xl:w-auto xl:mt-0 xl:order-4">
                         <p className="text-base font-bold font-sofia mb-5">
                             Contacto
                         </p>
@@ -34,32 +34,32 @@ export default function Footer() {
                         <p className="text-base font-light mb-24">
                             +51 956 941 872
                         </p>
-                        <div>
-                            <div className="flex gap-2 mb-7">
-                                <img
-                                    width="26px"
-                                    height="13px"
-                                    src="img/logo_image.svg"
-                                ></img>
-                                <img
-                                    width="62px"
-                                    height="13px"
-                                    src="img/bitzone.svg"
-                                />
-                            </div>
-                            <p>Empresa consultora de software</p>
-                            <div className="flex mt-9 gap-5">
-                                <img
-                                    width="20px"
-                                    height="20px"
-                                    src="img/linkedin.svg"
-                                ></img>
-                                <img
-                                    width="20px"
-                                    height="20px"
-                                    src="img/instagram.svg"
-                                />
-                            </div>
+                    </div>
+                    <div className="w-full xl:w-auto xl:order-1">
+                        <div className="flex gap-2 mb-7">
+                            <img
+                                width="26px"
+                                height="13px"
+                                src="img/logo_image.svg"
+                            ></img>
+                            <img
+                                width="62px"
+                                height="13px"
+                                src="img/bitzone.svg"
+                            />
+                        </div>
+                        <p>Empresa consultora de software</p>
+                        <div className="flex mt-9 gap-5">
+                            <img
+                                width="20px"
+                                height="20px"
+                                src="img/linkedin.svg"
+                            ></img>
+                            <img
+                                width="20px"
+                                height="20px"
+                                src="img/instagram.svg"
+                            />
                         </div>
                     </div>
                 </div>
