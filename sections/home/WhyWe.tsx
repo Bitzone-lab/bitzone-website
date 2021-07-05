@@ -16,7 +16,10 @@ export default function WhyWe() {
     return (
         <section>
             <div className="px-4 py-16 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex  xl:gap-36 xl:px-0">
-                <div className="hidden  bg-why-whe xl:grid xl:grid-cols-3 xl:gap-x-11 xl:gap-y-14  xl:px-12 xl:py-24 xl:max-w-xl xl:w-full">
+                <div
+                    className="hidden  bg-why-whe xl:grid xl:grid-cols-3 xl:gap-x-11 xl:gap-y-14  xl:px-12 xl:py-24 xl:max-w-xl xl:w-full h-auto"
+                    style={{ height: '500px' }}
+                >
                     <div className="wrapper-image-why-whe active-wrapper-image-why-whe">
                         <img src="img/section_why_we_1.svg" className="w-40" />
                     </div>
@@ -37,14 +40,14 @@ export default function WhyWe() {
                     </div>
                 </div>
 
-                <div className="xl:w-1/2 xl:flex xl:flex-col xl:justify-end xl:mb-32">
+                <div className="xl:w-1/2 xl:flex xl:flex-col xl:justify-end xl:mb-10">
                     <h2 className="text-tagline font-sofia text-lg mb-6 xl:mb-11">
                         {t('WHY WE?')}
                     </h2>
                     <h1 className="text-3xl font-sofia mb-3 text-subtle xl:mb-6">
                         {t('We are constantly growing')}
                     </h1>
-                    <p className="text-lg font-light text-subtle">
+                    <p className="text-base font-light text-subtle">
                         {t('We work in an environment where the creativity...')}
                     </p>
                 </div>
