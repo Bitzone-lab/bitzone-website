@@ -24,7 +24,7 @@
 }
 
 .wrapper-contact {
-    @apply bg-white h-52 filter drop-shadow-contact flex justify-center items-center;
+    @apply bg-white h-36 filter drop-shadow-contact flex justify-center items-center xl:h-48;
 }
 
 .label-form {
@@ -32,7 +32,7 @@
 }
 
 .wrapper-image-why-whe {
-    @apply border-2 border-dashed border-accent flex justify-center items-center px-5 py-8 h-32 w-32;
+    @apply border-2 border-dashed border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4;
 }
 
 .active-wrapper-image-why-whe {
