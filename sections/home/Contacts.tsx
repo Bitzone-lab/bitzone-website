@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next'
 export default function Contacts() {
     const { t } = useTranslation()
     return (
-        <section>
-            <div className="grid grid-rows-2 p-4 xl:max-w-5xl xl:w-full xl:mx-auto">
-                <div className="grid grid-cols-3 gap-x-5 gap-y-5 mb-5 mt-6">
+        <section className="px-4 py-16">
+            <div className="grid grid-rows-2 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex xl:gap-36">
+                <div className="grid grid-cols-3 gap-x-5 gap-y-5 mb-5 mt-6 xl:max-w-xl xl:w-full xl:gap-x-8">
                     <div className="wrapper-contact">
                         <img
                             className="object-cover"
@@ -55,14 +55,14 @@ export default function Contacts() {
                         />
                     </div>
                 </div>
-                <div className="mb-14 pt-4">
+                <div className="mb-14 pt-4 xl:w-1/2 xl:pt-20">
                     <p className="text-tagline font-bold text-sm mb-5">
                         {t('TRUST US')}
                     </p>
                     <h2 className="text-subtle font-bold font-sofia text-4xl mb-10">
                         {t('We build the future of Peru and the world')}
                     </h2>
-                    <p className="text-normal text-xl">
+                    <p className="text-normal text-base font-light font-sans">
                         {t('We have experience carrying out projects...')}
                     </p>
                 </div>
