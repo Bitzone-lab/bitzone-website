@@ -26,7 +26,7 @@ function Anchor({ className = '', t }: PropAnchor) {
 export default function Header() {
     const { t } = useTranslation()
     return (
-        <header className="hero min-h-screen bg-linear-primary text-white xl:min-h-0 xl:pt-60 xl:pb-48">
+        <header className="hero min-h-screen bg-linear-primary text-white xl:pt-60 xl:pb-48">
             <div className="hero-content text-neutral-content pb-24 xl:pb-0 xl:pt-20">
                 <div className="max-w-md xl:max-w-screen-lg xl:flex xl:justify-between">
                     <div className="mb-5 xl:max-w-sm">

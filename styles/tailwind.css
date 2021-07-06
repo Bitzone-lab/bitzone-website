@@ -44,7 +44,7 @@
 }
 
 .cut-top{
-  clip-path: polygon(0% 150px, 5% 150px, 5% 0%, 95% 0%, 95% 150px, 100% 150px, 100% 100%, 0 100%);
+  clip-path: polygon(0% 143px, 5% 143px, 5% 0%, 95% 0%, 95% 143px, 100% 143px, 100% 100%, 0 100%);
 }
 
 .full-screen--40 {
