@@ -21,6 +21,7 @@ export interface PropsIcon {
     size?: number
     className?: string
     color?: string
+    onClick?: (ev: any) => void
 }
 
 export default function Icon({
