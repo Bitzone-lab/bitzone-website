@@ -32,7 +32,7 @@
 }
 
 .wrapper-image-why-whe {
-    @apply border-2 border-dashed border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4;
+    @apply border-2 border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4 bg-transparent;
 }
 
 .active-wrapper-image-why-whe {
@@ -47,6 +47,6 @@
   clip-path: polygon(0% 144px, 5% 144px, 5% 0%, 95% 0%, 95% 144px, 100% 144px, 100% 100%, 0 100%);
 }
 
-.full-screen--40 {
+.full-screen--36 {
   height: calc(100vh + 10rem);
 }

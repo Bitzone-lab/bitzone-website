@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 export default function TrustUs() {
     const { t } = useTranslation()
     return (
-        <section className="px-4 pb-16 xl:pt-16">
+        <section className="px-4 pb-16">
             <div className="grid grid-rows-2 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex xl:gap-36">
                 <div className="grid grid-cols-3 gap-x-5 gap-y-5 mb-5 mt-6 xl:max-w-lg xl:w-full xl:gap-x-8">
                     <div className="wrapper-contact">
