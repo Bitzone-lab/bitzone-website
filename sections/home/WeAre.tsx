@@ -8,7 +8,7 @@ import content from '../../todo/carousel_content.json'
 
 export default function Component() {
     const { t } = useTranslation()
-    const { index, setIndex, toLeft, toRight } = useIntervalCarousel(3, 7000)
+    const { index, setIndex, toLeft, toRight } = useIntervalCarousel(3, 10000)
 
     return (
         <section className="relative cut-top -mt-36">
