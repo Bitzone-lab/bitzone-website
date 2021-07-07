@@ -15,14 +15,14 @@ export default function CarouselItem(props: PropsCarouselItem) {
                 <img src={props.image} className="w-full h-full object-cover" />
                 <div className="absolute w-full px-5 text-white">
                     <div className="max-w-5xl w-full mx-auto">
-                        <div className="xl:w-2/4">
-                            <h2 className="font-sofia mb-4 uppercase">
-                                {props.subtitle}
-                            </h2>
-                            <h1 className="text-3xl font-sofia mb-8">
+                        <div>
+                            <h2 className="mb-4 uppercase">{props.subtitle}</h2>
+                            <h1 className="text-4xl font-sofia-bold mb-8 xl:w-3/4">
                                 {props.title}
                             </h1>
-                            <p className="mb-5 text-md">{props.textarea}</p>
+                            <p className="mb-5 text-md xl:w-2/4">
+                                {props.textarea}
+                            </p>
                             <Button className="btn-sm">Descúbrelo</Button>
                         </div>
                     </div>

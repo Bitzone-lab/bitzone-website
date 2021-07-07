@@ -10,11 +10,11 @@ interface PropAnchor {
 function Anchor({ className = '', t }: PropAnchor) {
     return (
         <div className={classnames('flex items-center text-accent', className)}>
-            <a className="text-xl font-bold font-sofia" href="#">
+            <a className="text-xl font-overpass-bold" href="#">
                 {t('Find out how')}
             </a>
             <Icon
-                className="ml-2 mt-1"
+                className="ml-2"
                 name="arrow-right"
                 size={15}
                 color="#EDE04B"
@@ -30,7 +30,7 @@ export default function Header() {
             <div className="hero-content text-neutral-content pb-24 xl:pb-0 xl:pt-20">
                 <div className="max-w-md xl:max-w-screen-lg xl:flex xl:justify-between">
                     <div className="mb-5 xl:max-w-sm">
-                        <h1 className="text-5xl font-bold font-sofia leading-tight xl:pt-3">
+                        <h1 className="text-5xl font-sofia-bold leading-tight xl:pt-3">
                             {t('Build your future with Bitzone')}
                         </h1>
                         <Anchor t={t} className="hidden xl:flex mt-8" />

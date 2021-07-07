@@ -12,7 +12,31 @@
 }
 
 @font-face {
+  font-family: 'OverpassBold';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts/Overpass-Bold.ttf);
+}
+
+@font-face {
   font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/SofiaPro-Regular-Az.otf);
+}
+
+@font-face {
+  font-family: 'SofiaSemiBold';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/SofiaPro-SemiBold-Az.otf);
+}
+
+@font-face {
+  font-family: 'SofiaBold';
   font-style: normal;
   font-weight: 700;
   font-display: swap;

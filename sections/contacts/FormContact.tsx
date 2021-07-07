@@ -22,7 +22,7 @@ export default function FormContact() {
                         className="bg-white px-4 py-8 mb-10 w-11/12 sm:max-w-5xl sm:w-4/5 sm:py-14"
                     >
                         <div className="flex justify-center flex-col mx-auto sm:max-w-xl">
-                            <h3 className="text-subtle font-bold text-3xl font-sofia text-center mb-4">
+                            <h3 className="text-subtle text-3xl font-sofia-bold text-center mb-4">
                                 {t('Get in contact with us')}
                             </h3>
                             <p className="font-light text-subtle font-sans text-base mb-7 text-center">

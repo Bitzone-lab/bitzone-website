@@ -59,7 +59,7 @@ export default function TrustUs() {
                     <p className="text-tagline font-bold text-sm mb-5">
                         {t('TRUST US')}
                     </p>
-                    <h2 className="text-subtle font-bold font-sofia text-4xl mb-10">
+                    <h2 className="text-subtle font-bold font-sofia-bold text-4xl mb-10">
                         {t('We build the future of Peru and the world')}
                     </h2>
                     <p className="text-normal text-base font-light font-sans">

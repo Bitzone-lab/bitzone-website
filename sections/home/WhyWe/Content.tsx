@@ -16,7 +16,7 @@ function Item({ show, title, textarea }: PropsItem) {
                 'opacity-100': show
             })}
         >
-            <h1 className="text-2xl font-sofia mb-3 text-subtle xl:mb-6">
+            <h1 className="text-2xl font-sofia-bold mb-3 text-subtle xl:mb-6">
                 {title}
             </h1>
             <p className="text-base font-light text-subtle">{textarea}</p>

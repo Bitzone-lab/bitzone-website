@@ -3,7 +3,10 @@ module.exports = {
     theme: {
         fontFamily: {
             sans: ['Overpass', 'system-ui'],
-            sofia: ['Sofia', 'system-ui']
+            'overpass-bold': ['OverpassBold', 'system-ui'],
+            sofia: ['Sofia', 'system-ui'],
+            'sofia-semibold': ['SofiaSemiBold', 'system-ui'],
+            'sofia-bold': ['SofiaBold', 'system-ui']
         },
         extend: {
             backgroundColor: {

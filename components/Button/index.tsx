@@ -16,7 +16,7 @@ export default function Button({
     return (
         <button
             onClick={onClick}
-            className={`btn btn-accent font-sofia rounded-none normal-case text-lg text-subtle font-black ${className}`}
+            className={`btn btn-accent font-sofia-bold rounded-none normal-case text-lg text-subtle ${className}`}
             type={type}
         >
             {children}

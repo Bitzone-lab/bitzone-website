@@ -32,19 +32,13 @@ export default function Navbar() {
                         />
                     </div>
                     <div className="hidden text-white text-base xl:block">
-                        <a className="font-sofia font-medium pr-14">
-                            {t('We')}
-                        </a>
-                        <a className="font-sofia font-medium pr-14">
-                            {t('Services')}
-                        </a>
-                        <a className="font-sofia font-medium">
-                            {t('Projects')}
-                        </a>
+                        <a className="font-sofia pr-14">{t('We')}</a>
+                        <a className="font-sofia pr-14">{t('Services')}</a>
+                        <a className="font-sofia">{t('Projects')}</a>
                     </div>
                     <div className="hidden text-white text-base xl:flex">
                         <Link href="/contacts">
-                            <a className="font-sofia font-bold pr-10">
+                            <a className="font-sofia-bold pr-10">
                                 {t('Contact')}
                             </a>
                         </Link>
@@ -74,20 +68,24 @@ export default function Navbar() {
                         className="absolute right-2"
                         onClick={() => setShow(false)}
                     >
-                        <Icon size={26} pointer name="arrow-left" />
+                        <Icon size={28} pointer name="arrow-left" />
                     </div>
                 </div>
                 <div className="flex flex-col text-white items-center justify-center p-14 text-2xl">
                     <Link href="/">
-                        <a className="font-sofia py-4">{t('We')}</a>
+                        <a className="font-sofia py-4 text-3xl">{t('We')}</a>
                     </Link>
-                    <a className="font-sofia py-4">{t('Services')}</a>
-                    <a className="font-sofia py-4">{t('Projects')}</a>
+                    <a className="font-sofia py-4 text-3xl">{t('Services')}</a>
+                    <a className="font-sofia py-4 text-3xl">{t('Projects')}</a>
                     <Link href="/contacts">
-                        <a className="font-sofia py-4">{t('Contact')}</a>
+                        <a className="font-sofia py-4 text-3xl">
+                            {t('Contact')}
+                        </a>
                     </Link>
                     <hr className="w-full border-2 border-white opacity-60 my-8" />
-                    <a className="font-sofia py-4">{t('Accessibility')}</a>
+                    <a className="font-sofia py-4 text-3xl">
+                        {t('Accessibility')}
+                    </a>
                 </div>
             </div>
         </nav>
