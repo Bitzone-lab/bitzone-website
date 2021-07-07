@@ -130,5 +130,9 @@
   "We offer our members the possibility of...": {
     "es": "Brindamos a nuestros miembros la posibilidad de acomodar sus horarios tanto a sus quehaceres en Bitzone como a sus actividades personales, siempre procurando cumplir con sus tareas asignadas en el día. No se trata de hacer las cosas porque sí, se trata de hacerlas bien y con toda la motivación del mundo. Sabemos que siempre hay problemas ajenos a nuestra organización que pueden afectar el tiempo de nuestro equipo y son tomados en cuenta para la asignación y realización de nuestras actividades.",
     "en": "We offer our members the possibility of accommodating their schedules both to their chores in Bitzone and to their personal activities, always trying to fulfill their assigned tasks on the day. It is not about doing things just because, it is about doing them well and with all the motivation in the world. We know that there are always problems outside our organization that can affect the time of our team and are taken into account when assigning and carrying out our activities."
-  }
+  },
+   "Accessibility": {
+     "es": "Accesibilidad",
+     "en": "Accessibility"
+   }
 }
