@@ -1,17 +1,40 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Icon from '../Icon'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
+import classnames from 'classnames'
 
 export default function Navbar() {
     const [show, setShow] = useState(false)
     const router = useRouter()
     const { t } = useTranslation()
+    const [fullBgNavbar, setFullBgNavbar] = useState(false)
+
+    const cb = useCallback(() => {
+        const value = window.scrollY
+        if (value > 100) {
+            setFullBgNavbar(true)
+        } else {
+            setFullBgNavbar(false)
+        }
+    }, [fullBgNavbar])
+
+    useEffect(() => {
+        window.addEventListener('scroll', cb)
+        return () => {
+            window.removeEventListener('scroll', cb)
+        }
+    }, [])
 
     return (
         <nav>
-            <div className="bg-navbar h-16 fixed flex top-0 px-4 backdrop-blur-lg backdrop-filter z-30 w-full">
+            <div
+                className={classnames(
+                    'h-16 fixed flex top-0 px-4 backdrop-blur-lg backdrop-filter z-30 w-full transition',
+                    { 'bg-navbar': !fullBgNavbar, 'bg-navbar-2': fullBgNavbar }
+                )}
+            >
                 <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
                     <div className="xl:hidden" onClick={() => setShow(true)}>
                         <Icon size={20} pointer name="hamburger" />

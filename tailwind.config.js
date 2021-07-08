@@ -11,6 +11,7 @@ module.exports = {
         extend: {
             backgroundColor: {
                 navbar: 'rgba(74,37,170,0.5)',
+                'navbar-2': 'rgba(74,37,170, 1)',
                 footer: '#00007A',
                 'why-whe': '#4A25AA',
                 input: '#EEEEEE'
