@@ -32,7 +32,11 @@ export default function Navbar() {
             <div
                 className={classnames(
                     'h-16 fixed flex top-0 px-4 backdrop-blur-lg backdrop-filter z-30 w-full transition',
-                    { 'bg-navbar': !fullBgNavbar, 'bg-navbar-2': fullBgNavbar }
+                    {
+                        'bg-navbar': !fullBgNavbar,
+                        'bg-navbar-2': fullBgNavbar,
+                        'shadow-md': fullBgNavbar
+                    }
                 )}
             >
                 <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
