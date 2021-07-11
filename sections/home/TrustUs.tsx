@@ -56,13 +56,13 @@ export default function TrustUs() {
                     </div>
                 </div>
                 <div className="mb-14 pt-4 xl:w-1/2 xl:pt-20">
-                    <p className="text-tagline font-bold text-sm mb-5">
+                    <p className="text-tagline font-sofia-bold text-sm mb-5">
                         {t('TRUST US')}
                     </p>
-                    <h2 className="text-subtle font-bold font-sofia-bold text-4xl mb-10">
+                    <h2 className="text-subtle font-sofia-bold text-4xl mb-10">
                         {t('We build the future of Peru and the world')}
                     </h2>
-                    <p className="text-normal text-base font-light font-sans">
+                    <p className="text-normal text-base">
                         {t('We have experience carrying out projects...')}
                     </p>
                 </div>

@@ -19,7 +19,7 @@ function Item({ show, title, textarea }: PropsItem) {
             <h1 className="text-2xl font-sofia-bold mb-3 text-subtle xl:mb-6">
                 {title}
             </h1>
-            <p className="text-base font-light text-subtle">{textarea}</p>
+            <p className="text-normal text-subtle">{textarea}</p>
         </div>
     )
 }
@@ -31,7 +31,7 @@ interface PropsWhyAreContent {
 
 export default function Content({ t, index }: PropsWhyAreContent) {
     return (
-        <div style={{ height: '350px' }}>
+        <div style={{ height: '270px' }}>
             <Item
                 show={index === 0}
                 title={t('We are constantly growing')}
@@ -52,12 +52,12 @@ export default function Content({ t, index }: PropsWhyAreContent) {
             <Item
                 show={index === 3}
                 title={t('We are a motivated team')}
-                textarea={t('Likewise, as an organization, we...')}
+                textarea={t('We seek to be a positive reinforcement agent...')}
             />
             <Item
                 show={index === 4}
                 title={t('We are looking to train new talents')}
-                textarea={t('Our team is always open to...')}
+                textarea={t('The constant market demand means...')}
             />
             <Item
                 show={index === 5}
