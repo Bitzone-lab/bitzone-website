@@ -10,6 +10,9 @@ export default function useIntervalCarousel(length: number, ms: number) {
             setIndex(index === length ? 0 : index + 1)
         }, ms)
         pushInterval(currentInterval)
+        return () => {
+            interval && clearInterval(interval)
+        }
     }, [index])
 
     function toLeft() {
