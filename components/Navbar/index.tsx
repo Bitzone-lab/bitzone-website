@@ -63,7 +63,9 @@ export default function Navbar() {
                         <Link href="/services">
                             <a className="font-sofia pr-14">{t('Services')}</a>
                         </Link>
-                        <a className="font-sofia">{t('Projects')}</a>
+                        <Link href="/projects">
+                            <a className="font-sofia">{t('Projects')}</a>
+                        </Link>
                     </div>
                     <div className="hidden text-white text-base xl:flex">
                         <Link href="/contacts">
@@ -109,7 +111,11 @@ export default function Navbar() {
                             {t('Services')}
                         </a>
                     </Link>
-                    <a className="font-sofia py-4 text-3xl">{t('Projects')}</a>
+                    <Link href="/projects">
+                        <a className="font-sofia py-4 text-3xl">
+                            {t('Projects')}
+                        </a>
+                    </Link>
                     <Link href="/contacts">
                         <a className="font-sofia py-4 text-3xl">
                             {t('Contact')}
