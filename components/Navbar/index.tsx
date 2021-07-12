@@ -60,7 +60,9 @@ export default function Navbar() {
                     </div>
                     <div className="hidden text-white text-base xl:block">
                         <a className="font-sofia pr-14">{t('We')}</a>
-                        <a className="font-sofia pr-14">{t('Services')}</a>
+                        <Link href="/services">
+                            <a className="font-sofia pr-14">{t('Services')}</a>
+                        </Link>
                         <Link href="/projects">
                             <a className="font-sofia">{t('Projects')}</a>
                         </Link>
@@ -104,7 +106,11 @@ export default function Navbar() {
                     <Link href="/">
                         <a className="font-sofia py-4 text-3xl">{t('We')}</a>
                     </Link>
-                    <a className="font-sofia py-4 text-3xl">{t('Services')}</a>
+                    <Link href="/services">
+                        <a className="font-sofia py-4 text-3xl">
+                            {t('Services')}
+                        </a>
+                    </Link>
                     <Link href="/projects">
                         <a className="font-sofia py-4 text-3xl">
                             {t('Projects')}

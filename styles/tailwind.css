@@ -62,7 +62,7 @@
 .active-wrapper-image-why-whe {
     @apply rounded-sm bg-why-whe-wrapper-image shadow-wrapper-image-why-whe;
 }
- 
+
 .focus-input {
     @apply focus:bg-white focus:ring-offset-primary-light focus:ring-primary-light focus:ring;
 }
@@ -73,4 +73,8 @@
 
 .full-screen--36 {
   height: calc(100vh + 10rem);
+}
+
+.service-bg {
+    @apply bg-cover h-28 flex justify-center items-center text-white font-bold text-5xl cursor-pointer;
 }
