@@ -12,7 +12,31 @@
 }
 
 @font-face {
+  font-family: 'OverpassBold';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts/Overpass-Bold.ttf);
+}
+
+@font-face {
   font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/SofiaPro-Regular-Az.otf);
+}
+
+@font-face {
+  font-family: 'SofiaSemiBold';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/SofiaPro-SemiBold-Az.otf);
+}
+
+@font-face {
+  font-family: 'SofiaBold';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -32,7 +56,7 @@
 }
 
 .wrapper-image-why-whe {
-    @apply border-2 border-dashed border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4;
+    @apply border-2 border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4 bg-transparent;
 }
 
 .active-wrapper-image-why-whe {
@@ -44,9 +68,9 @@
 }
 
 .cut-top{
-  clip-path: polygon(0% 150px, 5% 150px, 5% 0%, 95% 0%, 95% 150px, 100% 150px, 100% 100%, 0 100%);
+  clip-path: polygon(0% 144px, 5% 144px, 5% 0%, 95% 0%, 95% 144px, 100% 144px, 100% 100%, 0 100%);
 }
 
-.full-screen--40 {
+.full-screen--36 {
   height: calc(100vh + 10rem);
 }

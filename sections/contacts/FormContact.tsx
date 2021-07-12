@@ -10,19 +10,19 @@ export default function FormContact() {
     const { success, sendForm, helpers, clearField, loading } = useForm()
     const { t } = useTranslation()
     return (
-        <section style={{ height: '1015px' }} className="bg-white relative">
-            <div className="h-2/4 bg-contact-form bg-center" />
-            <div className="bg-transparent absolute top-0 w-full h-full flex justify-center items-end">
+        <section className="bg-white relative min-h-screen flex justify-center items-center">
+            <div className="h-2/4 bg-contact-form bg-center absolute top-0 w-full" />
+            <div className="bg-transparent h-full relative z-2 max-w-3xl lg:w-4/5 shadow-md mx-4 mt-20 mb-4 lg:mx-0">
                 {!success && (
                     <form
                         name="contact"
                         method="post"
                         data-netlify="true"
                         onSubmit={sendForm}
-                        className="bg-white px-4 py-8 mb-10 w-11/12 sm:max-w-5xl sm:w-4/5 sm:py-14"
+                        className="bg-white px-4 pb-10 pt-14"
                     >
                         <div className="flex justify-center flex-col mx-auto sm:max-w-xl">
-                            <h3 className="text-subtle font-bold text-3xl font-sofia text-center mb-4">
+                            <h3 className="text-subtle text-3xl font-sofia-bold text-center mb-4">
                                 {t('Get in contact with us')}
                             </h3>
                             <p className="font-light text-subtle font-sans text-base mb-7 text-center">
@@ -67,7 +67,7 @@ export default function FormContact() {
                                     type="submit"
                                     className={classnames(
                                         { loading, disabled: loading },
-                                        'w-full px-8 mt-8 sm:w-auto'
+                                        'px-8 mt-8 sm:w-auto'
                                     )}
                                 >
                                     Enviar

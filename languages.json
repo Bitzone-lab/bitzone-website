@@ -84,10 +84,58 @@
     "en": "services"
   },
   "Take your business to the next level with...": {
-    "es": "Lleva tu negocio al siguiente nivel con el poder de la tecnología . En Bitzone contamos con los profesionales para construir tu futuro. ¡Únete al cambio que está revolucionando al mundo!",
-    "en": "Take your business to the next level with the power of technology. At Bitzone we have the professionals to build your future. Join the change that is revolutionizing the world! "
+    "es": "Lleva tu negocio al siguiente nivel con el poder de la tecnología. ¡Únete al cambio que está revolucionando al mundo!",
+    "en": "Take your business to the next level with the power of technology. Join the change that is revolutionizing the world!"
   },
-  "Our projects": {
+  "We are team, we are Bitzone": {
+    "es": "Somos equipo, somos Bitzone",
+    "en": "We are team, we are Bitzone"
+  },
+  "We believe in communication": {
+    "es": "Creemos en la comunicación",
+    "en": "We believe in communication"
+  },
+  "A successful project is one that...": {
+    "es": "Un proyecto exitoso es aquel que cumple con satisfacer las necesidades de los interesados. Por ello, en Bitzone buscamos estar bien comunicados con nuestros clientes para retroalimentar nuestro trabajo y brindarles el mejor producto.",
+    "en": "A successful project is one that meets the needs of the stakeholders. Therefore, at Bitzone we seek to be well communicated with our clients to provide feedback on our work and provide them with the best product."
+  },
+  "Continuous improvement": {
+    "es": "Mejora continua",
+    "en": "Continuous improvement"
+  },
+  "We care that our team is...": {
+    "es": "Nos preocupamos de que nuestro equipo esté constantemente formando y cultivando sus habilidades pues, no solo buscamos talento y grandes habilidades, sino también ganas de aprender y  de salir adelante para un mejor futuro.",
+    "en": "We care that our team is constantly training and cultivating their skills, because we are not only looking for talent and great skills, but also the desire to learn and move forward for a better future."
+  },
+  "We are a motivated team": {
+    "es": "Somos un equipo motivado",
+    "en": "We are a motivated team"
+  },
+  "We seek to be a positive reinforcement agent...": {
+    "es": "Buscamos ser un agente de refuerzo positivo para cada una de las personas que trabajan con nosotros. Dinámicas de grupo, acceso a buena educación y buen ambiente laboral son parte de nuestras estrategias para garantizar un mejor estado de ánimo en nuestros miembros.",
+    "en": "We seek to be a positive reinforcement agent for each of the people who work with us. Group dynamics, access to a good education and a good work environment are part of our strategies to guarantee a better state of mind in our members."
+  },
+  "We are looking to train new talents": {
+    "es": "Estamos en busca de formar nuevos talentos",
+    "en": "We are looking to train new talents"
+  },
+  "The constant market demand means...": {
+    "es": "La constante demanda del mercado hace que siempre estemos en la búsqueda de nuevos integrantes con los que podamos compartir nuestras experiencias y conocimientos para construir el futuro de muchas personas alrededor del mundo.",
+    "en": "The constant market demand means that we are always in search of new members with whom we can share our experiences and knowledge to build the future of many people around the world."
+  },
+  "Flexibility is our motto": {
+    "es": "La flexibilidad es nuestro lema",
+    "en": "Flexibility is our motto"
+  },
+  "We offer our members the possibility of...": {
+    "es": "Brindamos a nuestros miembros la posibilidad de acomodar sus horarios según sus actividades personales y las de Bitzone, procurando cumplir con sus tareas asignadas en el día. Por ello, siempre estamos al pendiente de lo que necesite nuestro equipo.",
+    "en": "We offer our members the possibility of adjusting their schedules according to their personal activities and those of Bitzone, trying to fulfill their assigned tasks on the day. Therefore, we are always aware of what our team needs."
+  },
+   "Accessibility": {
+     "es": "Accesibilidad",
+     "en": "Accessibility"
+   },
+   "Our projects": {
     "es": "Nuestros proyectos",
     "en": "Our projects"
   },
@@ -98,5 +146,13 @@
   "Check out the projects we've done...": {
     "es": "Echa un vistazo a los proyectos que hemos realizado y de lo que nuestros clientes se sienten satisfecho",
     "en": "Check out the projects we've done and what our customers are satisfied with"
+  },
+  "Did you find it cool?": {
+    "es": "¿Le pareció genial?",
+    "en": "Did you find it cool?"
+  },
+  "Let's establish contact and...":{
+    "es": "Establezcamos contacto y de esa manera le podremos dar una solución igual o mejor que las mostradas anteriormente.",
+    "en": "Let's establish contact and that way we can give you a solution equal to or better than those shown above."
   }
 }

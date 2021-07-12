@@ -3,11 +3,15 @@ module.exports = {
     theme: {
         fontFamily: {
             sans: ['Overpass', 'system-ui'],
-            sofia: ['Sofia', 'system-ui']
+            'overpass-bold': ['OverpassBold', 'system-ui'],
+            sofia: ['Sofia', 'system-ui'],
+            'sofia-semibold': ['SofiaSemiBold', 'system-ui'],
+            'sofia-bold': ['SofiaBold', 'system-ui']
         },
         extend: {
             backgroundColor: {
                 navbar: 'rgba(74,37,170,0.5)',
+                'navbar-2': 'rgba(74,37,170, 1)',
                 footer: '#00007A',
                 'why-whe': '#4A25AA',
                 input: '#EEEEEE'
@@ -27,6 +31,8 @@ module.exports = {
                     'radial-gradient(50% 50% at 50% 50%, #FFFF7E 0%, #EDE04B 100%)',
                 'call-to-contact':
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call_to_contact.jpg)',
+                'call-to-contact-project':
+                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call-to-contact-project.png)',
                 'contact-form':
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)',
                 'why-whe-wrapper-image':

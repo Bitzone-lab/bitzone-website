@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 export default function TrustUs() {
     const { t } = useTranslation()
     return (
-        <section className="px-4 pb-16 xl:pt-16">
+        <section className="px-4 pb-16">
             <div className="grid grid-rows-2 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex xl:gap-36">
                 <div className="grid grid-cols-3 gap-x-5 gap-y-5 mb-5 mt-6 xl:max-w-lg xl:w-full xl:gap-x-8">
                     <div className="wrapper-contact">
@@ -56,13 +56,13 @@ export default function TrustUs() {
                     </div>
                 </div>
                 <div className="mb-14 pt-4 xl:w-1/2 xl:pt-20">
-                    <p className="text-tagline font-bold text-sm mb-5">
+                    <p className="text-tagline font-sofia-bold text-sm mb-5">
                         {t('TRUST US')}
                     </p>
-                    <h2 className="text-subtle font-bold font-sofia text-4xl mb-10">
+                    <h2 className="text-subtle font-sofia-bold text-4xl mb-10">
                         {t('We build the future of Peru and the world')}
                     </h2>
-                    <p className="text-normal text-base font-light font-sans">
+                    <p className="text-normal text-base">
                         {t('We have experience carrying out projects...')}
                     </p>
                 </div>

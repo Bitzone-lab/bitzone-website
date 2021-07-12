@@ -1,17 +1,44 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Icon from '../Icon'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
+import classnames from 'classnames'
 
 export default function Navbar() {
     const [show, setShow] = useState(false)
     const router = useRouter()
     const { t } = useTranslation()
+    const [fullBgNavbar, setFullBgNavbar] = useState(false)
+
+    const cb = useCallback(() => {
+        const value = window.scrollY
+        if (value > 100) {
+            setFullBgNavbar(true)
+        } else {
+            setFullBgNavbar(false)
+        }
+    }, [fullBgNavbar])
+
+    useEffect(() => {
+        window.addEventListener('scroll', cb)
+        return () => {
+            window.removeEventListener('scroll', cb)
+        }
+    }, [])
 
     return (
         <nav>
-            <div className="bg-navbar h-16 fixed flex top-0 px-4 backdrop-blur-lg backdrop-filter z-30 w-full">
+            <div
+                className={classnames(
+                    'h-16 fixed flex top-0 px-4 backdrop-blur-lg backdrop-filter z-30 w-full transition',
+                    {
+                        'bg-navbar': !fullBgNavbar,
+                        'bg-navbar-2': fullBgNavbar,
+                        'shadow-md': fullBgNavbar
+                    }
+                )}
+            >
                 <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
                     <div className="xl:hidden" onClick={() => setShow(true)}>
                         <Icon size={20} pointer name="hamburger" />
@@ -32,21 +59,15 @@ export default function Navbar() {
                         />
                     </div>
                     <div className="hidden text-white text-base xl:block">
-                        <a className="font-sofia font-medium pr-14">
-                            {t('We')}
-                        </a>
-                        <a className="font-sofia font-medium pr-14">
-                            {t('Services')}
-                        </a>
+                        <a className="font-sofia pr-14">{t('We')}</a>
+                        <a className="font-sofia pr-14">{t('Services')}</a>
                         <Link href="/projects">
-                            <a className="font-sofia font-medium">
-                                {t('Projects')}
-                            </a>
+                            <a className="font-sofia">{t('Projects')}</a>
                         </Link>
                     </div>
                     <div className="hidden text-white text-base xl:flex">
                         <Link href="/contacts">
-                            <a className="font-sofia font-bold pr-10">
+                            <a className="font-sofia-bold pr-10">
                                 {t('Contact')}
                             </a>
                         </Link>
@@ -63,9 +84,8 @@ export default function Navbar() {
                     show ? 'px-4 w-full' : 'w-0'
                 } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
             >
-                <div className="flex items-center justify-between h-16">
-                    <div className="w-6"></div>
-                    <div>
+                <div className="flex items-center justify-between h-20 relative">
+                    <div className="flex justify-center w-full">
                         <img
                             height="21px"
                             width="97px"
@@ -73,21 +93,32 @@ export default function Navbar() {
                             src="img/bitzone.svg"
                         />
                     </div>
-                    <div onClick={() => setShow(false)}>
-                        <Icon size={24} pointer name="arrow-left" />
+                    <div
+                        className="absolute right-2"
+                        onClick={() => setShow(false)}
+                    >
+                        <Icon size={28} pointer name="arrow-left" />
                     </div>
                 </div>
-                <div className="flex flex-col text-white items-center px-8 text-2xl">
+                <div className="flex flex-col text-white items-center justify-center p-14 text-2xl">
                     <Link href="/">
-                        <a className="font-sofia py-2">{t('We')}</a>
+                        <a className="font-sofia py-4 text-3xl">{t('We')}</a>
                     </Link>
-                    <a className="font-sofia py-2">{t('Services')}</a>
+                    <a className="font-sofia py-4 text-3xl">{t('Services')}</a>
                     <Link href="/projects">
-                        <a className="font-sofia py-2">{t('Projects')}</a>
+                        <a className="font-sofia py-4 text-3xl">
+                            {t('Projects')}
+                        </a>
                     </Link>
                     <Link href="/contacts">
-                        <a className="font-sofia py-2">{t('Contact')}</a>
+                        <a className="font-sofia py-4 text-3xl">
+                            {t('Contact')}
+                        </a>
                     </Link>
+                    <hr className="w-full border-2 border-white opacity-60 my-8" />
+                    <a className="font-sofia py-4 text-3xl">
+                        {t('Accessibility')}
+                    </a>
                 </div>
             </div>
         </nav>
