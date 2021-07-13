@@ -1,3 +1,13 @@
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import CallToContact from '../../sections/services/cloud/CallToContact'
+
 export default function Cloud() {
-    return <div>Cloud</div>
+    return (
+        <>
+            <Navbar />
+            <CallToContact />
+            <Footer />
+        </>
+    )
 }
