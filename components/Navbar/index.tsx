@@ -48,18 +48,20 @@ export default function Navbar() {
                             height="20px"
                             width="40px"
                             alt="logo"
-                            src="img/logo_image.svg"
+                            src="/img/logo_image.svg"
                             onClick={() => router.push('/')}
                         />
                         <img
                             className="hidden xl:block bg-cover xl:pl-2 cursor-pointer"
                             alt="logo text"
-                            src="img/logo.png"
+                            src="/img/logo.png"
                             onClick={() => router.push('/')}
                         />
                     </div>
                     <div className="hidden text-white text-base xl:block">
-                        <a className="font-sofia pr-14">{t('We')}</a>
+                        <Link href="/">
+                            <a className="font-sofia pr-14">{t('We')}</a>
+                        </Link>
                         <Link href="/services">
                             <a className="font-sofia pr-14">{t('Services')}</a>
                         </Link>
@@ -75,7 +77,7 @@ export default function Navbar() {
                         </Link>
                         <img
                             alt="icon accesibility"
-                            src="img/Accesibility.png"
+                            src="/img/Accesibility.png"
                         />
                     </div>
                     <div className="block xl:hidden"></div>
@@ -92,7 +94,7 @@ export default function Navbar() {
                             height="21px"
                             width="97px"
                             alt="logo"
-                            src="img/bitzone.svg"
+                            src="/img/bitzone.svg"
                         />
                     </div>
                     <div

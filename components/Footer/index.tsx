@@ -32,12 +32,12 @@ export default function Footer() {
                             <img
                                 width="26px"
                                 height="13px"
-                                src="img/logo_image.svg"
+                                src="/img/logo_image.svg"
                             ></img>
                             <img
                                 width="62px"
                                 height="13px"
-                                src="img/bitzone.svg"
+                                src="/img/bitzone.svg"
                             />
                         </div>
                         <p>Empresa consultora de software</p>
