@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Button from '../../components/Button'
 import { useRouter } from 'next/router'
 
@@ -14,7 +13,7 @@ export default function SectionSuccess({ t }: { t: (key: string) => string }) {
                     {t('Thank you for taking this first...')}
                 </p>
                 <div className="flex justify-center">
-                    <Image
+                    <img
                         width={260}
                         height={190}
                         src="/img/success-contact.svg"
