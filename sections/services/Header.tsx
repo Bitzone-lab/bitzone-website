@@ -8,15 +8,13 @@ export default function Header() {
         <header className="bg-linear-primary">
             <div className="text-white flex justify-center items-center pt-32 flex-col text-center mb-12 xl:pt-56 xl:mb-20">
                 <div className="xl:max-w-xl xl:relative">
-                    <p className="hidden font-light font-sans text-sm absolute -left-40 -top-16 xl:block">
+                    <p className="hidden text-sm absolute -left-40 -top-16 xl:block">
                         {t('Our services')}
                     </p>
                     <h1 className="text-4xl mb-5 font-sofia-bold xl:text-8xl xl:mb-10">
                         {t('Always on the vanguard')}
                     </h1>
-                    <p className="font-light font-sans text-base">
-                        {t('Take a look at what...')}
-                    </p>
+                    <p className="text-base">{t('Take a look at what...')}</p>
                 </div>
             </div>
             <div className="xl:flex">
