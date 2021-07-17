@@ -76,5 +76,13 @@
 }
 
 .service-bg {
-    @apply bg-cover h-28 flex justify-center items-center text-white font-bold text-5xl cursor-pointer;
+    @apply bg-cover h-28 flex justify-center items-center text-white cursor-pointer;
+}
+
+.title-service {
+    @apply font-sofia-bold text-5xl xl:text-8xl;
+}
+
+.subtitle-service {
+    @apply hidden font-sofia font-normal xl:block xl:mt-5;
 }
