@@ -160,7 +160,7 @@
     "en": "Always on the vanguard"
    },
    "Take a look at what...":{
-    "es": "Somos equipo, somos Bitzone",
+    "es": "Eche un vistazo a lo que podemos ofrecerle",
     "en": "Take a look at what we can offer you"
    },
    "For us it represetnts and opportunity...": {
@@ -234,5 +234,17 @@
    "Universes": {
     "es": "Universos",
     "en": "Universes"
+   },
+   "Our services": {
+    "es": "Nuestros servicios",
+    "en": "Our services"
+   },
+   "User experience": {
+    "es": "Experiencia de usuario",
+    "en": "User experience"
+   },
+   "Software development":{
+    "es": "Desarrollo de software",
+    "en": "Software development"
    }
 }

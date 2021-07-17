@@ -44,7 +44,7 @@ export default function ContentCloud() {
                         {t('The range of functions...')}
                     </li>
                     <li className="list-disc mb-4">
-                        t{t('The skeleton plan of a website...')}
+                        {t('The skeleton plan of a website...')}
                     </li>
                     <li className="list-disc mb-4">
                         {t('The relative priorities...')}

@@ -31,7 +31,7 @@ export default function Drawer() {
             >
                 <div className="flex px-4 items-center justify-between h-16 relative">
                     <div onClick={() => setShow(true)}>
-                        <Icon size={28} pointer name="hamburger" />
+                        <Icon size={20} pointer name="hamburger" />
                     </div>
                     <div>
                         <p className="text-white font-sofia font-normal text-lg">

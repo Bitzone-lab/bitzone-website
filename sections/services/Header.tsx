@@ -6,33 +6,48 @@ export default function Header() {
 
     return (
         <header className="bg-linear-primary">
-            <div className="text-white flex justify-center items-center pt-32 flex-col text-center mb-12">
-                <h1 className="font-bold text-4xl font-sofia mb-5">
-                    {t('Always on the vanguard')}
-                </h1>
-                <p className="font-light text-base">
-                    {t('Take a look at what...')}
-                </p>
+            <div className="text-white flex justify-center items-center pt-32 flex-col text-center mb-12 xl:pt-56 xl:mb-20">
+                <div className="xl:max-w-xl xl:relative">
+                    <p className="hidden text-sm absolute -left-40 -top-16 xl:block">
+                        {t('Our services')}
+                    </p>
+                    <h1 className="text-4xl mb-5 font-sofia-bold xl:text-8xl xl:mb-10">
+                        {t('Always on the vanguard')}
+                    </h1>
+                    <p className="text-base">{t('Take a look at what...')}</p>
+                </div>
             </div>
-
-            <div>
+            <div className="xl:flex">
                 <div
-                    className="bg-ux service-bg"
+                    className="bg-ux service-bg xl:w-1/3 xl:h-96"
                     onClick={() => router.push('/services/ux')}
                 >
-                    UX
+                    <div className="text-center">
+                        <p className="title-service">UX</p>
+                        <p className="subtitle-service">
+                            {t('User experience')}
+                        </p>
+                    </div>
                 </div>
                 <div
-                    className="bg-dev service-bg"
+                    className="bg-dev service-bg service-bg xl:w-1/3 xl:h-96"
                     onClick={() => router.push('/services/dev')}
                 >
-                    DEV
+                    <div className="text-center">
+                        <p className="title-service">DEV</p>
+                        <p className="subtitle-service">
+                            {t('Software development')}
+                        </p>
+                    </div>
                 </div>
                 <div
-                    className="bg-cloud service-bg"
+                    className="bg-cloud service-bg service-bg xl:w-1/3 xl:h-96"
                     onClick={() => router.push('/services/cloud')}
                 >
-                    CLOUD
+                    <div className="text-center">
+                        <p className="title-service">CLOUD</p>
+                        <p className="subtitle-service">Cloud computing</p>
+                    </div>
                 </div>
             </div>
         </header>
