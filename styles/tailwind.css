@@ -76,5 +76,13 @@
 }
 
 .service-bg {
-    @apply bg-cover h-28 flex justify-center items-center text-white font-bold text-5xl cursor-pointer;
+    @apply bg-cover h-28 flex justify-center items-center text-white  font-sofia-bold text-5xl cursor-pointer;
+}
+
+.service-bg-drawer {
+    @apply bg-cover flex justify-center items-center text-white font-sofia-bold text-5xl cursor-pointer;
+}
+
+.h-bg-drawer {
+    height: calc(calc(100vh - 64px) / 3);
 }

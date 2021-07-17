@@ -1,12 +1,18 @@
 import Navbar from '../../components/Navbar'
+import Drawer from '../../components/Drawer'
 import Footer from '../../components/Footer'
-import CallToContact from '../../sections/services/cloud/CallToContact'
+import HeaderCloud from '../../sections/services/cloud/HeaderCloud'
+import Features from '../../sections/services/cloud/Features'
+import ContentCloud from '../../sections/services/cloud/ContentCloud'
 
 export default function Cloud() {
     return (
         <>
             <Navbar />
-            <CallToContact />
+            <Drawer />
+            <HeaderCloud />
+            <ContentCloud />
+            <Features />
             <Footer />
         </>
     )
