@@ -4,7 +4,7 @@ export default function HeaderCloud() {
     const { t } = useTranslation()
     return (
         <header className="bg-cloud bg-cover bg-center">
-            <div className="p-4 text-white text-center xl:max-w-5xl xl:w-full xl:mx-auto xl:text-left xl:pl-20">
+            <div className="p-4 text-white text-center xl:max-w-5xl xl:w-full xl:mx-auto xl:text-left xl:pl-0">
                 <h1 className="font-bold font-sofia-bold text-5xl mb-4 mt-32 xl:mb-12">
                     CLOUD
                 </h1>
