@@ -76,7 +76,7 @@
 }
 
 .service-bg {
-    @apply bg-cover h-28 flex justify-center items-center text-white cursor-pointer;
+    @apply bg-cover h-28 flex justify-center items-center text-white cursor-pointer bg-center;
 }
 
 .service-bg-drawer {
