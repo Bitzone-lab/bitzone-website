@@ -3,7 +3,6 @@ import Icon from '../Icon'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
-import classnames from 'classnames'
 
 export default function Drawer() {
     const [showUniverses, setShowUniverses] = useState(false)
@@ -14,12 +13,11 @@ export default function Drawer() {
     return (
         <nav>
             <div
-                className={classnames(
-                    'h-10 fixed flex top-20 px-4 backdrop-blur-lg backdrop-filter z-40 transition bg-navbar'
-                )}
+                className="h-10 fixed flex top-20 px-4 backdrop-blur-lg backdrop-filter z-40 transition bg-navbar cursor-pointer"
+                onClick={() => setShowUniverses(true)}
             >
                 <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
-                    <div onClick={() => setShowUniverses(true)}>
+                    <div>
                         <Icon size={20} pointer name="shapes" />
                     </div>
                 </div>
