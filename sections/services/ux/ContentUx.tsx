@@ -4,8 +4,8 @@ export default function ContentUx() {
     const { t } = useTranslation()
     return (
         <section className="bg-white">
-            <div className="xl:max-w-full xl:w-full xl:pl-48 xl:mr-0">
-                <div className="xl:flex xl:pt-0 xl:justify-between xl:pl-0 xl:pr-0">
+            <div className="xl:max-w-screen-2xl xl:m-auto xl:w-full ">
+                <div className="xl:flex xl:pt-0 xl:justify-between xl:pr-0 xl:pl-48 xl:mr-0 xl:w-full">
                     <div className="flex justify-center mb-6 mt-6 xl:mt-0 pl-4 xl:order-2 xl:pt-9">
                         <img src="/img/devices.png" />
                     </div>
