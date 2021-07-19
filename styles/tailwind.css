@@ -62,7 +62,7 @@
 .active-wrapper-image-why-whe {
     @apply rounded-sm bg-why-whe-wrapper-image shadow-wrapper-image-why-whe;
 }
- 
+
 .focus-input {
     @apply focus:bg-white focus:ring-offset-primary-light focus:ring-primary-light focus:ring;
 }
@@ -73,4 +73,24 @@
 
 .full-screen--36 {
   height: calc(100vh + 10rem);
+}
+
+.service-bg {
+    @apply bg-cover h-28 flex justify-center items-center text-white cursor-pointer bg-center;
+}
+
+.service-bg-drawer {
+    @apply bg-cover flex justify-center items-center text-white font-sofia-bold text-5xl cursor-pointer;
+}
+
+.h-bg-drawer {
+    height: calc(calc(100vh - 64px) / 3);
+}
+
+.title-service {
+    @apply font-sofia-bold text-5xl xl:text-8xl;
+}
+
+.subtitle-service {
+    @apply hidden font-sofia font-normal xl:block xl:mt-5;
 }

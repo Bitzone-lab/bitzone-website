@@ -8,7 +8,7 @@ export default function WebDevelopment() {
                 <div className="w-full flex justify-end items-center xl:order-2 pl-4 overflow-hidden">
                     <img
                         className="object-cover max-w-full max-h-64 -mr-24 xl:max-h-full xl:mr-0"
-                        src="img/services-web-dev.png"
+                        src="../img/services-web-dev.png"
                     />
                 </div>
                 <div className="flex flex-col justify-center items-center px-4 mt-8 xl:px-0 xl:mt-0 ">

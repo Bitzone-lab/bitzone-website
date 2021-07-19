@@ -8,7 +8,7 @@ export default function ApiDevelopment() {
                 <div className="px-4 xl:order-2 flex justify-left items-center w-full xl:justify-center">
                     <img
                         className="object-cover w-1/2 xl:max-w-full xl:max-h-full xl:w-full xl:mr-0"
-                        src="img/chart.png"
+                        src="../img/chart.png"
                     />
                 </div>
                 <div className="flex flex-col justify-center items-center px-4 mt-8 xl:px-0 xl:mt-0 ">

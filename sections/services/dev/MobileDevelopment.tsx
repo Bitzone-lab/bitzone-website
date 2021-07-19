@@ -36,7 +36,7 @@ export default function MobileDevelopment() {
                 <div className="w-full mt-8 xl:mt-0 min-w-full">
                     <img
                         className="object-cover  h-full w-full xl:max-h-full xl:mr-0"
-                        src="img/services-mobile-dev.png"
+                        src="../img/services-mobile-dev.png"
                     />
                 </div>
             </div>

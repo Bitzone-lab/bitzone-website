@@ -4,19 +4,17 @@ export default function Header() {
     const { t } = useTranslation()
 
     return (
-        <header className="hero min-h-screen bg-services-dev text-white">
-            <div className="hero-content text-center xl:text-left">
-                <div className="max-w-md xl:max-w-screen-lg">
-                    <h1 className="text-5xl xl:text-8xl font-sofia-semibold leading-tight">
-                        DEV
-                    </h1>
-                    <p className="xl:text-2xl font-sofia xl:block xl:max-w-sm mt-7">
-                        {t('Software development')}
-                    </p>
-                    <p className="text-lg text-left mt-7">
-                        {t('To talk about UX/UI')}
-                    </p>
-                </div>
+        <header className="bg-services-dev text-white">
+            <div className="p-4 text-white text-center xl:max-w-5xl xl:w-full xl:mx-auto xl:text-left xl:pl-0">
+                <h1 className="text-5xl xl:text-8xl font-sofia-semibold mt-32">
+                    DEV
+                </h1>
+                <p className="xl:text-2xl font-sofia xl:block xl:max-w-sm mb-6 xl:mb-12">
+                    {t('Software development')}
+                </p>
+                <p className="text-lg text-left mb-16 xl:mb-24 xl:max-w-xl">
+                    {t('To talk about UX/UI')}
+                </p>
             </div>
         </header>
     )

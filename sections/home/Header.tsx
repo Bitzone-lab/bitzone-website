@@ -39,7 +39,7 @@ export default function Header() {
 
     return (
         <header className="hero min-h-screen bg-linear-primary text-white">
-            <div className="hero-content text-neutral-content pb-24 xl:pb-0">
+            <div className="hero-content text-neutral-content pb-24 xl:pt-32 xl:pb-48">
                 <div className="max-w-md xl:max-w-screen-lg xl:flex xl:justify-between">
                     <div className="xl:max-w-md">
                         <h1 className="text-5xl font-sofia-semibold leading-tight">

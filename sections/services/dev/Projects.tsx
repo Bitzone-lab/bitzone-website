@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next'
-import Carousel from '../../components/CarouselLabel'
-import Anchor from '../../components/CarouselLabel/Anchor'
-import CarouselContent from '../../components/CarouselLabel/CarouselContent'
-import CarouselItem from '../../components/CarouselLabel/CarouselItem'
-import useIntervalCarousel from '../../hooks/useIntervalCarousel'
-import content from '../../todo/carousel_project_content.json'
+import Carousel from '../../../components/CarouselLabel'
+import Anchor from '../../../components/CarouselLabel/Anchor'
+import CarouselContent from '../../../components/CarouselLabel/CarouselContent'
+import CarouselItem from '../../../components/CarouselLabel/CarouselItem'
+import useIntervalCarousel from '../../../hooks/useIntervalCarousel'
+import content from '../../../todo/carousel_project_content.json'
 
 export default function Projects() {
     const { t } = useTranslation()
