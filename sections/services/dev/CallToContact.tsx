@@ -5,7 +5,7 @@ export default function CallToContact() {
     const router = useRouter()
     return (
         <section>
-            <div className="p-4 max-w-5xl mx-auto xl:flex xl:justify-center xl:items-center">
+            <div className="p-4 xl:px-0 max-w-5xl mx-auto xl:flex xl:justify-center xl:items-center">
                 <div className="xl:mr-40">
                     <h3 className="text-subtle font-sofia-bold text-2xl mb-4 mt-4">
                         ¿Te interesa una grata experiencia?
