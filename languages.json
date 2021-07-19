@@ -246,5 +246,33 @@
    "Software development":{
     "es": "Desarrollo de software",
     "en": "Software development"
+   },
+   "To talk about UX...": {
+     "es": "Para hablar de UX/UI tenemos primero que tomar en cuenta algunos conceptos previos. Lo primero sería explicar las propias siglas UX/UI, las cuales significan User Experience/ User Interface. Traducido al español sería “Experiencia de Usuario/ Interfaz de Usuario”; pero, ¿qué significa esto realmente?",
+     "en": "To talk about UX / UI we have to first take into account some previous concepts. The first thing would be to explain the initials UX / UI, which mean User Experience / User Interface. Translated into Spanish it would be “User Experience / User Interface”; but what does this really mean?"
+   },
+   "A consistent experience": {
+     "es": "Una experiencia consistente",
+     "en": "A consistent experience"
+   },
+   "UX / UI is not only what you see...": {
+     "es": "UX/UI no es solo lo que se ve, sino también lo que hay detrás. Que la persona vea y sienta que gracias a nuestro trabajo pueda resolver sus problemas, que no se trata solo de una interfaz sino de los sentimientos que evoca y transmite entre el diseñador, el producto y el usuario.",
+     "en": "UX / UI is not only what you see, but also what is behind it. That the person see and feel that thanks to our work they can solve their problems, that it is not only about an interface but about the feelings that it evokes and transmits between the designer, the product and the user."
+   },
+   "Consistent":{
+    "es": "Consistente",
+    "en": "Consistent"
+   },
+   "Design metrics are taken into...":{
+     "es":"Se tienen en cuenta métricas de diseño y se utilizan metodologías para brindar experiencias de la más alta calidad.",
+     "en": "Design metrics are taken into account and methodologies are used to deliver the highest quality experiences."
+   },
+   "The most important thing is...": {
+     "es": "Lo más importante son las personas",
+     "en": "The most important thing is the people"
+   },
+   "Human-center design is applied...":{
+     "es": "Se aplica el human-center design, sus necesidades y problemas son priorizados a la hora de diseñar las interfaces.",
+     "en": "Human-center design is applied, your needs and problems are prioritized when designing the interfaces."
    }
 }
