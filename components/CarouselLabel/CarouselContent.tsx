@@ -23,10 +23,10 @@ export default function CarouselContent({
     }, [index])
 
     return (
-        <div className="xl:px-10 overflow-hidden">
+        <div className="xl:max-w-5xl xl:w-full  overflow-hidden gap-10">
             <div
                 ref={divRef}
-                className={classnames(className, 'carousel xl:h-auto')}
+                className={classnames(className, 'carousel xl:h-auto -mx-10')}
                 style={{ scrollBehavior: 'smooth' }}
             >
                 {children}

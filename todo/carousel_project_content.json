@@ -1,23 +1,30 @@
 [
   {
-      "title": "Proyecto1",
+      "title": "Proyecto 1",
       "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
       "image": "../img/services_project1.png",
       "caption":
           "Caption"
   },
   {
-      "title": "Proyecto2",
+      "title": "Proyecto 2",
       "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
       "image": "../img/services_project2.png",
       "caption":
           "Caption"
   },
   {
-      "title": "Proyecto3",
+      "title": "Proyecto 3",
       "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
       "image": "../img/services_project3.png",
       "caption":
           "Caption"
+  },
+  {
+    "title": "Proyecto 4",
+    "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
+    "image": "../img/services_project1.png",
+    "caption":
+        "Caption"
   }
 ]

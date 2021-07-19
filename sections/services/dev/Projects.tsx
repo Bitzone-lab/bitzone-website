@@ -8,11 +8,11 @@ import content from '../../../todo/carousel_project_content.json'
 
 export default function Projects() {
     const { t } = useTranslation()
-    const { index, setIndex, toLeft, toRight } = useIntervalCarousel(0, 10000)
+    const { index, setIndex, toLeft, toRight } = useIntervalCarousel(1, 10000)
 
     return (
         <section>
-            <div className="py-10 xl:max-w-5xl xl:w-full xl:mx-auto">
+            <div className="px-10">
                 <h2 className="p-4 text-subtle font-sofia-bold text-3xl mb-6 xl:text-4xl text-center">
                     {t('Our projects')}
                 </h2>
@@ -24,7 +24,7 @@ export default function Projects() {
                     </CarouselContent>
                 </Carousel>
                 <Anchor
-                    size={3}
+                    size={4}
                     onClickAnchor={i => setIndex(i)}
                     index={index}
                 />
