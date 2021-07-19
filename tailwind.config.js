@@ -35,7 +35,8 @@ module.exports = {
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)',
                 'why-whe-wrapper-image':
                     'linear-gradient(225deg, #FFFF7E 0%, #EDE04B 100%)',
-                'bits-img': 'url("/img/bits.png")'
+                'bits-img': 'url("/img/bits.png")',
+                'services-dev': 'url("/img/dev_bg.png")'
             },
             colors: {
                 background: '#EEEEEE',

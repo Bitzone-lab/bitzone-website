@@ -134,5 +134,67 @@
    "Accessibility": {
      "es": "Accesibilidad",
      "en": "Accessibility"
-   }
+   },
+   "Software development": {
+    "es": "Desarrollo de software",
+    "en": "Software development"
+  },
+   "To talk about UX/UI": {
+    "es": "Para hablar de UX/UI tenemos primero que tomar en cuenta algunos conceptos previos. Lo primero sería explicar las propias siglas UX/UI, las cuales significan User Experience/ User Interface. Traducido al español sería \"Experiencia de Usuario/ Interfaz de Usuario\"; pero, ¿qué significa esto realmente?",
+    "en": "To talk about UX/UI we must first take into account some previous concepts. The first thing would be to explain the acronym UX/UI, which stands for User Experience/ User Interface. Translated into English it would be \"User Experience/ User Interface\"; but what does this really mean?"
+  },
+  "Web development": {
+    "es": "Desarollo web",
+    "en": "Web development"
+  },
+  "By creating": {
+    "es": "Mediante la creación de una guía visual a lo largo del proceso, el diseñador o desarrollador puede obtener información de otras personas involucradas en el sitio web, como el cliente, su gerente y otros miembros del equipo.",
+    "en": "By creating a visual guide along the way, the designer or developer can get input from the other people involved in the website such as the customer, their manager, and other members of the team."
+  },
+  
+  "The visual guide": {
+    "es": "La guía visual proporcionará al cliente una visión de cómo acabará siendo su sitio web o su proyecto. ",
+    "en": "The visual guide will provide a view to the customer of what their website or project will end up looking like. "
+  },
+  "Mobile development": {
+    "es": "Desarollo móvil",
+    "en": "Mobile development"
+  },
+  "One": {
+    "es": "Uno",
+    "en": "One"
+  },
+  "Two": {
+    "es": "Dos",
+    "en": "Two"
+  },
+  "API development": {
+    "es": "Desarollo de API's",
+    "en": "API development"
+  },
+  "A device that": {
+    "es": "Un dispositivo que permita la colaboración reducirá la posibilidad de tener que rehacer el trabajo por completo.",
+    "en": "A device that enables collaboration will lessen the chance of work having to be completely redone."
+  },
+  "The range of": {
+    "es": "La gama de funciones disponibles.",
+    "en": "The range of functions available."
+  },
+  "The skeleton plan of": {
+    "es": "El esqueleto de un sitio web puede desglosarse en componentes de diseño de información y diseño de navegación.",
+    "en": "The skeleton plan of a website can be broken down into components information design and navigation design."
+  },
+  "The relative": {
+    "es": "Las prioridades relativas de la información.",
+    "en": "The relative priorities of the information."
+  },
+  "The effect of": {
+    "es": "El efecto de diferentes escenarios en la pantalla.",
+    "en": "The effect of different scenarios on the display."
+  },
+  "Our projects": {
+    "es": "Nuestros proyectos enfocados en desarrollo.",
+    "en": "Our projects focused on development."
+  }
+
 }

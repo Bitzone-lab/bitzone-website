@@ -102,7 +102,11 @@ export default function Navbar() {
                     <Link href="/">
                         <a className="font-sofia py-4 text-3xl">{t('We')}</a>
                     </Link>
-                    <a className="font-sofia py-4 text-3xl">{t('Services')}</a>
+                    <Link href="/services">
+                        <a className="font-sofia py-4 text-3xl">
+                            {t('Services')}
+                        </a>
+                    </Link>
                     <a className="font-sofia py-4 text-3xl">{t('Projects')}</a>
                     <Link href="/contacts">
                         <a className="font-sofia py-4 text-3xl">
