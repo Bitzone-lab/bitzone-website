@@ -4,7 +4,7 @@ export default function MobileDevelopment() {
     const { t } = useTranslation()
     return (
         <section>
-            <div className="py-10 px-4 xl:max-w-5xl xl:w-full xl:mx-auto grid grid-cols-1 xl:gap-36 xl:grid-cols-2  ">
+            <div className="py-10 px-4 xl:px-0 xl:max-w-5xl xl:w-full xl:mx-auto grid grid-cols-1 xl:gap-36 xl:grid-cols-2  ">
                 <div className="xl:order-2 ">
                     <h2 className="text-subtle font-sofia-bold text-3xl mb-6 xl:text-4xl">
                         {t('Mobile development')}
