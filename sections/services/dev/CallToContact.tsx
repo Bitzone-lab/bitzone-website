@@ -4,8 +4,8 @@ import Button from '../../../components/Button'
 export default function CallToContact() {
     const router = useRouter()
     return (
-        <section className="p-4">
-            <div className="max-w-5xl mx-auto xl:flex xl:justify-center xl:items-center">
+        <section>
+            <div className="p-4 max-w-5xl mx-auto xl:flex xl:justify-center xl:items-center">
                 <div className="xl:mr-40">
                     <h3 className="text-subtle font-sofia-bold text-2xl mb-4 mt-4">
                         ¿Te interesa una grata experiencia?

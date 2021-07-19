@@ -11,18 +11,24 @@ export default function Projects() {
     const { index, setIndex, toLeft, toRight } = useIntervalCarousel(0, 10000)
 
     return (
-        <section className="xl:px-4 py-10">
-            <h2 className="text-subtle font-sofia-bold text-3xl mb-8 xl:text-4xl text-center">
-                {t('Our projects')}
-            </h2>
-            <Carousel onLeft={toLeft} onRight={toRight}>
-                <CarouselContent index={index} title={t('Our projects')}>
-                    {content.map((data, i) => (
-                        <CarouselItem key={i} {...data} />
-                    ))}
-                </CarouselContent>
-            </Carousel>
-            <Anchor size={3} onClickAnchor={i => setIndex(i)} index={index} />
+        <section>
+            <div className="py-10 xl:max-w-5xl xl:w-full xl:mx-auto">
+                <h2 className="p-4 text-subtle font-sofia-bold text-3xl mb-6 xl:text-4xl text-center">
+                    {t('Our projects')}
+                </h2>
+                <Carousel onLeft={toLeft} onRight={toRight}>
+                    <CarouselContent index={index} title={t('Our projects')}>
+                        {content.map((data, i) => (
+                            <CarouselItem key={i} {...data} />
+                        ))}
+                    </CarouselContent>
+                </Carousel>
+                <Anchor
+                    size={3}
+                    onClickAnchor={i => setIndex(i)}
+                    index={index}
+                />
+            </div>
         </section>
     )
 }
