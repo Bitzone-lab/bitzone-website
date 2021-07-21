@@ -44,7 +44,9 @@ module.exports = {
                 wireframes:
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/wireframes.png)',
                 'header-projects-mobile':
-                    'linear-gradient(to right, #7F52DD 0%, #00007A 50.01%, #29A6FF 50%, #0C69AB 100%)'
+                    'linear-gradient(to right, #7F52DD 0%, #00007A 50.01%, #29A6FF 50%, #0C69AB 100%)',
+                'phrase-about':
+                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/phrase_bg.png)'
             },
             colors: {
                 background: '#EEEEEE',
