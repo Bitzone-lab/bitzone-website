@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import Icon from '../../components/Icon'
 import classnames from 'classnames'
 import { useRouter } from 'next/router'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import pictures from '../../todo/hero_picture.json'
 
 interface PropAnchor {
@@ -43,11 +43,11 @@ export default function Header() {
     const { t } = useTranslation()
     const [figure, setFigure] = useState(0)
     const changePictures = () => {
-            setFigure(figure => {
-                if(figure ===  pictures.length - 1){
+            setFigure(f => {
+                if(f ===  pictures.length - 1){
                     return 0
                 }
-                return figure + 1
+                return f + 1
             })
     }
     useEffect(() => {
@@ -56,39 +56,11 @@ export default function Header() {
             clearInterval(intervalPictures)
         }
     }, [])
-    // Ejemplo de Figura
-    const BIT = [
-        0,0,0,0,0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,0,0,0,0,
-        0,0,0,0,1,1,1,0,0,0,0,
-        0,0,0,0,0,1,0,0,0,0,0,
-        0,0,0,0,1,1,1,0,0,0,0,
-        0,0,0,0,0,0,0,0,0,0,0,
-        1,0,0,0,0,0,0,0,1,1,1,
-        1,1,1,0,0,0,0,0,0,1,0,
-        1,1,1,0,0,0,0,0,0,1,0,
-        0,0,0,0,0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,0,0,0,0
-    ]
-    // Ejemplo de Figura
-    const TCC = [
-        0,0,0,0,0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,0,0,0,0,
-        1,1,1,0,0,0,0,0,1,1,1,
-        0,1,0,0,0,0,0,0,1,0,0,
-        0,1,0,0,0,0,0,0,1,1,1,
-        0,0,0,0,0,0,0,0,0,0,0,
-        0,0,0,0,1,1,1,0,0,0,0,
-        0,0,0,0,1,1,0,0,0,0,0,
-        0,0,0,0,1,1,1,0,0,0,0,
-        0,0,0,0,0,0,0,0,0,0,0,
-        0,0,0,0,0,0,0,0,0,0,0
-    ]
 
     return (
         <header className="hero min-h-screen bg-linear-primary text-white">
             <div className="hero-content text-neutral-content xl:w-screen xl:h-full ">
-                <div className="max-w-md xl:max-w-full  flex items-center xl:w-full xl:flex xl:justify-between xl:h-full">
+                <div className="max-w-md xl:max-w-full flex items-center xl:w-full xl:flex xl:justify-between xl:h-full">
                     <div className="xl:w-3/6">
                         <h1 className="text-5xl font-sofia-semibold leading-tight">
                             {t('Build your future with Bitzone')}
