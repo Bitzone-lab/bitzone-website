@@ -38,6 +38,7 @@ module.exports = {
                 'why-whe-wrapper-image':
                     'linear-gradient(225deg, #FFFF7E 0%, #EDE04B 100%)',
                 'bits-img': 'url("/img/bits.png")',
+                'services-dev': 'url("/img/dev_bg.png")',
                 ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
                 cloud: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/cloud_bg.png)',
                 dev: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/dev_bg.png)',

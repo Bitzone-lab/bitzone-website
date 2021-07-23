@@ -44,7 +44,7 @@ export default function ContentCloud() {
                             Automatización
                         </h2>
                         <p className="text-base font-light text-normal mb-7">
-                            {t('A device that enables collaboration...')}
+                            {t('By creating')}
                         </p>
                         <ul className="pl-4 text-subtle font-sans font-light text-base">
                             <li className="list-disc mb-4">
