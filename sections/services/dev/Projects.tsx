@@ -12,9 +12,9 @@ export default function Projects() {
 
     return (
         <section>
-            <div className="px-10">
-                <h2 className="p-4 text-subtle font-sofia-bold text-3xl mb-6 xl:text-4xl text-center">
-                    {t('Our projects')}
+            <div className="py-4 pl-4 xl:pl-0">
+                <h2 className="px-4 text-subtle font-sofia-bold text-3xl mb-6 xl:text-4xl text-center">
+                    {t('Our projects...')}
                 </h2>
                 <Carousel onLeft={toLeft} onRight={toRight}>
                     <CarouselContent index={index} title={t('Our projects')}>

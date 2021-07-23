@@ -1,8 +1,10 @@
 import { useRouter } from 'next/router'
+import { useTranslation } from 'react-i18next'
 import Button from '../../../components/Button'
 
 export default function CallToContact() {
     const router = useRouter()
+    const { t } = useTranslation()
     return (
         <section>
             <div className="p-4 xl:px-0 max-w-5xl mx-auto xl:flex xl:justify-center xl:items-center">
@@ -11,9 +13,7 @@ export default function CallToContact() {
                         ¿Te interesa una grata experiencia?
                     </h3>
                     <p className="text-normal mb-16">
-                        Establezcamos contacto y de esa manera le podremos dar
-                        una solución igual o mejor que las mostradas
-                        anteriormente.
+                        {t("Let's establish contact...")}
                     </p>
                 </div>
                 <Button

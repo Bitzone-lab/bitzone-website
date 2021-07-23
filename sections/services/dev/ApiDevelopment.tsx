@@ -4,7 +4,7 @@ export default function ApiDevelopment() {
     const { t } = useTranslation()
     return (
         <section>
-            <div className="py-10 px-4 xl:px-0 xl:max-w-5xl xl:w-full xl:mx-auto grid grid-cols-1 xl:gap-36 xl:grid-cols-2 ">
+            <div className="p-4 xl:px-0 xl:max-w-5xl xl:w-full xl:mx-auto grid grid-cols-1 xl:gap-36 xl:grid-cols-2 ">
                 <div className="xl:order-2 flex justify-left items-center w-full xl:justify-center">
                     <img
                         className="object-cover w-3/4 xl:max-w-full xl:max-h-full xl:w-full xl:mr-0"
@@ -16,15 +16,15 @@ export default function ApiDevelopment() {
                         {t('API development')}
                     </h2>
                     <p className="text-normal text-base mb-6">
-                        {t('A device that')}
+                        {t('A device that...')}
                     </p>
                     <ul className="pl-4 text-subtle">
-                        <li className="list-disc">{t('The range of')}</li>
+                        <li className="list-disc">{t('The range of...')}</li>
                         <li className="list-disc">
-                            {t('The skeleton plan of')}
+                            {t('The skeleton plan of...')}
                         </li>
-                        <li className="list-disc">{t('The relative')}</li>
-                        <li className="list-disc">{t('The effect of')}</li>
+                        <li className="list-disc">{t('The relative...')}</li>
+                        <li className="list-disc">{t('The effect of...')}</li>
                     </ul>
                 </div>
             </div>
