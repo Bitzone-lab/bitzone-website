@@ -1,12 +1,16 @@
+/* eslint-disable prettier/prettier */
 import { useTranslation } from 'react-i18next'
 import Icon from '../../components/Icon'
 import classnames from 'classnames'
 import { useRouter } from 'next/router'
+import { useEffect, useRef, useState } from 'react'
+import pictures from '../../todo/hero_picture.json'
 
 interface PropAnchor {
     className: string
     t: (key: string) => string
 }
+
 
 function Anchor({ className = '', t }: PropAnchor) {
     const { push } = useRouter()
@@ -34,14 +38,58 @@ function Anchor({ className = '', t }: PropAnchor) {
     )
 }
 
+
 export default function Header() {
     const { t } = useTranslation()
+    const [figure, setFigure] = useState(0)
+    const changePictures = () => {
+            setFigure(figure => {
+                if(figure ===  pictures.length - 1){
+                    return 0
+                }
+                return figure + 1
+            })
+    }
+    useEffect(() => {
+        const intervalPictures = setInterval(() => {changePictures()},1000)
+        return () => {
+            clearInterval(intervalPictures)
+        }
+    }, [])
+    // Ejemplo de Figura
+    const BIT = [
+        0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,1,1,1,0,0,0,0,
+        0,0,0,0,0,1,0,0,0,0,0,
+        0,0,0,0,1,1,1,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,
+        1,0,0,0,0,0,0,0,1,1,1,
+        1,1,1,0,0,0,0,0,0,1,0,
+        1,1,1,0,0,0,0,0,0,1,0,
+        0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0
+    ]
+    // Ejemplo de Figura
+    const TCC = [
+        0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,
+        1,1,1,0,0,0,0,0,1,1,1,
+        0,1,0,0,0,0,0,0,1,0,0,
+        0,1,0,0,0,0,0,0,1,1,1,
+        0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,1,1,1,0,0,0,0,
+        0,0,0,0,1,1,0,0,0,0,0,
+        0,0,0,0,1,1,1,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0,
+        0,0,0,0,0,0,0,0,0,0,0
+    ]
 
     return (
         <header className="hero min-h-screen bg-linear-primary text-white">
-            <div className="hero-content text-neutral-content pb-24 xl:pt-32 xl:pb-48">
-                <div className="max-w-md xl:max-w-screen-lg xl:flex xl:justify-between">
-                    <div className="xl:max-w-md">
+            <div className="hero-content text-neutral-content xl:w-screen xl:h-full ">
+                <div className="max-w-md xl:max-w-full  flex items-center xl:w-full xl:flex xl:justify-between xl:h-full">
+                    <div className="xl:w-3/6">
                         <h1 className="text-5xl font-sofia-semibold leading-tight">
                             {t('Build your future with Bitzone')}
                         </h1>
@@ -55,15 +103,20 @@ export default function Header() {
                         </p>
                         <Anchor t={t} className="mt-8" />
                     </div>
-                    <div className="px-12">
-                        <img
-                            src="img/bits.png"
-                            alt=""
-                            className="hidden transform xl:block"
-                        />
+                    <div className="px-6 py-2 hidden h-3/5 xl:w-3/6 xl:flex xl:flex-wrap xl:content-center">
+                        {pictures[figure].map((turnOn, index) => (
+                            <div
+                                key={index}
+                                className={`h-11 bg-accent w-11 mx-1 my-1 opacity-70 ${
+                                    turnOn ? 'visible' : 'invisible'
+                                } animate-pulse`}
+                            ></div>
+                        ))}
                     </div>
                 </div>
             </div>
         </header>
     )
+
 }
+
