@@ -55,7 +55,7 @@ function ContentItem({ index, description, onClick }: PropsContentItem) {
     )
 }
 
-export default function Hero() {
+export default function HeroM() {
     const { index, setIndex } = useIntervalCarousel(2, 10000)
     const div1Ref = useRef<HTMLDivElement>(null)
     const div2Ref = useRef<HTMLDivElement>(null)
@@ -72,7 +72,7 @@ export default function Hero() {
     }, [index])
 
     return (
-        <section className="h-screen text-white">
+        <section className="h-screen text-white xl:hidden">
             <div
                 ref={div1Ref}
                 className="carousel h-4/6"

@@ -1,7 +1,19 @@
+#about-d-section {
+  max-height: 900px;
+}
+
 .slide-content-item{
   max-width: 85%;
 }
 
 .slide-content-item:last-child{
   padding-right: 15%;
+}
+
+.d-slide-carousel {
+  height: calc(100% - 250px);
+}
+
+.d-slide-content {
+  height: 250px;
 }
