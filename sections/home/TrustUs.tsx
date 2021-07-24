@@ -6,7 +6,15 @@ export default function TrustUs() {
         <section className="px-4 pb-16">
             <div className="grid grid-rows-2 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex xl:gap-36">
                 <div className="grid grid-cols-3 gap-x-5 gap-y-5 mb-5 mt-6 xl:max-w-lg xl:w-full xl:gap-x-8">
-                    <div className="wrapper-contact">
+                    <div className="wrapper-contact rounded-md">
+                        <img
+                            className="object-cover"
+                            width="80px"
+                            height="29px"
+                            src="img/arrow-logo.png"
+                        />
+                    </div>
+                    <div className="wrapper-contact mt-6 rounded-md">
                         <img
                             className="object-cover"
                             width="80px"
@@ -14,15 +22,7 @@ export default function TrustUs() {
                             src="img/advance-logo.png"
                         />
                     </div>
-                    <div className="wrapper-contact mt-6">
-                        <img
-                            className="object-cover"
-                            width="80px"
-                            height="29px"
-                            src="img/advance-logo.png"
-                        />
-                    </div>
-                    <div className="wrapper-contact">
+                    <div className="wrapper-contact rounded-md">
                         <img
                             className="object-cover"
                             width="80px"
@@ -30,7 +30,7 @@ export default function TrustUs() {
                             src="img/inokuos-logo.png"
                         />
                     </div>
-                    <div className="wrapper-contact">
+                    <div className="wrapper-contact rounded-md">
                         <img
                             className="object-cover"
                             width="80px"
@@ -38,7 +38,7 @@ export default function TrustUs() {
                             src="img/inversiones-laCruz-logo.png"
                         />
                     </div>
-                    <div className="wrapper-contact mt-5">
+                    <div className="wrapper-contact mt-5 rounded-md">
                         <img
                             className="object-cover"
                             width="80px"
@@ -46,12 +46,12 @@ export default function TrustUs() {
                             src="img/mtr-advance-logo.png"
                         />
                     </div>
-                    <div className="wrapper-contact">
+                    <div className="wrapper-contact rounded-md">
                         <img
                             className="object-cover"
                             width="80px"
                             height="29px"
-                            src="img/mtr-advance-logo.png"
+                            src="img/astrum-logo.png"
                         />
                     </div>
                 </div>

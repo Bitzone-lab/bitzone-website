@@ -39,7 +39,7 @@ export default function Navbar() {
                     }
                 )}
             >
-                <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
+                <div className="flex items-center justify-between w-full xl:max-w-7xl xl:mx-auto xl:flex">
                     <div className="xl:hidden" onClick={() => setShow(true)}>
                         <Icon size={20} pointer name="hamburger" />
                     </div>

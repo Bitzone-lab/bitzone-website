@@ -8,6 +8,20 @@ interface ArrowProps {
     onClick: () => void
 }
 
+function Content({ src, title, subtitle }) {
+    return (
+        <div>
+            <img className="bg-cover xl:w-full" src={src}></img>
+            <div className="text-right">
+                <p className="font-sofia-bold text-4xl mt-8">{title}</p>
+                <p className="font-sofia font-light text-base mt-9 mb-12">
+                    {subtitle}
+                </p>
+            </div>
+        </div>
+    )
+}
+
 function Arrow({ className = '', right = false, onClick }: ArrowProps) {
     return (
         <div
@@ -46,36 +60,32 @@ export default function Header() {
                         <p className="mb-7 font-sans font-light text-base xl:text-2xl">
                             {t("Check out the projects we've done...")}
                         </p>
-                        <Icon size={20} name="arrow-down" />
                     </div>
                 </div>
                 <div className="hidden xl:block xl:w-1/2">
-                    <img
-                        className="bg-cover xl:w-full"
-                        src="/img/erp.png"
-                    ></img>
-                    <div className="text-right">
-                        <p className="font-sofia-bold text-4xl mt-8">
-                            Advance ERP
-                        </p>
-                        <p className="font-sofia font-light text-base mt-9 mb-12">
-                            Soluciones grandes requieren manejos grandes
-                        </p>
-                        <div className="flex justify-end">
-                            <Arrow
-                                className="mr-5"
-                                right={false}
-                                onClick={() => {
-                                    return null
-                                }}
-                            />
-                            <Arrow
-                                right
-                                onClick={() => {
-                                    return null
-                                }}
+                    <div className="w-full carousel">
+                        <div id="item1" className="w-full carousel-item">
+                            <Content
+                                src="/img/erp.png"
+                                title="Advance ERP"
+                                subtitle="Soluciones grandes requieren manejos grandes"
                             />
                         </div>
+                    </div>
+                    <div className="flex justify-end">
+                        <Arrow
+                            className="mr-5"
+                            right={false}
+                            onClick={() => {
+                                return null
+                            }}
+                        />
+                        <Arrow
+                            right
+                            onClick={() => {
+                                return null
+                            }}
+                        />
                     </div>
                 </div>
             </div>
