@@ -4,7 +4,7 @@ export default function WebDevelopment() {
     const { t } = useTranslation()
     return (
         <section>
-            <div className="py-10 pl-4 xl:pl-0 xl:max-w-5xl xl:w-full xl:mx-auto grid grid-cols-1 xl:gap-36 xl:grid-cols-2">
+            <div className="py-7 pl-4 xl:pl-0 xl:max-w-5xl xl:w-full xl:mx-auto grid grid-cols-1 xl:gap-36 xl:grid-cols-2">
                 <div className="w-full flex justify-end items-center xl:order-2 overflow-hidden">
                     <img
                         className="object-cover max-w-full max-h-64 -mr-24 xl:max-h-full xl:mr-0"

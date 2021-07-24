@@ -6,7 +6,6 @@ export interface PropsCarouselContent {
     children: ReactNode
     className?: string
     index?: number
-    title?: string
 }
 
 export default function CarouselContent({

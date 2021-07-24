@@ -4,8 +4,8 @@ import Header from '../../sections/services/dev/Header'
 import WebDevelopment from '../../sections/services/dev/WebDevelopment'
 import MobileDevelopment from '../../sections/services/dev/MobileDevelopment'
 import ApiDevelopment from '../../sections/services/dev/ApiDevelopment'
-import Projects from '../../sections/services/dev/Projects'
-import CallToContact from '../../sections/services/dev/CallToContact'
+import Projects from '../../sections/services/Projects'
+import CallToContact from '../../sections/services/CallToContact'
 import Footer from '../../components/Footer'
 
 export default function Dev() {
@@ -17,7 +17,7 @@ export default function Dev() {
             <WebDevelopment />
             <MobileDevelopment />
             <ApiDevelopment />
-            <Projects />
+            <Projects type="devx" />
             <CallToContact />
             <Footer />
         </>

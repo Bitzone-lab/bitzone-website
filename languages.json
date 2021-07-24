@@ -192,9 +192,17 @@
     "es": "El efecto de diferentes escenarios en la pantalla.",
     "en": "The effect of different scenarios on the display."
   },
-  "Our projects...": {
+  "Our projects dev...": {
     "es": "Nuestros proyectos enfocados en desarrollo",
     "en": "Our projects focused on development"
+  },
+  "Our projects cloud...": {
+    "es": "Nuestros proyectos enfocados en cloud computing",
+    "en": "Our projects focused on cloud computing"
+  },
+  "Our projects ux/ui...": {
+    "es": "Nuestros proyectos enfocados en UX/UI",
+    "en": "Our projects focused on UX/UI"
   },
   "We improve the world with technology...": {
     "es": "Mejoramos el mundo con tecnología, y he aquí la prueba de ello",

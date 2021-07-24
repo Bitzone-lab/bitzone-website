@@ -4,6 +4,8 @@ import Footer from '../../components/Footer'
 import HeaderCloud from '../../sections/services/cloud/HeaderCloud'
 import Features from '../../sections/services/cloud/Features'
 import ContentCloud from '../../sections/services/cloud/ContentCloud'
+import Projects from '../../sections/services/Projects'
+import CallToContact from '../../sections/services/CallToContact'
 
 export default function Cloud() {
     return (
@@ -13,6 +15,8 @@ export default function Cloud() {
             <HeaderCloud />
             <ContentCloud />
             <Features />
+            <Projects type="cloud" />
+            <CallToContact />
             <Footer />
         </>
     )
