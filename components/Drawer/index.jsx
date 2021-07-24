@@ -24,13 +24,14 @@ export default function Drawer() {
             </div>
             <div
                 className={`${
-                    showUniverses ? 'w-full' : 'w-0'
-                } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
+                    showUniverses ? 'w-full xl:w-80 xl:h-auto' : 'w-0'
+                } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden xl:top-16`}
             >
-                <div className="flex px-4 items-center justify-between h-16 relative">
-                    <div onClick={() => setShow(true)}>
+                <div className="flex px-4 items-center justify-between h-16 relative xl:hidden">
+                    <div className="xl:hidden" onClick={() => setShow(true)}>
                         <Icon size={20} pointer name="hamburger" />
                     </div>
+                    <div className="hidden xl:block"></div>
                     <div>
                         <p className="text-white font-sofia font-normal text-lg">
                             {t('Universes')}
@@ -39,6 +40,12 @@ export default function Drawer() {
                     <div onClick={() => setShowUniverses(false)}>
                         <Icon size={28} pointer name="arrow-left" />
                     </div>
+                </div>
+                <div
+                    className="hidden xl:block absolute right-0 px-2 py-2"
+                    onClick={() => setShowUniverses(false)}
+                >
+                    <Icon size={28} pointer name="close" />
                 </div>
                 <div>
                     <div
@@ -63,7 +70,7 @@ export default function Drawer() {
             </div>
             <div
                 className={`${
-                    show ? 'px-4 w-full' : 'w-0'
+                    show ? 'px-4 w-full xl:max-w-xs' : 'w-0'
                 } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
             >
                 <div className="flex items-center justify-between h-20 relative">
