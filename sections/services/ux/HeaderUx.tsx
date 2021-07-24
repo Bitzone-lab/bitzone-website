@@ -4,8 +4,8 @@ export default function HeaderUx() {
     const { t } = useTranslation()
     return (
         <header className="bg-ux bg-cover bg-center">
-            <div className="p-4 text-white text-center xl:max-w-6xl xl:w-full xl:mx-auto xl:text-left xl:pl-0">
-                <h1 className="font-bold font-sofia-bold text-5xl mb-4 mt-32 xl:mb-12 xl:text-8xl">
+            <div className="p-4 text-white text-center xl:max-w-5xl xl:w-full xl:mx-auto xl:text-left xl:pl-0">
+                <h1 className="font-bold font-sofia-bold text-5xl mb-4 mt-32 xl:mb-12 xl:text-9xl">
                     UX
                 </h1>
                 <p className="font-light font-sofia text-base mb-6 xl:mb-12 xl:font-normal xl:text-2xl">
