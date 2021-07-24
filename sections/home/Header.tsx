@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { useTranslation } from 'react-i18next'
 import Icon from '../../components/Icon'
 import classnames from 'classnames'
@@ -10,7 +9,6 @@ interface PropAnchor {
     className: string
     t: (key: string) => string
 }
-
 
 function Anchor({ className = '', t }: PropAnchor) {
     const { push } = useRouter()
@@ -38,20 +36,21 @@ function Anchor({ className = '', t }: PropAnchor) {
     )
 }
 
-
 export default function Header() {
     const { t } = useTranslation()
     const [figure, setFigure] = useState(0)
     const changePictures = () => {
-            setFigure(f => {
-                if(f ===  pictures.length - 1){
-                    return 0
-                }
-                return f + 1
-            })
+        setFigure(f => {
+            if (f === pictures.length - 1) {
+                return 0
+            }
+            return f + 1
+        })
     }
     useEffect(() => {
-        const intervalPictures = setInterval(() => {changePictures()},1000)
+        const intervalPictures = setInterval(() => {
+            changePictures()
+        }, 1000)
         return () => {
             clearInterval(intervalPictures)
         }
@@ -89,6 +88,4 @@ export default function Header() {
             </div>
         </header>
     )
-
 }
-

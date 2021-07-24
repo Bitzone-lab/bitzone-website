@@ -1,0 +1,7 @@
+.slide-content-item{
+  max-width: 85%;
+}
+
+.slide-content-item:last-child{
+  padding-right: 15%;
+}
