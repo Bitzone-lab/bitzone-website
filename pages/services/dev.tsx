@@ -17,7 +17,7 @@ export default function Dev() {
             <WebDevelopment />
             <MobileDevelopment />
             <ApiDevelopment />
-            <Projects type="devx" />
+            <Projects type="dev" />
             <CallToContact />
             <Footer />
         </>
