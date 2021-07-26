@@ -35,9 +35,10 @@ export default function Carousel({
                 onSlideChange={(e: any) => {
                     if (e.swipeDirection === 'next') {
                         onClickRight()
-                    }
-                    if (e?.swipeDirection === 'prev') {
+                    } else if (e?.swipeDirection === 'prev') {
                         onClickLeft()
+                    } else {
+                        onClickRight()
                     }
                 }}
                 autoplay={{
