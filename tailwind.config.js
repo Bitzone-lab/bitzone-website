@@ -2,8 +2,11 @@ module.exports = {
     purge: ['./components/**/*.tsx', './pages/**/*.tsx', './sections/**/*.tsx'],
     theme: {
         fontFamily: {
-            sans: ['Overpass', 'system-ui'],
+            sans: ['OverpassLight', 'system-ui'],
+            'overpass-light': ['OverpassLight', 'system-ui'],
+            overpass: ['Overpass', 'system-ui'],
             'overpass-bold': ['OverpassBold', 'system-ui'],
+            'sofia-light': ['SofiaLight', 'system-ui'],
             sofia: ['Sofia', 'system-ui'],
             'sofia-semibold': ['SofiaSemiBold', 'system-ui'],
             'sofia-bold': ['SofiaBold', 'system-ui']
@@ -42,10 +45,21 @@ module.exports = {
                 ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
                 cloud: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/cloud_bg.png)',
                 dev: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/dev_bg.png)',
+                about1: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_1.png)',
+                about2: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_2.png)',
+                about3: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_3.png)',
                 wireframes:
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/wireframes.png)',
                 'header-projects-mobile':
-                    'linear-gradient(to right, #7F52DD 0%, #00007A 50.01%, #29A6FF 50%, #0C69AB 100%)'
+                    'linear-gradient(to right, #7F52DD 0%, #00007A 50.01%, #29A6FF 50%, #0C69AB 100%)',
+                'erp-background':
+                    'linear-gradient(to right, #29A6FF 0%, #0C69AB 100%)',
+                'callejeros-background':
+                    'linear-gradient(to right, #FFFF7E 0%, #D8CC44 100%)',
+                'visor-background':
+                    'linear-gradient(to right, #0049C3 0%, #002056 100%)',
+                'phrase-about':
+                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/phrase_bg.png)'
             },
             colors: {
                 background: '#EEEEEE',

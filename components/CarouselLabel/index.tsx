@@ -36,9 +36,9 @@ export default function Carousel({
 }: PropsCarousel) {
     return (
         <div className="flex items-center justify-center">
-            <Arrow onClick={onLeft} className="" />
+            {/* <Arrow onClick={onLeft} className="" /> */}
             {children}
-            <Arrow onClick={onRight} right />
+            {/* <Arrow onClick={onRight} right /> */}
         </div>
     )
 }

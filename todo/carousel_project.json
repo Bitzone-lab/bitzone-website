@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Advance ERP",
+        "subtitle": "Soluciones grandes requieren manejos grandes",
+        "image": "/img/erp.png",
+        "back": "erp-background",
+        "textColor": "white"
+    },
+    {
+        "title": "Callejeros",
+        "subtitle": "Soluciones grandes requieren manejos grandes",
+        "image": "/img/callejeros.png",
+        "back": "callejeros-background",
+        "textColor": "black"
+    },
+    {
+        "title": "Visor",
+        "subtitle": "Soluciones grandes requieren manejos grandes",
+        "image": "/img/visor.png",
+        "back": "visor-background",
+        "textColor": "white"
+    }
+]

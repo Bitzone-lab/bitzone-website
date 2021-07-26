@@ -39,7 +39,7 @@ export default function Navbar() {
                     }
                 )}
             >
-                <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
+                <div className="flex items-center justify-between w-full xl:max-w-7xl xl:mx-auto xl:flex">
                     <div className="xl:hidden" onClick={() => setShow(true)}>
                         <Icon size={20} pointer name="hamburger" />
                     </div>
@@ -59,7 +59,7 @@ export default function Navbar() {
                         />
                     </div>
                     <div className="hidden text-white text-base xl:block">
-                        <Link href="/">
+                        <Link href="/we">
                             <a className="font-sofia pr-14">{t('We')}</a>
                         </Link>
                         <Link href="/services">
@@ -105,7 +105,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="flex flex-col text-white items-center justify-center p-14 text-2xl">
-                    <Link href="/">
+                    <Link href="/we">
                         <a className="font-sofia py-4 text-3xl">{t('We')}</a>
                     </Link>
                     <Link href="/services">

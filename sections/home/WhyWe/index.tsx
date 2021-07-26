@@ -18,16 +18,19 @@ export default function WhyWe() {
                     <div className="flex justify-between">
                         <WrapperImage
                             src="img/section_why_we_1.svg"
+                            srcActive="img/section_why_we_1_active.svg"
                             active={index === 0}
                             onClick={() => setIndex(0)}
                         />
                         <WrapperImage
                             src="img/section_why_we_2.svg"
+                            srcActive="img/section_why_we_2_active.svg"
                             active={index === 1}
                             onClick={() => setIndex(1)}
                         />
                         <WrapperImage
                             src="img/section_why_we_3.svg"
+                            srcActive="img/section_why_we_3_active.svg"
                             active={index === 2}
                             onClick={() => setIndex(2)}
                         />
@@ -35,23 +38,26 @@ export default function WhyWe() {
                     <div className="flex justify-between">
                         <WrapperImage
                             src="img/section_why_we_4.svg"
+                            srcActive="img/section_why_we_4_active.svg"
                             active={index === 3}
                             onClick={() => setIndex(3)}
                         />
                         <WrapperImage
                             src="img/section_why_we_5.svg"
+                            srcActive="img/section_why_we_5_active.svg"
                             active={index === 4}
                             onClick={() => setIndex(4)}
                         />
                         <WrapperImage
                             src="img/section_why_we_6.svg"
+                            srcActive="img/section_why_we_6_active.svg"
                             active={index === 5}
                             onClick={() => setIndex(5)}
                         />
                     </div>
                 </div>
-                <article className="hidden xl:w-1/2 px-4 xl:px-0 xl:block">
-                    <h2 className="text-tagline font-sofia text-md mb-6 xl:mb-11 xl:mt-24">
+                <article className="hidden xl:w-1/2 xl:block">
+                    <h2 className="text-tagline font-sofia text-md mb-6 xl:mt-24">
                         {t('WHY WE?')}
                     </h2>
                     <Content t={t} index={index} />

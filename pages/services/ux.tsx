@@ -3,6 +3,8 @@ import Drawer from '../../components/Drawer'
 import Footer from '../../components/Footer'
 import HeaderUx from '../../sections/services/ux/HeaderUx'
 import ContentUx from '../../sections/services/ux/ContentUx'
+import Projects from '../../sections/services/dev/Projects'
+import CallToContact from '../../sections/services/dev/CallToContact'
 
 export default function UX() {
     return (
@@ -11,6 +13,8 @@ export default function UX() {
             <Drawer />
             <HeaderUx />
             <ContentUx />
+            <Projects />
+            <CallToContact />
             <Footer />
         </>
     )
