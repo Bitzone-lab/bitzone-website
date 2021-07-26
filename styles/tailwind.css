@@ -2,49 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: 'Overpass';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(/fonts/Overpass-Light.ttf);
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/fonts/Overpass-Light.ttf);
 }
 
 @font-face {
-  font-family: 'OverpassBold';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(/fonts/Overpass-Bold.ttf);
+    font-family: 'OverpassBold';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(/fonts/Overpass-Bold.ttf);
 }
 
 @font-face {
-  font-family: 'Sofia';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(/fonts/SofiaPro-Regular-Az.otf);
+    font-family: 'Sofia';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/SofiaPro-Regular-Az.otf);
 }
 
 @font-face {
-  font-family: 'SofiaSemiBold';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(/fonts/SofiaPro-SemiBold-Az.otf);
+    font-family: 'SofiaSemiBold';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/SofiaPro-SemiBold-Az.otf);
 }
 
 @font-face {
-  font-family: 'SofiaBold';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/fonts/SofiaPro-Bold-Az.otf);
+    font-family: 'SofiaBold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/SofiaPro-Bold-Az.otf);
 }
 
 * {
-  font-family: 'Overpass', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 
 .wrapper-contact {
@@ -56,23 +55,32 @@
 }
 
 .wrapper-image-why-whe {
-    @apply border-2 border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4 bg-transparent;
+    @apply border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4 bg-transparent;
 }
 
 .active-wrapper-image-why-whe {
-    @apply rounded-sm bg-why-whe-wrapper-image shadow-wrapper-image-why-whe;
+    @apply bg-why-whe-wrapper-image shadow-wrapper-image-why-whe;
 }
 
 .focus-input {
     @apply focus:bg-white focus:ring-offset-primary-light focus:ring-primary-light focus:ring;
 }
 
-.cut-top{
-  clip-path: polygon(0% 144px, 5% 144px, 5% 0%, 95% 0%, 95% 144px, 100% 144px, 100% 100%, 0 100%);
+.cut-top {
+    clip-path: polygon(
+        0% 144px,
+        5% 144px,
+        5% 0%,
+        95% 0%,
+        95% 144px,
+        100% 144px,
+        100% 100%,
+        0 100%
+    );
 }
 
 .full-screen--36 {
-  height: calc(100vh + 10rem);
+    height: calc(100vh + 10rem);
 }
 
 .service-bg {

@@ -49,6 +49,12 @@ module.exports = {
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/wireframes.png)',
                 'header-projects-mobile':
                     'linear-gradient(to right, #7F52DD 0%, #00007A 50.01%, #29A6FF 50%, #0C69AB 100%)',
+                'erp-background':
+                    'linear-gradient(to right, #29A6FF 0%, #0C69AB 100%)',
+                'callejeros-background':
+                    'linear-gradient(to right, #FFFF7E 0%, #D8CC44 100%)',
+                'visor-background':
+                    'linear-gradient(to right, #0049C3 0%, #002056 100%)',
                 'phrase-about':
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/phrase_bg.png)'
             },
