@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import useIntervalCarousel from '../../hooks/useIntervalCarousel'
 import CarouselContentHalf from './CarouselContentHalf'
 import { ContentHalfItem } from './CarouselHalfItem'
+import content from '../../todo/carousel_project.json'
 
 export default function Header() {
     const { t } = useTranslation()
@@ -31,27 +32,14 @@ export default function Header() {
                         index={index}
                         className="full-screen--36"
                     >
-                        <ContentHalfItem
-                            src="/img/erp.png"
-                            title="Advance ERP"
-                            subtitle="Soluciones grandes requieren manejos grandes"
-                            onLeft={toLeft}
-                            onRight={toRight}
-                        />
-                        <ContentHalfItem
-                            src="/img/erp.png"
-                            title="Advance ERP"
-                            subtitle="Soluciones grandes requieren manejos grandes"
-                            onLeft={toLeft}
-                            onRight={toRight}
-                        />
-                        <ContentHalfItem
-                            src="/img/erp.png"
-                            title="Advance ERP"
-                            subtitle="Soluciones grandes requieren manejos grandes"
-                            onLeft={toLeft}
-                            onRight={toRight}
-                        />
+                        {content.map((data, i) => (
+                            <ContentHalfItem
+                                key={i}
+                                {...data}
+                                onLeft={toLeft}
+                                onRight={toRight}
+                            />
+                        ))}
                     </CarouselContentHalf>
                 </div>
             </div>

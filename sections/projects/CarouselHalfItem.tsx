@@ -27,11 +27,11 @@ function Arrow({ className = '', right = false, onClick }: ArrowProps) {
     )
 }
 
-export function ContentHalfItem({ src, title, subtitle, onLeft, onRight }) {
+export function ContentHalfItem({ image, title, subtitle, onLeft, onRight }) {
     return (
         <div className="w-full carousel-item h-full relative items-center">
             <div>
-                <img className="bg-cover xl:w-full" src={src}></img>
+                <img className="bg-cover xl:w-full" src={image}></img>
                 <div className="text-right">
                     <p className="font-sofia-bold text-4xl mt-8">{title}</p>
                     <p className="font-sofia font-light text-base mt-9 mb-12">
