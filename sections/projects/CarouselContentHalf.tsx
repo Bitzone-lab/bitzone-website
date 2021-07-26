@@ -24,9 +24,13 @@ export default function CarouselContentHalf({
     return (
         <div
             ref={divRef}
-            className={classnames(className, 'w-full carousel xl:h-auto', {
-                'text-black': index === 1
-            })}
+            className={classnames(
+                className,
+                'w-full carousel relative xl:h-auto',
+                {
+                    'text-black': index === 1
+                }
+            )}
             style={{ scrollBehavior: 'smooth' }}
         >
             {children}
