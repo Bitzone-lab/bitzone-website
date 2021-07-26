@@ -20,8 +20,10 @@ function ContentItem({
         <div onClick={onClick} className="w-4/12 cursor-pointer">
             <div className="px-4">
                 <span
-                    className={classnames('font-sofia-bold text-lg', {
-                        'text-accent': active
+                    className={classnames('text-lg', {
+                        'text-accent': active,
+                        'font-sofia-bold': active,
+                        'font-sofia-light': !active
                     })}
                 >
                     {index}

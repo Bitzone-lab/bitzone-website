@@ -19,12 +19,5 @@
       "image": "../img/services_project3.png",
       "caption":
           "Caption"
-  },
-  {
-    "title": "Proyecto 4",
-    "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
-    "image": "../img/services_project1.png",
-    "caption":
-        "Caption"
   }
 ]

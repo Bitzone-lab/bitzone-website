@@ -26,7 +26,7 @@ export default function Section2() {
                         src="./img/good-team.svg"
                         alt=""
                     />
-                    <p className="text-subtle mt-12 xl:text-xl xl:mt-0 xl:max-w-sm text-center">
+                    <p className="text-subtle font-overpass mt-12 xl:text-xl xl:mt-0 xl:max-w-sm text-center">
                         Es por ello que en Bitzone estamos comprometidos con los
                         grandes cambios, con la mejora de la calidad de vida de
                         quienes nos rodean y con dar oportunidades a talentos

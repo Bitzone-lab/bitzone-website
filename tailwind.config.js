@@ -2,8 +2,11 @@ module.exports = {
     purge: ['./components/**/*.tsx', './pages/**/*.tsx', './sections/**/*.tsx'],
     theme: {
         fontFamily: {
-            sans: ['Overpass', 'system-ui'],
+            sans: ['OverpassLight', 'system-ui'],
+            'overpass-light': ['OverpassLight', 'system-ui'],
+            overpass: ['Overpass', 'system-ui'],
             'overpass-bold': ['OverpassBold', 'system-ui'],
+            'sofia-light': ['SofiaLight', 'system-ui'],
             sofia: ['Sofia', 'system-ui'],
             'sofia-semibold': ['SofiaSemiBold', 'system-ui'],
             'sofia-bold': ['SofiaBold', 'system-ui']

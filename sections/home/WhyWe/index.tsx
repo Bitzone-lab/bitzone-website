@@ -57,7 +57,7 @@ export default function WhyWe() {
                     </div>
                 </div>
                 <article className="xl:w-1/2">
-                    <h2 className="text-tagline font-sofia text-md mb-6 xl:mb-11 xl:mt-24">
+                    <h2 className="text-tagline font-sofia text-md mb-6 xl:mt-24">
                         {t('WHY WE?')}
                     </h2>
                     <Content t={t} index={index} />

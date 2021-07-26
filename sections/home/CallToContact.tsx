@@ -10,7 +10,7 @@ export default function CallToContact() {
                     <h3 className="text-white font-sofia-bold text-2xl mb-4 mt-4">
                         ¿Quieres hacer tu proyecto realidad?{' '}
                     </h3>
-                    <p className="text-white text-base mb-16">
+                    <p className="text-white font-overpass-light text-base mb-16">
                         Contáctanos para ponernos manos a la obra.
                     </p>
                 </div>

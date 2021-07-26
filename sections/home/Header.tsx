@@ -2,21 +2,18 @@ import { useTranslation } from 'react-i18next'
 import Icon from '../../components/Icon'
 import classnames from 'classnames'
 import { useRouter } from 'next/router'
-import Sequences from './Sequences'
 
-interface PropAnchor {
+interface PropsAnchor {
     className: string
     t: (key: string) => string
 }
 
-function Anchor({ className = '', t }: PropAnchor) {
+function Anchor({ className = '', t }: PropsAnchor) {
     const { push } = useRouter()
-
     function handleClick(ev) {
         ev.preventDefault()
         push('/services')
     }
-
     return (
         <div
             onClick={handleClick}
@@ -45,10 +42,10 @@ export default function Header() {
                         <h1 className="text-5xl font-sofia-semibold leading-tight">
                             {t('Build your future with Bitzone')}
                         </h1>
-                        <p className="text-2xl hidden xl:block xl:max-w-sm xl:mt-7">
+                        <p className="text-2xl font-sofia-light hidden xl:block xl:max-w-sm xl:mt-7">
                             {t('Take your business to the next level with...')}
                         </p>
-                        <p className="text-2xl xl:hidden mt-6">
+                        <p className="text-2xl xl:hidden mt-6 font-sofia-light">
                             {t(
                                 'At Bitzone we have the professionals to build your future'
                             )}

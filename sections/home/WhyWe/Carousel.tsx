@@ -12,7 +12,7 @@ function Item({ src, active = false }: PropsItem) {
     return (
         <div
             className={classnames(
-                'bg-linear-primary rounded-md carousel-item p-10 opacity-50',
+                'bg-linear-primary xl:rounded-md carousel-item p-10 opacity-50',
                 {
                     'opacity-100': active
                 }

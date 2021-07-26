@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import Carousel from '../../../components/CarouselLabel'
-import Anchor from '../../../components/CarouselLabel/Anchor'
+// import Anchor from '../../../components/CarouselLabel/Anchor'
 import CarouselContent from '../../../components/CarouselLabel/CarouselContent'
 import CarouselItem from '../../../components/CarouselLabel/CarouselItem'
 import useIntervalCarousel from '../../../hooks/useIntervalCarousel'
@@ -23,11 +23,11 @@ export default function Projects() {
                         ))}
                     </CarouselContent>
                 </Carousel>
-                <Anchor
+                {/* <Anchor
                     size={4}
                     onClickAnchor={i => setIndex(i)}
                     index={index}
-                />
+                /> */}
             </div>
         </section>
     )
