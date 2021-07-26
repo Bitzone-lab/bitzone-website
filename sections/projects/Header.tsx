@@ -7,13 +7,12 @@ import content from '../../todo/carousel_project.json'
 
 export default function Header() {
     const { t } = useTranslation()
-    const { index, toLeft, toRight } = useIntervalCarousel(3, 10000)
-
+    const { index, toLeft, toRight } = useIntervalCarousel(2, 10000)
     return (
-        <header className="px-4 pt-28 bg-linear-primary text-white xl:px-0 xl:bg-header-projects-mobile">
-            <div className="text-neutral-content pb-11 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex xl:pb-28">
-                <div className="w-10/12 xl:w-1/2 xl:pt-40">
-                    <div className="flex flex-col justify-center h-full">
+        <header className="px-4 bg-linear-primary text-white xl:px-0 xl:bg-header-projects-mobile">
+            <div className="text-neutral-content  xl:w-full xl:mx-auto xl:flex ">
+                <div className="w-11/12 pt-28 pb-10 xl:w-1/2 xl:pt-40 flex justify-end xl:pb-28">
+                    <div className="flex flex-col xl:max-w-lg justify-center h-full">
                         <p className="mb-8 font-sans font-bold text-sm uppercase xl:mb-12">
                             {t('Our projects')}
                         </p>
