@@ -62,3 +62,15 @@
 .subtitle-service {
     @apply hidden font-sofia font-normal xl:block xl:mt-5;
 }
+
+.swiper-slide-active{
+    @apply transform scale-110  rounded-md;
+}
+
+.swiper-slide-prev{
+    @apply transform scale-90 opacity-50;
+}
+
+.swiper-slide-next{
+    @apply transform scale-90 opacity-50;
+}

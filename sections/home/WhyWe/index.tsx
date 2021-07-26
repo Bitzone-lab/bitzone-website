@@ -1,16 +1,16 @@
 import { useTranslation } from 'react-i18next'
 import WrapperImage from './WrapperImage'
 import Content from './Content'
-import Carousel from './Carousel'
+import MobileCarousel from './MobileCarousel'
 import useIntervalCarousel from '../../../hooks/useIntervalCarousel'
 
 export default function WhyWe() {
     const { t } = useTranslation()
-    const { index, toLeft, toRight, setIndex } = useIntervalCarousel(5, 10000)
+    const { index, setIndex } = useIntervalCarousel(5, 10000)
 
     return (
         <section>
-            <div className="px-4 py-16 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex xl:gap-36 xl:px-0">
+            <div className="py-16 xl:max-w-5xl xl:w-full xl:mx-auto xl:flex xl:gap-36">
                 <div
                     className="hidden bg-why-whe xl:flex xl:items-center xl:justify-center flex-col xl:max-w-lg xl:w-full h-auto"
                     style={{ height: '450px' }}
@@ -56,17 +56,13 @@ export default function WhyWe() {
                         />
                     </div>
                 </div>
-                <article className="xl:w-1/2">
+                <article className="hidden xl:w-1/2 xl:block">
                     <h2 className="text-tagline font-sofia text-md mb-6 xl:mt-24">
                         {t('WHY WE?')}
                     </h2>
                     <Content t={t} index={index} />
                 </article>
-                <Carousel
-                    index={index}
-                    onClickLeft={toLeft}
-                    onClickRight={toRight}
-                />
+                <MobileCarousel />
             </div>
         </section>
     )
