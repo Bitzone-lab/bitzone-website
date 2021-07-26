@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next'
 import WrapperImage from './WrapperImage'
 import Content from './Content'
-import Carousel from './Carousel'
+import NewCarousel from './../../../components/NewCarousel'
 import useIntervalCarousel from '../../../hooks/useIntervalCarousel'
+import content from '../../../todo/carousel_why_we.json'
 
 export default function WhyWe() {
     const { t } = useTranslation()
@@ -56,10 +57,10 @@ export default function WhyWe() {
                     </h2>
                     <Content t={t} index={index} />
                 </article>
-                <Carousel
-                    index={index}
+                <NewCarousel
                     onClickLeft={toLeft}
                     onClickRight={toRight}
+                    content={content}
                 />
             </div>
         </section>
