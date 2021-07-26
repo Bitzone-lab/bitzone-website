@@ -9,11 +9,11 @@ export default function WhyWe() {
     const [index, setIndex] = useState(0)
 
     function toLeft() {
-        setIndex(index === 0 ? 6 : index - 1)
+        setIndex(index === 0 ? 5 : index - 1)
     }
 
     function toRight() {
-        setIndex(index === 6 ? 0 : index + 1)
+        setIndex(index === 5 ? 0 : index + 1)
     }
     return (
         <>
