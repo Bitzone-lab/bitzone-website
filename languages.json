@@ -147,50 +147,9 @@
         "es": "Desarollo web",
         "en": "Web development"
     },
-    "By creating...": {
-        "es": "Mediante la creación de una guía visual a lo largo del proceso, el diseñador o desarrollador puede obtener información de otras personas involucradas en el sitio web, como el cliente, su gerente y otros miembros del equipo.",
-        "en": "By creating a visual guide along the way, the designer or developer can get input from the other people involved in the website such as the customer, their manager, and other members of the team."
-    },
-
     "The visual guide...": {
         "es": "La guía visual proporcionará al cliente una visión de cómo acabará siendo su sitio web o su proyecto. ",
         "en": "The visual guide will provide a view to the customer of what their website or project will end up looking like. "
-    },
-    "Mobile development": {
-        "es": "Desarollo móvil",
-        "en": "Mobile development"
-    },
-    "One": {
-        "es": "Uno",
-        "en": "One"
-    },
-    "Two": {
-        "es": "Dos",
-        "en": "Two"
-    },
-    "API development": {
-        "es": "Desarollo de API's",
-        "en": "API development"
-    },
-    "A device that...": {
-        "es": "Un dispositivo que permita la colaboración reducirá la posibilidad de tener que rehacer el trabajo por completo.",
-        "en": "A device that enables collaboration will lessen the chance of work having to be completely redone."
-    },
-    "The range of...": {
-        "es": "La gama de funciones disponibles.",
-        "en": "The range of functions available."
-    },
-    "The skeleton plan of...": {
-        "es": "El esqueleto de un sitio web puede desglosarse en componentes de diseño de información y diseño de navegación.",
-        "en": "The skeleton plan of a website can be broken down into components information design and navigation design."
-    },
-    "The relative...": {
-        "es": "Las prioridades relativas de la información.",
-        "en": "The relative priorities of the information."
-    },
-    "The effect of...": {
-        "es": "El efecto de diferentes escenarios en la pantalla.",
-        "en": "The effect of different scenarios on the display."
     },
     "Our projects...": {
         "es": "Nuestros proyectos ",
@@ -220,10 +179,6 @@
         "es": "Eche un vistazo a lo que podemos ofrecerle",
         "en": "Take a look at what we can offer you"
     },
-    "For us it represetnts and opportunity...": {
-        "es": "Para nosotros representa una oportunidad de utilizar los mismos recursos que las grandes empresas, como Amazon o Google, a un costo mínimo. Asimismo, nos permite evitar los riesgos que conllevan el mantener recursos físicos como servidores, la red interna, sistemas operativos, seguridad, entre otros.",
-        "en": "For us it represents an opportunity to use the same resources as large companies, such as Amazon or Google, at a minimal cost. Likewise, it allows us to avoid the risks involved in maintaining physical resources such as servers, the internal network, operating systems, security, among others."
-    },
     "Infraestructure": {
         "es": "Infraestructura",
         "en": "Infraestructure"
@@ -235,22 +190,6 @@
     "A device that enables collaboration...": {
         "es": "Un dispositivo que permite la colaboración reducirá la posibilidad de que el trabajo tenga que rehacerse por completo",
         "en": "A device that enables collaboration will lessen the chance of work having to be completely redone"
-    },
-    "The range of functions...": {
-        "es": "La gama de funciones disponibles",
-        "en": "The range of functions available"
-    },
-    "The skeleton plan of a website...": {
-        "es": "El plan esquemático de un sitio web se puede dividir en diseño de información de componentes y diseño de navegación",
-        "en": "The skeleton plan of a website can be broken down into components information design and navigation design"
-    },
-    "The relative priorities...": {
-        "es": "Las prioridades relativas de la información",
-        "en": "The relative priorities of the information"
-    },
-    "The effect of different...": {
-        "es": "El efecto de diferentes escenarios en la pantalla",
-        "en": "The effect of different scenarios on the display"
     },
     "Source is a wireframe kit designed...": {
         "es": "Source es un kit de estructura alámbrica diseñado para reducir el trabajo pesado: concéntrese en las cosas que importan",
@@ -335,5 +274,81 @@
     "Let's establish contact...": {
         "es": "Establezcamos contacto y de esa manera le podremos dar una solución igual o mejor que las mostradas anteriormente.",
         "en": "Let's establish contact and we will be able to give you a solution equal or better than the ones shown above."
+    },
+    "It means for us to..." : {
+      "es": "Significa para nosotros crear aplicaciones tecnológicas utilizando herramientas de programación, técnicas y patrones con el fin de brindar una solución a uno o muchos problemas del entorno. Además, involucra realizar tareas creativas y con ingenio en el plazo establecido conforme a lo que se requiere.",
+      "en": "It means for us to create technological applications using programming tools, techniques and patterns in order to provide a solution to one or many problems in the environment. In addition, it involves performing creative and ingenious tasks within the established deadline according to what is required."
+    },
+    "We create solutions": {
+      "es": "Creamos soluciones",
+      "en": "We create solutions"
+    },
+    "Among the activities we...": {
+      "es": "Entre las actividades que realizamos para brindar las mejores soluciones están el análisis de la lógica de negocio, análisis de la BD, revisión de código, desarrollo de APIs y pruebas unitarias así como las de pruebas de integración.",
+      "en": "Among the activities we carry out to provide the best solutions are business logic analysis, database analysis, code review, API development and unit tests as well as integration tests."
+    },
+    "We also found other...": {
+      "es": "También encontramos otras actividades como las de documentación para dar soporte al equipo y registrar las mejores prácticas.",
+      "en": "We also found other activities such as documentation to support the team and record best practices."
+    },
+    "We adapt to you": {
+      "es": "Nos adaptamos a ti",
+      "en": "We adapt to you"
+    },
+    "We focus on creating...": {
+      "es": "Nos enfocamos en crear interfaces web que se ajusten a los dispositivos de nuestros clientes con el fin de mejorar la velocidad de carga así como mantener el contenido en cada una de ellas.",
+      "en": "We focus on creating web interfaces that adjust to our clients' devices in order to improve the loading speed as well as maintain the content in each of them."
+    },
+    "Desktop" : {
+      "es": "Desktop",
+      "en": "Desktop"
+    },
+    "Mobile" : {
+      "es": "Mobile",
+      "en": "Mobile"
+    },
+    "Among our projects, Advance...": {
+      "es": "Entre nuestros proyectos destaca el de Advance.",
+      "en": "Among our projects, Advance stands out."
+    },
+    "Among our projects, ProCustodia...": {
+      "es": "Entre nuestros proyectos destaca el de ProCustodia.",
+      "en": "Among our projects, ProCustodia stands out."
+    },
+    "Our technologies": {
+      "es": "Nuestras tecnologías",
+      "en": "Our technologies"
+    },
+    "Depending on the complexity of...": {
+      "es": "Dependiendo de la complejidad del proyecto las tecnologías son variables, por ello, tratamos siempre de adaptarnos a las necesidades de nuestros clientes. Estas son algunas de las tecnologías que hemos venido utilizando en nuestros proyectos:",
+      "en": "Depending on the complexity of the project, the technologies are variable, therefore, we always try to adapt to the needs of our clients. These are some of the technologies that we have been using in our projects:"
+    },
+    "It is an opportunity to use the...": {
+      "es": "Es una oportunidad de utilizar los mismos recursos que las grandes empresas, como Amazon o Google, a un costo mínimo. Asimismo, nos permite evitar los riesgos que conllevan el mantener recursos físicos como servidores, la red interna, sistemas operativos, seguridad, entre otros.",
+      "en": "It is an opportunity to use the same resources as large companies, such as Amazon or Google, at a minimal cost. Likewise, it allows us to avoid the risks involved in maintaining physical resources such as servers, the internal network, operating systems, security, among others."
+    },
+    "The cloud or Cloud today...": {
+      "es": "La nube o Cloud hoy en día nos ofrece muchos servicios modernos y variados. Por eso, en infraestructura cloud, resolvemos los problemas de nuestros clientes proponiendo y diseñando una infraestructura moderna.",
+      "en": "The cloud or Cloud today offers us many modern and varied services. For this reason, in cloud infrastructure, we solve the problems of our clients by proposing and designing a modern infrastructure."
+    },
+    "We use AWS services such as...":{
+      "es": "Utilizamos servicios de AWS como servidores virtuales (EC2), almacenamiento en bucket S3, base de datos relacionales (RDS), base de datos no relacionales (Elasticsearch), recursos de red como redes virtuales privadas en la nube (VPC), Orquestadores de contenedores como Fargate y Kubernetes (EKS) entre otros recursos con el fin de cumplir con los objetivos de nuestros clientes.",
+      "en": "We use AWS services such as virtual servers (EC2), S3 bucket storage, relational database (RDS), non-relational database (Elasticsearch), network resources such as virtual private cloud networks (VPC), Container Orchestrators such as Fargate and Kubernetes (EKS) among other resources in order to meet the objectives of our customers."
+    },
+    "At Bitzone we have the experience...": {
+      "es": "En Bitzone tenemos la experiencia utilizando plataformas de automatización como Gitlab devops, Github actions y Bamboo. Estas plataformas nos facilitan el despliegue a través de pipelines. Aplicamos e incorporamos la automatización a los siguientes elementos:",
+      "en": "At Bitzone we have the experience using automation platforms such as Gitlab devops, Github actions and Bamboo. These platforms make it easy for us to deploy through pipelines. We apply and incorporate automation to the following elements:"
+    },
+    "Building infrastructure in the...":{
+      "es": "La creación de infraestructura en la nube",
+      "en": "Building infrastructure in the cloud"
+    },
+    "The application of the Devops...": {
+      "es": "La aplicación de la metodología Devops",
+      "en": "The application of the Devops methodology"
+    },
+    "Testing and monitoring or...": {
+      "es": "Pruebas y supervisión o alertas",
+      "en": "Testing and monitoring or alerts"
     }
 }

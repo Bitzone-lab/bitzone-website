@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-export default function WebDevelopment() {
+export default function Section2() {
     const { t } = useTranslation()
     return (
         <section>
@@ -13,11 +13,13 @@ export default function WebDevelopment() {
                 </div>
                 <div className="mt-8 pr-4">
                     <h2 className="text-subtle font-sofia-bold text-2xl mb-6 xl:text-3xl">
-                        {t('Web development')}
+                        {t('We create solutions')}
                     </h2>
-                    <p className="text-normal text-base">{t('By creating')}</p>
                     <p className="text-normal text-base mt-4">
-                        {t('The visual guide...')}
+                        {t('Among the activities we...')}
+                    </p>
+                    <p className="text-normal text-base mt-4">
+                        {t('We also found other...')}
                     </p>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import Section3 from '../sections/about/Section3'
 import Section4 from '../sections/about/Section4'
 // import OurValues from '../sections/about/OurValues'
 
-export default function We() {
+export default function About() {
     return (
         <>
             <Navbar />

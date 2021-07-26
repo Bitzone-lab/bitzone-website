@@ -16,23 +16,12 @@ export default function ContentCloud() {
                         <h2 className="font-sofia-bold font-bold text-3xl text-subtle mb-6">
                             Infraestructura
                         </h2>
-                        <p className="text-base font-light text-normal mb-7">
-                            {t('A device that enables collaboration...')}
+                        <p className="text-base font-light text-normal mb-5">
+                            {t('The cloud or Cloud today...')}
                         </p>
-                        <ul className="pl-4 text-subtle font-sans font-light text-base">
-                            <li className="list-disc mb-4">
-                                {t('The range of functions...')}
-                            </li>
-                            <li className="list-disc mb-4">
-                                {t('The skeleton plan of a website...')}
-                            </li>
-                            <li className="list-disc mb-4">
-                                {t('The relative priorities...')}
-                            </li>
-                            <li className="list-disc mb-4">
-                                {t('The effect of different...')}
-                            </li>
-                        </ul>
+                        <p className="text-base font-light text-normal">
+                            {t('We use AWS services such as...')}
+                        </p>
                     </div>
                 </div>
                 <div className="p-4 xl:flex xl:pt-32 xl:pb-32 xl:justify-between xl:pl-0 xl:pr-0">
@@ -43,21 +32,18 @@ export default function ContentCloud() {
                         <h2 className="font-sofia-bold font-bold text-3xl text-subtle mb-6">
                             Automatización
                         </h2>
-                        <p className="text-base font-light text-normal mb-7">
-                            {t('By creating')}
+                        <p className="text-base font-light text-normal">
+                            {t('At Bitzone we have the experience...')}
                         </p>
-                        <ul className="pl-4 text-subtle font-sans font-light text-base">
+                        <ul className="mt-4 pl-4 text-subtle font-sans font-light text-base">
                             <li className="list-disc mb-4">
-                                {t('The range of functions...')}
+                                {t('Building infrastructure in the...')}
                             </li>
                             <li className="list-disc mb-4">
-                                {t('The skeleton plan of a website...')}
+                                {t('The application of the Devops...')}
                             </li>
-                            <li className="list-disc mb-4">
-                                {t('The relative priorities...')}
-                            </li>
-                            <li className="list-disc mb-4">
-                                {t('The effect of different...')}
+                            <li className="list-disc">
+                                {t('Testing and monitoring or...')}
                             </li>
                         </ul>
                     </div>

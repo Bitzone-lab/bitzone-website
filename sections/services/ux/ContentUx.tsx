@@ -17,7 +17,7 @@ export default function ContentUx() {
                             {t('UX / UI is not only what you see...')}
                         </p>
                         <div className="xl:flex xl:pt-2 xl:justify-between xl:pl-0 xl:pr-0">
-                            <div className="xl:w-56">
+                            <div className="xl:w-56 xl:pr-6">
                                 <h2 className="font-sofia-bold font-bold text-xl text-subtle mb-1">
                                     {t('Consistent')}
                                 </h2>

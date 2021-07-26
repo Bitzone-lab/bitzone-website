@@ -13,7 +13,7 @@ export default function Header() {
                     {t('Software development')}
                 </p>
                 <p className="font-normal text-lg mb-16 xl:max-w-xl xl:mb-24">
-                    {t('To talk about UX/UI...')}
+                    {t('It means for us to...')}
                 </p>
             </div>
         </header>

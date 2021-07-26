@@ -12,7 +12,7 @@ export default function HeaderCloud() {
                     Cloud computing
                 </p>
                 <p className="font-normal text-lg mb-16 xl:max-w-xl xl:mb-24">
-                    {t('For us it represetnts and opportunity...')}
+                    {t('It is an opportunity to use the...')}
                 </p>
             </div>
         </header>

@@ -59,7 +59,7 @@ export default function Navbar() {
                         />
                     </div>
                     <div className="hidden text-white text-base xl:block">
-                        <Link href="/we">
+                        <Link href="/about">
                             <a className="font-sofia pr-14">{t('We')}</a>
                         </Link>
                         <Link href="/services">
@@ -105,7 +105,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="flex flex-col text-white items-center justify-center p-14 text-2xl">
-                    <Link href="/we">
+                    <Link href="/about">
                         <a className="font-sofia py-4 text-3xl">{t('We')}</a>
                     </Link>
                     <Link href="/services">

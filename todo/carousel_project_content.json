@@ -1,22 +1,22 @@
 [
   {
-      "title": "Proyecto 1",
+      "title": "MTR",
       "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
-      "image": "../img/services_project1.png",
+      "image": "../img/service-projects-mtr.jpg",
       "caption":
           "Caption"
   },
   {
-      "title": "Proyecto 2",
+      "title": "Procustodia",
       "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
-      "image": "../img/services_project2.png",
+      "image": "../img/service-projects-procustodia.jpg",
       "caption":
           "Caption"
   },
   {
-      "title": "Proyecto 3",
+      "title": "Aliados",
       "description": "Una descripción así de corta como para que pueda llenar 2 líneas a lo mucho",
-      "image": "../img/services_project3.png",
+      "image": "../img/service-projects-aliados.jpg",
       "caption":
           "Caption"
   }
