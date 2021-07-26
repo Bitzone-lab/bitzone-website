@@ -31,7 +31,7 @@ interface PropsWhyAreContent {
 
 export default function Content({ t, index }: PropsWhyAreContent) {
     return (
-        <div style={{ height: '270px' }}>
+        <div style={{ minHeight: '270px' }}>
             <Item
                 show={index === 0}
                 title={t('We are constantly growing')}
