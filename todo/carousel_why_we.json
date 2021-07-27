@@ -1,8 +1,20 @@
 [
-    "img/section_why_we_1.svg",
-    "img/section_why_we_2.svg",
-    "img/section_why_we_3.svg",
-    "img/section_why_we_4.svg",
-    "img/section_why_we_5.svg",
-    "img/section_why_we_6.svg"
+    {
+      "img": "img/section_why_we_1.svg"
+    },
+    {
+      "img": "img/section_why_we_2.svg"
+    },
+    {
+      "img": "img/section_why_we_3.svg"
+    },
+    {
+      "img": "img/section_why_we_4.svg"
+    },
+    {
+      "img": "img/section_why_we_5.svg"
+    },
+    {
+      "img": "img/section_why_we_6.svg"
+    }
 ]

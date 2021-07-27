@@ -1,9 +1,16 @@
+import CardsValues from './CardsValues'
+import CarouselValues from './CarouselValues'
+
 export default function OutValues() {
     return (
         <section>
-            <h2 className="font-sofia-bold text-3xl text-subtle text-center">
-                Nuestros valores
-            </h2>
+            <div className="xl:max-w-6xl xl:w-full mx-auto pt-8">
+                <h2 className="font-sofia-bold text-4xl xl:text-5xl text-subtle text-center">
+                    Nuestros valores
+                </h2>
+                <CardsValues />
+                <CarouselValues />
+            </div>
         </section>
     )
 }

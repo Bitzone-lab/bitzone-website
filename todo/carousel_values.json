@@ -1,0 +1,34 @@
+[
+  {
+    "img": "img/excellence.svg",
+    "text": "Excelencia"
+  },
+  {
+    "img": "img/social_responsability.svg",
+    "text": "Responsabilidad Social"
+  },
+  {
+    "img": "img/compromise.svg",
+    "text": "Compromiso"
+  },
+  {
+    "img": "img/confidence.svg",
+    "text": "Confianza"
+  },
+  {
+    "img": "img/unit.svg",
+    "text": "Unidad"
+  },
+  {
+    "img": "img/flexibility.svg",
+    "text": "Flexibidad"
+  },
+  {
+    "img": "img/liberty.svg",
+    "text": "Libertad"
+  },
+  {
+    "img": "img/respect.svg",
+    "text": "Respeto"
+  }  
+]
