@@ -2,7 +2,6 @@ export interface PropsCarouselItem {
     title: string
     description: string
     image: string
-    caption: string
 }
 
 export default function CarouselItem(props: PropsCarouselItem) {
@@ -19,7 +18,6 @@ export default function CarouselItem(props: PropsCarouselItem) {
                             <p className="mb-5 text-md text-subtle">
                                 {props.description}
                             </p>
-                            <span className="text-normal">{props.caption}</span>
                         </div>
                     </div>
                 </div>

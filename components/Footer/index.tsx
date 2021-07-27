@@ -1,3 +1,6 @@
+import Link from 'next/link'
+import Icon from '../Icon'
+
 export default function Footer() {
     return (
         <footer className="bg-footer text-white px-4 pb-3 w-full">
@@ -7,9 +10,21 @@ export default function Footer() {
                         <p className="text-base font-sofia-bold mb-5">
                             Acerca de
                         </p>
-                        <p className="text-base mb-5">Nosotros</p>
-                        <p className="text-base mb-5">Servicios</p>
-                        <p className="text-base">Proyectos</p>
+                        <Link href="about">
+                            <a className="text-base mb-5 hover:underline block">
+                                Nosotros
+                            </a>
+                        </Link>
+                        <Link href="/services">
+                            <a className="text-base mb-5 hover:underline block">
+                                Servicios
+                            </a>
+                        </Link>
+                        <Link href="/projects">
+                            <a className="text-base hover:underline">
+                                Proyectos
+                            </a>
+                        </Link>
                     </div>
                     <div className="w-1/2 xl:w-auto xl:order-3">
                         <p className="text-base font-sofia-bold mb-5">
@@ -24,8 +39,18 @@ export default function Footer() {
                         <p className="text-base font-sofia-bold mb-5">
                             Contacto
                         </p>
-                        <p className="text-base mb-5">hello@bitzone.lat</p>
-                        <p className="text-base mb-24">+51 956 941 872</p>
+                        <Link href="mailto: hello@bitzone.lat">
+                            <a className="text-base mb-5 block hover:underline">
+                                <Icon name="email" className="inline mr-2" />
+                                hello@bitzone.lat
+                            </a>
+                        </Link>
+                        <Link href="whatsapp://send?abid=+51956941872&text=Hola!">
+                            <a className="text-base mb-24 block hover:underline">
+                                <Icon name="whatsapp" className="inline mr-2" />
+                                +51 956 941 872
+                            </a>
+                        </Link>
                     </div>
                     <div className="w-full xl:w-auto xl:order-1">
                         <div className="flex gap-2 mb-7">

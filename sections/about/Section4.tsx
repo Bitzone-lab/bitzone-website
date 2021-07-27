@@ -7,7 +7,7 @@ export default function Section4() {
             <p className="text-center mt-16 font-normal text-lg text-subtle mb-8">
                 Transformar vidas a través de la tecnología
             </p>
-            <div className="mb-8 xl:mb-14">
+            <div className="mb-8 xl:mb-20">
                 <img className="w-full" src="./img/better-life.svg" alt="" />
             </div>
             <div className="px-4 xl:max-w-5xl xl:w-full xl:mx-auto xl:px-0 xl:flex xl:gap-7">

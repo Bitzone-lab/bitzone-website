@@ -17,9 +17,7 @@ export default function Drawer() {
                 onClick={() => setShowUniverses(true)}
             >
                 <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
-                    <div>
-                        <Icon size={20} pointer name="shapes" />
-                    </div>
+                    <Icon size={20} pointer name="shapes" />
                 </div>
             </div>
             <div

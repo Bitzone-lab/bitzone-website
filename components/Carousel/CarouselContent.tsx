@@ -26,7 +26,7 @@ export default function CarouselContent({
 
     function handleArrow() {
         const height = viewportHeight()
-        document.documentElement.scrollTo(0, height - 64)
+        document.documentElement.scrollTo(0, height - 180)
     }
 
     return (

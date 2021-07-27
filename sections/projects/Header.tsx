@@ -19,7 +19,7 @@ function Arrow({ className = '', right = false, onClick }: ArrowProps) {
         <div
             style={right ? { right: '5%' } : { left: '5%' }}
             className={classNames(
-                'w-10 rounded-full bg-white h-10 top-1/2 items-center justify-center cursor-pointer hidden xl:flex',
+                'w-10 rounded-full bg-white h-10 top-1/2 items-center justify-center cursor-pointer hidden xl:flex shadow',
                 className
             )}
             onClick={onClick}

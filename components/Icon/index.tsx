@@ -6,6 +6,8 @@ import ArrowDown from './ArrowDown'
 import Shapes from './Shapes'
 import Left from './Left'
 import Right from './Right'
+import Email from './Email'
+import Whatsapp from './Whatsapp'
 
 export interface PropsIcon {
     name:
@@ -17,6 +19,8 @@ export interface PropsIcon {
         | 'left'
         | 'right'
         | 'shapes'
+        | 'email'
+        | 'whatsapp'
     pointer?: boolean
     size?: number
     className?: string
@@ -45,5 +49,7 @@ export default function Icon({
     if (name === 'shapes') return <Shapes {...p} />
     if (name === 'left') return <Left {...p} />
     if (name === 'right') return <Right {...p} />
+    if (name === 'email') return <Email {...p} />
+    if (name === 'whatsapp') return <Whatsapp {...p} />
     return null
 }

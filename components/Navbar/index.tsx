@@ -27,6 +27,12 @@ export default function Navbar() {
         }
     }, [])
 
+    function active(path: string) {
+        return {
+            'text-yellow-300': router.pathname.search(path) > -1
+        }
+    }
+
     return (
         <nav>
             <div
@@ -60,18 +66,44 @@ export default function Navbar() {
                     </div>
                     <div className="hidden text-white text-base xl:block">
                         <Link href="/about">
-                            <a className="font-sofia pr-14">{t('We')}</a>
+                            <a
+                                className={classnames(
+                                    'font-sofia pr-14',
+                                    active('/about')
+                                )}
+                            >
+                                {t('We')}
+                            </a>
                         </Link>
                         <Link href="/services">
-                            <a className="font-sofia pr-14">{t('Services')}</a>
+                            <a
+                                className={classnames(
+                                    'font-sofia pr-14',
+                                    active('/services')
+                                )}
+                            >
+                                {t('Services')}
+                            </a>
                         </Link>
                         <Link href="/projects">
-                            <a className="font-sofia">{t('Projects')}</a>
+                            <a
+                                className={classnames(
+                                    'font-sofia',
+                                    active('/projects')
+                                )}
+                            >
+                                {t('Projects')}
+                            </a>
                         </Link>
                     </div>
                     <div className="hidden text-white text-base xl:flex">
                         <Link href="/contacts">
-                            <a className="font-sofia-bold pr-10">
+                            <a
+                                className={classnames(
+                                    'font-sofia-bold pr-10',
+                                    active('/contacts')
+                                )}
+                            >
                                 {t('Contact')}
                             </a>
                         </Link>

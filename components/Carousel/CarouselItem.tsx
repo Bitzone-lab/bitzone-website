@@ -1,4 +1,4 @@
-import Button from '../Button'
+import Link from 'next/link'
 
 export interface PropsCarouselItem {
     title: string
@@ -25,7 +25,11 @@ export default function CarouselItem(props: PropsCarouselItem) {
                             <p className="mb-5 font-overpass text-base xl:w-2/4">
                                 {props.textarea}
                             </p>
-                            <Button className="btn-sm">Descúbrelo</Button>
+                            <Link href={props.link}>
+                                <a className="btn btn-accent font-sofia-bold rounded-none normal-case text-lg text-subtle btn-sm">
+                                    Descúbrelo
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

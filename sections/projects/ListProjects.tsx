@@ -40,6 +40,13 @@ const dataProjects: ContentProject[] = [
             'img/csharp-logo.svg',
             'img/sqlServer-logo.svg'
         ]
+    },
+    {
+        name: 'Procustodia',
+        image: 'img/procustodia.jpg',
+        description:
+            'Otra pequeña y breve descripción de lo que trató este proyecto, en dos líneas para que se vea bonito',
+        icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
     }
 ]
 
