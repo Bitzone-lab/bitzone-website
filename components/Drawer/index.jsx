@@ -26,7 +26,7 @@ export default function Drawer() {
             <div
                 className={`${
                     showUniverses ? 'w-full xl:w-80 xl:h-auto' : 'w-0'
-                } h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden xl:top-16`}
+                } xl:top-16 h-full fixed z-50 top-0 left-0 overflow-x-hidden duration-300 bg-navbar-hidden`}
             >
                 <div className="flex px-4 items-center justify-between h-16 relative xl:hidden">
                     <div className="xl:hidden" onClick={() => setShow(true)}>

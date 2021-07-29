@@ -23,7 +23,7 @@ export default function Carousel({
             slidesPerView={1.5}
             spaceBetween={30}
             centeredSlides={true}
-            className={classnames('xl:hidden mt-6', className)}
+            className={classnames('xl:hidden mt-6 w-full', className)}
             breakpoints={{
                 480: {
                     slidesPerView: 3,
