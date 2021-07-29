@@ -10,7 +10,7 @@ export default function Footer() {
                         <p className="text-base font-sofia-bold mb-5">
                             Acerca de
                         </p>
-                        <Link href="about">
+                        <Link href="/about">
                             <a className="text-base mb-5 hover:underline block">
                                 Nosotros
                             </a>

@@ -13,8 +13,11 @@ export default function Drawer() {
     return (
         <nav>
             <div
-                className="h-10 fixed flex top-20 px-4 backdrop-blur-lg backdrop-filter z-40 transition bg-navbar cursor-pointer"
+                className="h-10 fixed flex px-4 backdrop-blur-lg backdrop-filter z-40 transition bg-navbar cursor-pointer"
                 onClick={() => setShowUniverses(true)}
+                style={{
+                    top: '5em'
+                }}
             >
                 <div className="flex items-center justify-between w-full xl:max-w-5xl xl:mx-auto xl:flex">
                     <Icon size={20} pointer name="shapes" />
