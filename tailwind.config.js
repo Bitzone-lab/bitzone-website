@@ -1,5 +1,4 @@
 module.exports = {
-    purge: ['./components/**/*.tsx', './pages/**/*.tsx', './sections/**/*.tsx'],
     theme: {
         fontFamily: {
             sans: ['OverpassLight', 'system-ui'],
