@@ -7,39 +7,39 @@ export default function Features() {
             <div className="p-4 text-white xl:max-w-5xl xl:w-full xl:mx-auto xl:pt-28 xl:pl-0 xl:pb-14">
                 <div className="xl:max-w-2xl">
                     <h3 className="font-bold font-sofia-bold text-2xl mt-3 mb-8 pr-5 xl:pr-0">
-                        {t('Source is a wireframe kit designed...')}
+                        {t('How can cloud...')}
                     </h3>
                     <div className="flex flex-wrap gap-y-10 mb-20 xl:gap-y-14">
                         <div className="w-1/2 pr-5 xl:pr-10">
                             <p className="font-sofia-bold text-lg mb-2">
-                                {t('Feature one')}
+                                {t('Save costs')}
                             </p>
                             <p className="text-base">
-                                {t('Web design partially...')}
+                                {t(
+                                    'It is not necessary to have your own hardware...'
+                                )}
                             </p>
                         </div>
                         <div className="w-1/2 pr-5 xl:pr-0">
                             <p className="font-sofia-bold text-lg mb-2">
-                                {t('Feature two')}
+                                {t('Competitive strategic advantage')}
                             </p>
                             <p className="text-base">
-                                {t('The rules for displaying...')}
+                                {t('Deployment times are almost nil...')}
                             </p>
                         </div>
                         <div className="w-1/2 pr-5 xl:pr-10">
                             <p className="font-bold font-sofia-bold text-lg mb-2">
-                                {t('Feature three')}
+                                {t('High availability')}
                             </p>
-                            <p className="text-base">
-                                {t('Paper prototypes should...')}
-                            </p>
+                            <p className="text-base">{t('Cloud hosting...')}</p>
                         </div>
                         <div className="w-1/2 pr-5 xl:pr-0">
                             <p className="font-sofia-bold text-lg mb-2">
-                                {t('Feature four')}
+                                {t('Fast performance')}
                             </p>
                             <p className="text-base">
-                                {t('The relative priorities of...')}
+                                {t('Delivers high-performance servers...')}
                             </p>
                         </div>
                     </div>

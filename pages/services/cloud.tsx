@@ -7,6 +7,7 @@ import ContentCloud from '../../sections/services/cloud/ContentCloud'
 import Projects from '../../sections/services/Projects'
 import CallToContact from '../../sections/services/CallToContact'
 import PageHead from '../../components/PageHead'
+import content from '../../todo/carousel_project_cloud_content.json'
 
 export default function Cloud() {
     return (
@@ -20,7 +21,10 @@ export default function Cloud() {
             <HeaderCloud />
             <ContentCloud />
             <Features />
-            <Projects />
+            <Projects
+                titleSection={'Our projects ... cloud'}
+                content={content}
+            />
             <CallToContact />
             <Footer />
         </>

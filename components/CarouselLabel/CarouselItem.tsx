@@ -12,10 +12,10 @@ export default function CarouselItem(props: PropsCarouselItem) {
                     <img src={props.image} className="w-full d-block" />
                     <div className="w-full">
                         <div className="max-w-5xl w-full mx-auto text-center">
-                            <h3 className="mb-4 mt-4 font-sofia-bold text-subtle">
+                            <h3 className="mb-4 mt-4 font-sofia-semibold text-subtle text-2xl">
                                 {props.title}
                             </h3>
-                            <p className="mb-5 text-md text-subtle">
+                            <p className="mb-5 text-md text-normal">
                                 {props.description}
                             </p>
                         </div>

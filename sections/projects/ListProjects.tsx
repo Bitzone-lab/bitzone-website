@@ -9,7 +9,8 @@ const dataProjects: ContentProject[] = [
     {
         name: 'Inokuos',
         image: 'img/inokuos.png',
-        description: 'Una app de limpieza global hecha con limpieza global',
+        description:
+            'Plataforma tecnológica real-time que gestiona rutinas de limpieza de principio a fin, manteniendo una comunicación activa e inmediata entre todos los actores involucrados en el proceso de limpieza',
         icons: [
             'img/kotlin-logo.svg',
             'img/android-logo.svg',
@@ -21,7 +22,7 @@ const dataProjects: ContentProject[] = [
         name: 'Advance MTR',
         image: 'img/mtr.png',
         description:
-            'Mediciones en tiempo reales conllevan estrategias en tiempo reales y, de vez en cuando, complejas',
+            'Plataforma web real-time que monitorea en dashboards gráficos datos masivos enviados por sensores IoT. Los datos se procesan y almacenan en una base de datos de series de tiempo para agilizar la ingestión y su procesamiento',
         icons: [
             'img/react-logo.svg',
             'img/hasura-logo.svg',
@@ -34,7 +35,8 @@ const dataProjects: ContentProject[] = [
     {
         name: 'Aliados',
         image: 'img/aliados.png',
-        description: 'Aplicación web realizada para Inversiones La Cruz',
+        description:
+            'Web app que recluta a Aliados para incrementar las ventas a través de referidos. Permite el registro y gestión de aliados, referidos  de pagos.',
         icons: [
             'img/react-logo.svg',
             'img/csharp-logo.svg',
@@ -45,7 +47,7 @@ const dataProjects: ContentProject[] = [
         name: 'Procustodia',
         image: 'img/procustodia.jpg',
         description:
-            'Otra pequeña y breve descripción de lo que trató este proyecto, en dos líneas para que se vea bonito',
+            'Diseño y desarrollo del Website corporativo de Procustodia asociado a un Headless CMS que gestiona el contenido informativo, de oficinas y documentación e información legal',
         icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
     }
 ]
@@ -65,7 +67,7 @@ export default function ListProjects() {
                             }`}
                         >
                             <img
-                                className="bg-cover xl:w-full"
+                                className="bg-cover w-full"
                                 src={dataProject.image}
                             ></img>
                         </div>

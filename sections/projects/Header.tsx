@@ -50,7 +50,7 @@ export default function Header() {
                                 {t('We improve the world with technology...')}
                             </h1>
                         </div>
-                        <p className="mb-7 font-sans font-light text-base xl:text-2xl">
+                        <p className="mb-7 font-overpass-light text-base xl:text-2xl">
                             {t("Check out the projects we've done...")}
                         </p>
                     </div>
@@ -64,9 +64,9 @@ export default function Header() {
                             <ContentHalfItem key={i} {...data} />
                         ))}
                     </CarouselContentHalf>
-                    <div className="absolute pb-10 pl-52 left-52 bottom-10 z-10 ">
-                        <div className="flex items-center xl:w-full xl:max-w-5xl xl:mx-auto xl:justify-center">
-                            <div className="max-w-5xl w-full mx-auto mt-8 xl:mt-14 xl:flex justify-between">
+                    <div className="absolute pb-12 pl-52 left-52 bottom-10 z-10 ">
+                        <div className="flex items-center xl:w-full xl:max-w-5xl xl:mt-14 xl:mx-auto xl:justify-center">
+                            <div className="max-w-5xl w-full mx-auto mt-8 xl:flex justify-between">
                                 <Arrow
                                     className="mr-5"
                                     right={false}

@@ -8,6 +8,7 @@ import Projects from '../../sections/services/Projects'
 import CallToContact from '../../sections/services/CallToContact'
 import Footer from '../../components/Footer'
 import PageHead from '../../components/PageHead'
+import content from '../../todo/carousel_project_dev_content.json'
 
 export default function Dev() {
     return (
@@ -22,7 +23,10 @@ export default function Dev() {
             <Section2 />
             <Section3 />
             <Section4 />
-            <Projects />
+            <Projects
+                titleSection={'Our projects ... development'}
+                content={content}
+            />
             <CallToContact />
             <Footer />
         </>

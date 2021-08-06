@@ -155,6 +155,18 @@
         "es": "Nuestros proyectos ",
         "en": "Our projects"
     },
+    "Our projects ... UX / UI": {
+        "es": "Nuestros proyectos enfocados en UX/UI",
+        "en": "Our projects focused on UX / UI"
+    },
+    "Our projects ... development": {
+        "es": "Nuestros proyectos enfocados en desarrollo",
+        "en": "Our projects focused on development"
+    },
+    "Our projects ... cloud": {
+        "es": "Nuestros proyectos enfocados en cloud computing",
+        "en": "Our projects focused on cloud computing"
+    },
     "We improve the world with technology...": {
         "es": "Mejoramos el mundo con tecnología, y he aquí la prueba de ello",
         "en": "We improve the world with technology, and here is the proof of that"
@@ -191,41 +203,41 @@
         "es": "Un dispositivo que permite la colaboración reducirá la posibilidad de que el trabajo tenga que rehacerse por completo",
         "en": "A device that enables collaboration will lessen the chance of work having to be completely redone"
     },
-    "Source is a wireframe kit designed...": {
-        "es": "Source es un kit de estructura alámbrica diseñado para reducir el trabajo pesado: concéntrese en las cosas que importan",
-        "en": "Source is a wireframe kit designed to reduce busywork— focus on the things that matter"
+    "How can cloud...": {
+        "es": "¿De qué manera los servicios de la nube pueden beneficiar a un proyecto",
+        "en": "How can cloud services benefit a project?"
     },
-    "Feature one": {
-        "es": "Característica uno",
-        "en": "Feature one"
+    "Save costs": {
+        "es": "Ahorra costos",
+        "en": "Save costs"
     },
-    "Web design partially...": {
-        "es": "El diseño web se superpone parcialmente a la ingeniería web en un ámbito más amplio",
-        "en": "Web design partially overlaps web engineering in the broader scope"
+    "It is not necessary to have your own hardware...": {
+        "es": "No se necesita tener un hardware propio, ya que todo está alojado en los servidores",
+        "en": "It is not necessary to have your own hardware, since everything is hosted on the servers"
     },
-    "Feature two": {
-        "es": "Característica dos",
-        "en": "Feature two"
+    "Competitive strategic advantage": {
+        "es": "Ventaja estratégica competitiva",
+        "en": "Competitive strategic advantage"
     },
-    "The rules for displaying...": {
-        "es": "Las reglas para mostrar ciertos tipos de información ",
-        "en": "The rules for displaying certain kinds of information"
+    "Deployment times are almost nil...": {
+        "es": "Los tiempos de implementación son casi nulos, y las aplicaciones siempre están en línea",
+        "en": "Deployment times are almost nil, and applications are always online"
     },
-    "Feature three": {
-        "es": "Característica tres",
-        "en": "Feature three"
+    "High availability": {
+        "es": "Alta disponibilidad",
+        "en": "High availability"
     },
-    "Paper prototypes should...": {
-        "es": "Se deben considerar los prototipos de papel cuando lo siguiente",
-        "en": "Paper prototypes should be considered when the following"
+    "Cloud hosting...": {
+        "es": "El alojamiento en la nube elimina la posibilidad de que el servidor falle y cause un tiempo de inactividad ",
+        "en": "Cloud hosting eliminates the possibility of server failure and causing downtime"
     },
-    "Feature four": {
-        "es": "Característica cuatro",
-        "en": "Feature four"
+    "Fast performance": {
+        "es": "Rápido rendimiento",
+        "en": "Fast performance"
     },
-    "The relative priorities of...": {
-        "es": "Las prioridades relativas de la información y las funciones",
-        "en": "The relative priorities of the information and functions"
+    "Delivers high-performance servers...": {
+        "es": "Ofrece servidores de alto rendimiento con tecnología como CPU potentes y unidades SSD súper rápidas",
+        "en": "Delivers high-performance servers with technology like powerful CPUs and super-fast SSDs"
     },
     "Universes": {
         "es": "Universos",

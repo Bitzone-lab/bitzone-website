@@ -6,6 +6,7 @@ import ContentUx from '../../sections/services/ux/ContentUx'
 import Projects from '../../sections/services/Projects'
 import CallToContact from '../../sections/services/CallToContact'
 import PageHead from '../../components/PageHead'
+import content from '../../todo/carousel_project_ux_content.json'
 
 export default function UX() {
     return (
@@ -18,7 +19,10 @@ export default function UX() {
             <Drawer />
             <HeaderUx />
             <ContentUx />
-            <Projects />
+            <Projects
+                titleSection={'Our projects ... UX / UI'}
+                content={content}
+            />
             <CallToContact />
             <Footer />
         </>

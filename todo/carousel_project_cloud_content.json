@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Visor",
+        "description": "Es un sistema web responsive nativo en Cloud y escalable que permite visualizar las redes eléctricas de Enel Perú ",
+        "image": "../img/service-projects-visor.jpg"
+    },
+    {
+        "title": "Callejeros",
+        "description": "Es un API REST serverless el cual ofrece una conjunto de 13 microservicios de información geográfica",
+        "image": "../img/service-projects-callejero.jpg"
+    },
+    {
+        "title": "ERP",
+        "description": "Sistema logistico desarrollado para el control de movimientos de inventario en el manejo de productos y/o equipos de tratamientos de agua",
+        "image": "../img/service-projects-erp.jpg"
+    }
+]
