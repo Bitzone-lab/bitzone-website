@@ -44,7 +44,7 @@ module.exports = {
                 'bits-img': 'url("/img/bits.png")',
                 'services-dev': 'url("/img/dev_bg.png")',
                 ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
-                cloud: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/cloud_bg.png)',
+                cloud: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/cloud_bg.jpeg)',
                 dev: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/dev_bg.png)',
                 about1: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_1.png)',
                 about2: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_2.png)',

@@ -1,6 +1,7 @@
 interface ContentProject {
     name: string
     description: string
+    type: string
     image: string
     icons: string[]
 }
@@ -9,6 +10,7 @@ const dataProjects: ContentProject[] = [
     {
         name: 'Inokuos',
         image: 'img/inokuos.png',
+        type: 'Proyecto Móvil',
         description:
             'Plataforma tecnológica real-time que gestiona rutinas de limpieza de principio a fin, manteniendo una comunicación activa e inmediata entre todos los actores involucrados en el proceso de limpieza',
         icons: [
@@ -21,6 +23,7 @@ const dataProjects: ContentProject[] = [
     {
         name: 'Advance MTR',
         image: 'img/mtr.png',
+        type: 'Proyecto Web',
         description:
             'Plataforma web real-time que monitorea en dashboards gráficos datos masivos enviados por sensores IoT. Los datos se procesan y almacenan en una base de datos de series de tiempo para agilizar la ingestión y su procesamiento',
         icons: [
@@ -35,6 +38,7 @@ const dataProjects: ContentProject[] = [
     {
         name: 'Aliados',
         image: 'img/aliados.png',
+        type: 'Proyecto Web',
         description:
             'Web app que recluta a Aliados para incrementar las ventas a través de referidos. Permite el registro y gestión de aliados, referidos  de pagos.',
         icons: [
@@ -46,6 +50,7 @@ const dataProjects: ContentProject[] = [
     {
         name: 'Procustodia',
         image: 'img/procustodia.jpg',
+        type: 'Proyecto Web',
         description:
             'Diseño y desarrollo del Website corporativo de Procustodia asociado a un Headless CMS que gestiona el contenido informativo, de oficinas y documentación e información legal',
         icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
@@ -79,7 +84,10 @@ export default function ListProjects() {
                             }`}
                         >
                             <div className="xl:flex xl:justify-center xl:flex-col xl:items-center xl:h-full">
-                                <p className="font-sofia font-bold text-3xl text-subtle mt-8">
+                                <p className="text-tagline uppercase mt-8 hidden font-overpass-bold text-sm xl:block">
+                                    {dataProject.type}
+                                </p>
+                                <p className="font-sofia font-bold text-3xl text-subtle mt-8 xl:mt-5 xl:text-4xl">
                                     {dataProject.name}
                                 </p>
                                 <p className="font-sans font-light text-base text-normal mt-5">
