@@ -43,7 +43,9 @@ export default function FormContact() {
                                     />
                                 </div>
                                 <div className="sm:w-1/2">
-                                    <label className="label-form">Email</label>
+                                    <label className="label-form">
+                                        Correo Electrónico
+                                    </label>
                                     <Input
                                         placeholder="ejemplo@mail.com"
                                         name="email"
