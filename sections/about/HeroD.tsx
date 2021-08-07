@@ -62,9 +62,13 @@ function CarouselItem({ image, title, textAccent }: PropsCarouselItem) {
                 alt=""
             />
             <div className="w-full max-w-5xl pt-28 relative z-1">
-                <h2 className="font-overpass mb-6">QUIÉNES SOMOS</h2>
-                <h1 className="text-5xl font-sofia-bold max-w-md">{title}</h1>
-                <p className="font-overpass mt-6">{textAccent}</p>
+                <h2 className="font-overpass mb-6 text-sm ">QUIÉNES SOMOS</h2>
+                <h1 className="text-5xl font-sofia-bold max-w-md xl:max-w-4xl xl:text-8xl">
+                    {title}
+                </h1>
+                <p className="font-overpass font-light mt-6 xl:text-2xl">
+                    {textAccent}
+                </p>
             </div>
         </div>
     )
@@ -97,13 +101,13 @@ export default function HeroD() {
                 />
                 <CarouselItem
                     image="about_2.png"
-                    title="No solo buscamos talento"
-                    textAccent="lo hacemos crecer para brindarle un futuro mejor"
+                    title="Priorizamos la creatividad"
+                    textAccent="en un entorno moderno y horizontal"
                 />
                 <CarouselItem
                     image="about_3.png"
-                    title="Somos una comunidad"
-                    textAccent="más que una empresa"
+                    title="No solo buscamos talento"
+                    textAccent="lo hacemos crecer para brindarle un futuro mejor"
                 />
             </div>
             <div className="slide-content d-slide-content pt-10">

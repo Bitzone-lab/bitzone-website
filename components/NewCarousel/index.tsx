@@ -2,9 +2,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper.min.css'
 import SwiperCore, { Autoplay } from 'swiper/core'
 import classnames from 'classnames'
+import ItemCarousel from './ItemCarousel'
 
 interface PropsCarousel {
-    content: Array<{ img: string; text?: string }>
+    content: Array<{ img: string; text?: string; descriptionBack?: string }>
     onClickLeft?: () => void
     onClickRight?: () => void
     className?: string
@@ -48,14 +49,13 @@ export default function Carousel({
                 disableOnInteraction: false
             }}
         >
-            {content.map(({ img, text }, i) => (
+            {content.map(({ img, text, descriptionBack }, i) => (
                 <SwiperSlide key={i} className="bg-white w-4/5 py-4">
-                    <div className="bg-radial-primary p-8 rounded-md relative flex items-center justify-center">
-                        <img src={img} className="h-28 w-28 block" />
-                        <p className="absolute left-0 top-36 text-white text-sm text-center w-full">
-                            {text || ''}
-                        </p>
-                    </div>
+                    <ItemCarousel
+                        img={img}
+                        text={text}
+                        descriptionBack={descriptionBack}
+                    />
                 </SwiperSlide>
             ))}
         </Swiper>

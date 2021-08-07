@@ -38,7 +38,9 @@ export default function CarouselContent({
             {children}
             <div className="absolute w-full px-5 text-white top-0">
                 <div className="max-w-5xl w-full mx-auto mt-8 xl:mt-14 xl:flex justify-between">
-                    <h3 className="font-sofia font-light text-3xl">{title}</h3>
+                    <h3 className="font-sofia font-light text-lg ml-8 xl:text-3xl xl:ml-0">
+                        {title}
+                    </h3>
                     <Icon
                         name="arrow-down"
                         size={18}

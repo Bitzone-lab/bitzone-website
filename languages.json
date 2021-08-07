@@ -362,5 +362,21 @@
     "Testing and monitoring or...": {
       "es": "Pruebas y supervisión o alertas",
       "en": "Testing and monitoring or alerts"
+    },
+    "Contact us": {
+      "es": "Contáctanos",
+      "en": "Contact us"
+    },
+    "Contact us to...": {
+      "es": "Contáctanos para ponernos manos a la obra",
+      "en": "Contact us to get to work."
+    },
+    "Shall we start...":{
+      "es": "Somos equipo, somos Bitzone",
+      "en": "Shall we start to build your future?"
+    },
+    "Do you want to make...?": {
+      "es": "¿Quieres hacer tu proyecto realidad?",
+      "en": "Do you want to make your project come true?"
     }
 }

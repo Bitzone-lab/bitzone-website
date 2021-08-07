@@ -1,34 +1,42 @@
 [
   {
     "img": "img/excellence.svg",
-    "text": "Excelencia"
+    "text": "Excelencia",
+    "descriptionBack": "Buscamos siempre que nuestros proyectos sean de mayor calidad"
   },
   {
     "img": "img/social_responsability.svg",
-    "text": "Responsabilidad Social"
+    "text": "Responsabilidad Social",
+    "descriptionBack": "Creemos en el cambio a través de la tecnología"
   },
   {
     "img": "img/compromise.svg",
-    "text": "Compromiso"
+    "text": "Compromiso",
+    "descriptionBack": "Con nuestros clientes, la sociedad, nuestro equipo y nuestro entorno"
   },
   {
     "img": "img/confidence.svg",
-    "text": "Confianza"
+    "text": "Confianza",
+    "descriptionBack": "Respaldamos la calidad humana de cada uno de los integrantes del equipo"
   },
   {
     "img": "img/unit.svg",
-    "text": "Unidad"
+    "text": "Unidad",
+    "descriptionBack": "Somos un equipo que avanza unido a los cambios"
   },
   {
     "img": "img/flexibility.svg",
-    "text": "Flexibidad"
+    "text": "Flexibidad",
+    "descriptionBack": "Esencial para el correcto desarrollo de las actividades que realizamos a diario"
   },
   {
     "img": "img/liberty.svg",
-    "text": "Libertad"
+    "text": "Libertad",
+    "descriptionBack": "Creemos en la capacidad de cada persona de tomar sus propias desiciones"
   },
   {
     "img": "img/respect.svg",
-    "text": "Respeto"
-  }  
+    "text": "Respeto",
+    "descriptionBack": "Reconocemos en nuestro equipo a personas plenas y que merecen el reconocimiento de sus acciones en pro de la organización"
+  }
 ]

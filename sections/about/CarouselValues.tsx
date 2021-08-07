@@ -1,6 +1,6 @@
 import NewCarousel from '../../components/NewCarousel'
-import contentImg from '../../todo/carousel_values.json'
+import contentData from '../../todo/carousel_values.json'
 
 export default function CarouselValues() {
-    return <NewCarousel className="mt-10 mb-20" content={contentImg} />
+    return <NewCarousel className="mt-10 mb-20" content={contentData} />
 }

@@ -36,7 +36,7 @@ export default function Header() {
     const { t } = useTranslation()
     return (
         <header className="hero min-h-screen bg-linear-primary text-white">
-            <div className="hero-content text-neutral-content xl:w-screen xl:h-full ">
+            <div className="hero-content text-neutral-content xl:h-full xl:max-w-5xl xl:w-full xl:p-0">
                 <div className="max-w-md xl:max-w-full flex items-center xl:w-full xl:flex xl:justify-between xl:h-full">
                     <div className="xl:w-3/6 pb-24 xl:pb-0">
                         <h1 className="text-5xl font-sofia-semibold leading-tight">
