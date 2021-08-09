@@ -89,6 +89,17 @@ export default function Footer() {
                                     src="/img/instagram.svg"
                                 />
                             </a>
+                            <a
+                                href="https://github.com/Bitzone-lab/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img
+                                    width="20px"
+                                    height="20px"
+                                    src="/img/github.svg"
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>
