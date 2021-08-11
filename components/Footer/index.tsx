@@ -45,12 +45,15 @@ export default function Footer() {
                                 hello@bitzone.lat
                             </a>
                         </Link>
-                        <Link href="whatsapp://send?abid=+51956941872&text=Hola!">
-                            <a className="text-base mb-24 block hover:underline">
-                                <Icon name="whatsapp" className="inline mr-2" />
-                                +51 956 941 872
-                            </a>
-                        </Link>
+                        <a
+                            href="https://api.whatsapp.com/send?phone=51956941872&text=Hola+Bitzone+deseo+informaci%C3%B3n+sobre+un+proyecto+a+realizar"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-base mb-24 block hover:underline"
+                        >
+                            <Icon name="whatsapp" className="inline mr-2" />
+                            +51 956 941 872
+                        </a>
                     </div>
                     <div className="w-full xl:w-auto xl:order-1">
                         <div className="flex gap-2 mb-7">
