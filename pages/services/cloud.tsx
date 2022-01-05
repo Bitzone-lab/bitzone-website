@@ -1,13 +1,13 @@
 import Navbar from '../../components/Navbar'
 import Drawer from '../../components/Drawer'
 import Footer from '../../components/Footer'
-import HeaderCloud from '../../sections/services/cloud/HeaderCloud'
-import Features from '../../sections/services/cloud/Features'
-import ContentCloud from '../../sections/services/cloud/ContentCloud'
-import Projects from '../../sections/services/Projects'
-import CallToContact from '../../sections/services/CallToContact'
+import Header from '../../sections/services/cloud/Header'
 import PageHead from '../../components/PageHead'
-import content from '../../todo/carousel_project_cloud_content.json'
+import CallToContact from '../../sections/CallToContact'
+import Section1 from '../../sections/services/cloud/Section1'
+import Section2 from '../../sections/services/cloud/Section2'
+import Section3 from '../../sections/services/cloud/Section3'
+import Section4 from '../../sections/services/cloud/Section4'
 
 export default function Cloud() {
     return (
@@ -18,13 +18,11 @@ export default function Cloud() {
             />
             <Navbar />
             <Drawer />
-            <HeaderCloud />
-            <ContentCloud />
-            <Features />
-            <Projects
-                titleSection={'Our projects ... cloud'}
-                content={content}
-            />
+            <Header />
+            <Section1 />
+            <Section2 />
+            <Section3 />
+            <Section4 />
             <CallToContact />
             <Footer />
         </>

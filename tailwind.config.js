@@ -43,12 +43,14 @@ module.exports = {
                 'services-dev': 'url("/img/dev_bg.png")',
                 header: 'url("/images/home_header.jpg")',
                 'about-header': 'url("/images/about-header.jpg")',
-                'service-header': 'url("/images/about/header.jpg")',
-                'service-ing': 'url("/images/about/ing.jpg")',
-                'service-ia': 'url("/images/about/ia.jpg")',
-                'service-cloud': 'url("/images/about/cloud.jpg")',
+                'service-header': 'url("/images/services/header.jpg")',
+                'service-ing': 'url("/images/services/ing.jpg")',
+                'service-ia': 'url("/images/services/ia.jpg")',
+                'service-cloud': 'url("/images/services/cloud.jpg")',
+                'service-cloud-benefits':
+                    'url("/images/services/image-15.jpg")',
                 ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
-                cloud: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/cloud_bg.jpeg)',
+                cloud: 'url(/images/services/cloud-header.jpg)',
                 dev: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/dev_bg.png)',
                 about1: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_1.png)',
                 about2: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_2.png)',
@@ -75,7 +77,8 @@ module.exports = {
                 'accent-light': '#FFFF7E',
                 'accent-dark': '#B7AE08',
                 'border-normal': '#111111',
-                'border-subtle': '#AAAAAA'
+                'border-subtle': '#AAAAAA',
+                'accent-alt': '#99E6FD'
             },
             textColor: {
                 subtle: 'rgba(28, 14, 64, 0.87)',
