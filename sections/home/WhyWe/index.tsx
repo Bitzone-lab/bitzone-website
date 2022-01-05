@@ -4,6 +4,9 @@ import Content from './Content'
 import MobileCarousel from './MobileCarousel'
 import useIntervalCarousel from '../../../hooks/useIntervalCarousel'
 
+/**
+ * @deprecated
+ */
 export default function WhyWe() {
     const { t } = useTranslation()
     const { index, setIndex } = useIntervalCarousel(5, 10000)

@@ -1,9 +1,11 @@
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 import Icon from '../Icon'
 
 export default function Footer() {
+    const { t } = useTranslation()
     return (
-        <footer className="bg-footer text-white px-4 pb-3 w-full">
+        <footer className="bg-footer text-white px-4 pb-5 w-full">
             <div className="xl:max-w-5xl xl:w-full xl:mx-auto">
                 <div className="flex-wrap flex py-16 xl:justify-between">
                     <div className="w-1/2 xl:w-auto xl:order-2">
@@ -11,13 +13,8 @@ export default function Footer() {
                             Acerca de
                         </p>
                         <Link href="/about">
-                            <a className="text-base mb-5 hover:underline block">
+                            <a className="text-base mb-4 hover:underline block">
                                 Nosotros
-                            </a>
-                        </Link>
-                        <Link href="/services">
-                            <a className="text-base mb-5 hover:underline block">
-                                Servicios
                             </a>
                         </Link>
                         <Link href="/projects">
@@ -28,32 +25,35 @@ export default function Footer() {
                     </div>
                     <div className="w-1/2 xl:w-auto xl:order-3">
                         <p className="text-base font-sofia-bold mb-5">
-                            Información
+                            Servicios
                         </p>
-                        <p className="text-base mb-5">Política de priv.</p>
-                        <p className="text-base mb-5">Aviso legal</p>
-                        <p className="text-base mb-5">Política de cookies</p>
-                        <p className="text-base">Cfg. de cookies</p>
+                        <p className="text-base mb-4">Ingeniería de Software</p>
+                        <p className="text-base mb-4">
+                            Inteligencia Artificial
+                        </p>
+                        <p className="text-base mb-4">Cloud Computing</p>
                     </div>
                     <div className="w-full mt-11 xl:w-auto xl:mt-0 xl:order-4">
                         <p className="text-base font-sofia-bold mb-5">
                             Contacto
                         </p>
                         <Link href="mailto: hello@bitzone.lat">
-                            <a className="text-base mb-5 block hover:underline">
-                                <Icon name="email" className="inline mr-2" />
+                            <a className="text-base mb-4 block hover:underline">
                                 hello@bitzone.lat
                             </a>
                         </Link>
-                        <a
-                            href="https://api.whatsapp.com/send?phone=51956941872&text=Hola+Bitzone+deseo+informaci%C3%B3n+sobre+un+proyecto+a+realizar"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="text-base mb-24 block hover:underline"
-                        >
+                        <p className="font-overpass-light">
                             <Icon name="whatsapp" className="inline mr-2" />
-                            +51 956 941 872
-                        </a>
+                            Escríbenos
+                            <a
+                                href="https://api.whatsapp.com/send?phone=51956941872&text=Hola+Bitzone+deseo+informaci%C3%B3n+sobre+un+proyecto+a+realizar"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-base ml-2 underline font-overpass-bold"
+                            >
+                                Aquí
+                            </a>
+                        </p>
                     </div>
                     <div className="w-full xl:w-auto xl:order-1">
                         <div className="flex gap-2 mb-7">
@@ -68,7 +68,9 @@ export default function Footer() {
                                 src="/img/bitzone.svg"
                             />
                         </div>
-                        <p>Empresa consultora de software</p>
+                        <p className="w-48 font-overpass-light">
+                            {t('High-tech development company')}
+                        </p>
                         <div className="flex mt-9 gap-5">
                             <a
                                 href="https://www.linkedin.com/company/bitzone-lat"
@@ -107,7 +109,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="text-center text-base">
+                <div className="text-center font-overpass-light">
                     Copyright &copy;Bitzone 2021
                 </div>
             </div>

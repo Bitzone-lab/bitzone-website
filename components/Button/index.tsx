@@ -1,8 +1,6 @@
-import * as React from 'react'
-
 export interface PropsButton {
     children: any
-    onClick?: () => void
+    onClick?: (ev: React.MouseEvent<HTMLButtonElement>) => void
     className?: string
     type?: 'button' | 'submit' | 'reset'
 }

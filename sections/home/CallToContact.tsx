@@ -7,21 +7,21 @@ export default function CallToContact() {
     const { t } = useTranslation()
 
     return (
-        <section className="p-4 bg-call-to-contact bg-cover">
+        <section className="px-4 py-16 bg-call-to-contact bg-cover">
             <div className="max-w-5xl mx-auto xl:flex xl:justify-center xl:items-center">
                 <div className="xl:mr-40">
-                    <h3 className="text-white font-sofia-bold text-2xl mb-4 mt-4 xl:hidden">
+                    <h3 className="text-white font-sofia-bold text-2xl mb-4 xl:hidden">
                         {t('Do you want to make...')}{' '}
                     </h3>
-                    <h3 className="text-white font-sofia-bold text-2xl mb-4 mt-4 hidden xl:block">
-                        {t('Shall we start...')}{' '}
+                    <h3 className="text-white font-sofia-bold text-3xl mb-4 mt-4 hidden xl:block">
+                        {t('Shall we start to build your future?')}{' '}
                     </h3>
-                    <p className="text-white font-overpass-light text-base mb-16">
+                    <p className="text-white font-overpass-light text-base">
                         {t('Contact us to...')}
                     </p>
                 </div>
                 <Button
-                    className="w-full mb-8 xl:w-auto xl:py-2 xl:px-5"
+                    className="w-full xl:w-auto xl:py-2 xl:px-5"
                     onClick={() => router.push('/contacts')}
                 >
                     {t('Contact us')}

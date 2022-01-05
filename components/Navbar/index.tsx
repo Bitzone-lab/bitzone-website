@@ -4,21 +4,22 @@ import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
 import classnames from 'classnames'
+import Button from '../Button'
 
 export default function Navbar() {
     const [show, setShow] = useState(false)
     const router = useRouter()
     const { t } = useTranslation()
-    const [fullBgNavbar, setFullBgNavbar] = useState(false)
+    const [floatNav, setFlotNav] = useState(false)
 
     const cb = useCallback(() => {
         const value = window.scrollY
         if (value > 100) {
-            setFullBgNavbar(true)
+            setFlotNav(true)
         } else {
-            setFullBgNavbar(false)
+            setFlotNav(false)
         }
-    }, [fullBgNavbar])
+    }, [floatNav])
 
     useEffect(() => {
         window.addEventListener('scroll', cb)
@@ -39,9 +40,8 @@ export default function Navbar() {
                 className={classnames(
                     'h-16 fixed flex top-0 px-4 backdrop-blur-lg backdrop-filter z-30 w-full transition',
                     {
-                        'bg-navbar': !fullBgNavbar,
-                        'bg-navbar-2': fullBgNavbar,
-                        'shadow-md': fullBgNavbar
+                        'bg-navbar': true,
+                        'shadow-md': floatNav
                     }
                 )}
             >
@@ -96,21 +96,19 @@ export default function Navbar() {
                             </a>
                         </Link>
                     </div>
-                    <div className="hidden text-white text-base xl:flex">
+                    <div className="hidden text-white text-base xl:flex items-center">
                         <Link href="/contacts">
-                            <a
-                                className={classnames(
-                                    'font-sofia-bold pr-10',
-                                    active('/contacts')
-                                )}
-                            >
+                            <Button className="btn-sm bg-white hover:bg-white">
                                 {t('Contact')}
-                            </a>
+                            </Button>
                         </Link>
-                        <img
-                            alt="icon accesibility"
-                            src="/img/Accesibility.png"
-                        />
+                        <div className="ml-8 text-xs">
+                            <span className="cursor-pointer">
+                                <b>ESP</b>
+                            </span>
+                            <span className="inline mx-1">|</span>
+                            <span className="cursor-pointer">ENG</span>
+                        </div>
                     </div>
                     <div className="block xl:hidden"></div>
                 </div>

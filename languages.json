@@ -368,8 +368,8 @@
       "en": "Contact us"
     },
     "Contact us to...": {
-      "es": "Contáctanos para ponernos manos a la obra",
-      "en": "Contact us to get to work."
+      "es": "Contáctanos para ponernos ya mismo manos a la obra.",
+      "en": "Contact us to get down to business right away."
     },
     "Shall we start...":{
       "es": "Somos equipo, somos Bitzone",
@@ -378,5 +378,22 @@
     "Do you want to make...?": {
       "es": "¿Quieres hacer tu proyecto realidad?",
       "en": "Do you want to make your project come true?"
+    },
+
+    "Why we?": {
+        "es": "¿Por qué nosotros",
+        "en": "Why we?"
+    },
+    "More about us": {
+        "es": "Más sobre nosotros",
+        "en": "More about us"
+    },
+    "Shall we start to build your future?": {
+        "es": "¿Empezamos a construir tu futuro?",
+        "en": "Shall we start to build your future?"
+    },
+    "High-tech development company": {
+        "es": "Empresa de desarrollo de alta tecnología",
+        "en": "High-tech development company"
     }
 }
