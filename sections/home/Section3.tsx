@@ -1,7 +1,7 @@
 export default function Section3() {
     return (
         <section>
-            <div className="w-full mx-auto pt-16 pb-40 max-w-6xl text-center">
+            <div className="w-full mx-auto pt-16 pb-40 max-w-7xl text-center">
                 <h2 className="text-4xl font-sofia-bold mx-auto max-w-md text-primary">
                     Ellos confían en la{' '}
                     <span className="font-sofia-bold text-accent">calidad</span>{' '}

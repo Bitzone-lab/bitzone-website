@@ -3,7 +3,7 @@ import Button from '../../components/Button'
 export default function Section2() {
     return (
         <section>
-            <div className="w-full mx-auto py-20 max-w-6xl flex items-center">
+            <div className="w-full mx-auto py-20 max-w-7xl flex items-center">
                 <div className="w-1/2 pr-32">
                     <h3 className="text-accent font-sofia uppercase mb-4">
                         ¿qué ofrecemos?

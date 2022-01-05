@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
-import Button from '../../components/Button'
+import Button from '../components/Button'
 
 export default function CallToContact() {
     const router = useRouter()

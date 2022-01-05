@@ -1,6 +1,9 @@
 import CardsValues from './CardsValues'
 import CarouselValues from './CarouselValues'
 
+/**
+ * @deprecated
+ */
 export default function OutValues() {
     return (
         <section>

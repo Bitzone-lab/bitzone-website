@@ -55,6 +55,9 @@ function ContentItem({ index, description, onClick }: PropsContentItem) {
     )
 }
 
+/**
+ * @deprecated
+ */
 export default function HeroM() {
     const { index, setIndex } = useIntervalCarousel(2, 10000)
     const div1Ref = useRef<HTMLDivElement>(null)

@@ -1,3 +1,6 @@
+/**
+ * @deprecated
+ */
 export default function Section4() {
     return (
         <section className="bg-white mt-16 xl:mb-14">

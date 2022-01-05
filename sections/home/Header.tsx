@@ -11,7 +11,7 @@ export default function Header() {
             className="hero bg-header text-white bg-cover"
             style={{ height: '700px' }}
         >
-            <div className="hero-content text-neutral-content xl:h-full xl:max-w-6xl xl:w-full xl:p-0">
+            <div className="hero-content text-neutral-content xl:h-full xl:max-w-7xl xl:w-full xl:p-0">
                 <div className="max-w-md xl:max-w-full flex items-center xl:w-full xl:flex xl:justify-between xl:h-full">
                     <div className="pb-24 xl:pb-0">
                         <h1 className="text-6xl font-sofia-semibold leading-tight">

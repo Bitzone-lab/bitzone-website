@@ -74,6 +74,9 @@ function CarouselItem({ image, title, textAccent }: PropsCarouselItem) {
     )
 }
 
+/**
+ * @deprecated
+ */
 export default function HeroD() {
     const { index, setIndex } = useIntervalCarousel(2, 10000)
     const div = useRef<HTMLDivElement>(null)

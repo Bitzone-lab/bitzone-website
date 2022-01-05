@@ -8,7 +8,7 @@ export default function WeAre() {
 
     return (
         <section className="bg-black text-white py-20">
-            <div className="max-w-6xl w-full mx-auto text-center">
+            <div className="max-w-7xl w-full mx-auto text-center">
                 <h4 className="text-accent font-overpass uppercase text-lg">
                     {t('Why we?')}
                 </h4>

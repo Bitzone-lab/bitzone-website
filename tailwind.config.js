@@ -42,6 +42,7 @@ module.exports = {
                 'bits-img': 'url("/img/bits.png")',
                 'services-dev': 'url("/img/dev_bg.png")',
                 header: 'url("/images/home_header.jpg")',
+                'about-header': 'url("/images/about-header.jpg")',
                 ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
                 cloud: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/cloud_bg.jpeg)',
                 dev: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/dev_bg.png)',
