@@ -1,0 +1,7 @@
+.service-section1 .shape {
+    opacity: .7;
+}
+
+.service-section1:hover .shape{
+    opacity: 0;
+}
