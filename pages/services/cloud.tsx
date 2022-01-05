@@ -1,7 +1,7 @@
 import Navbar from '../../components/Navbar'
 import Drawer from '../../components/Drawer'
 import Footer from '../../components/Footer'
-import Header from '../../sections/services/cloud/Header'
+import HeaderService from '../../sections/services/HeaderService'
 import PageHead from '../../components/PageHead'
 import CallToContact from '../../sections/CallToContact'
 import Section1 from '../../sections/services/cloud/Section1'
@@ -18,7 +18,15 @@ export default function Cloud() {
             />
             <Navbar />
             <Drawer />
-            <Header />
+            <HeaderService
+                bg="cloud"
+                title="CLOUD"
+                subtitle="Cloud computing"
+                description="A través de nuestra infraestructura Cloud, resolvemos los
+                    problemas de nuestros clientes proponiendo y diseñando una
+                    infraestructura moderna para el almacenamiento,
+                    mantenimiento y acceso de sus datos."
+            />
             <Section1 />
             <Section2 />
             <Section3 />

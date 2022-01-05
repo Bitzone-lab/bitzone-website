@@ -1,16 +1,15 @@
 import Navbar from '../../components/Navbar'
 import Drawer from '../../components/Drawer'
-import Header from '../../sections/services/dev/Header'
-import Section2 from '../../sections/services/dev/Section2'
-import Section3 from '../../sections/services/dev/Section3'
-import Section4 from '../../sections/services/dev/Section4'
-import Projects from '../../sections/services/Projects'
-import CallToContact from '../../sections/services/CallToContact'
+import Section2 from '../../sections/services/ia/Section2'
+import Section3 from '../../sections/services/ia/Section3'
+import Section4 from '../../sections/services/ia/Section4'
 import Footer from '../../components/Footer'
 import PageHead from '../../components/PageHead'
-import content from '../../todo/carousel_project_dev_content.json'
+import CallToContact from '../../sections/CallToContact'
+import HeaderService from '../../sections/services/HeaderService'
+import Section1 from '../../sections/services/ia/Section1'
 
-export default function Dev() {
+export default function IA() {
     return (
         <>
             <PageHead
@@ -19,14 +18,16 @@ export default function Dev() {
             />
             <Navbar />
             <Drawer />
-            <Header />
+            <HeaderService
+                bg="ia"
+                title="IA"
+                subtitle="Inteligencia Artificial"
+                description="Nuestros algoritmos de IA permiten la efectiva construcción, categorización y reconocimiento de datos, agilizando y automatizando procesos."
+            />
+            <Section1 />
             <Section2 />
             <Section3 />
             <Section4 />
-            <Projects
-                titleSection={'Our projects ... development'}
-                content={content}
-            />
             <CallToContact />
             <Footer />
         </>
