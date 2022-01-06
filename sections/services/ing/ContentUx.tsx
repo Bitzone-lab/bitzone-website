@@ -1,5 +1,8 @@
 import { useTranslation } from 'react-i18next'
 
+/**
+ * @deprecated
+ */
 export default function ContentUx() {
     const { t } = useTranslation()
     return (

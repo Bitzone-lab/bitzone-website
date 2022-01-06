@@ -16,7 +16,7 @@ export default function HeaderService({
                 <p className="font-light font-sofia text-base mb-10 xl:font-normal xl:text-2xl">
                     {subtitle}
                 </p>
-                <p className="font-normal text-xl xl:max-w-3xl">
+                <p className="font-normal text-xl xl:max-w-2xl">
                     {description}
                 </p>
             </div>

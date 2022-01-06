@@ -1,14 +1,13 @@
 import Navbar from '../../components/Navbar'
 import Drawer from '../../components/Drawer'
 import Footer from '../../components/Footer'
-import HeaderUx from '../../sections/services/ux/HeaderUx'
-import ContentUx from '../../sections/services/ux/ContentUx'
-import Projects from '../../sections/services/Projects'
-import CallToContact from '../../sections/services/CallToContact'
 import PageHead from '../../components/PageHead'
-import content from '../../todo/carousel_project_ux_content.json'
+import CallToContact from '../../sections/CallToContact'
+import HeaderService from '../../sections/services/HeaderService'
+import Section2 from '../../sections/services/ing/Section2'
+import Section1 from '../../sections/services/ing/Section1'
 
-export default function UX() {
+export default function Ing() {
     return (
         <>
             <PageHead
@@ -17,12 +16,14 @@ export default function UX() {
             />
             <Navbar />
             <Drawer />
-            <HeaderUx />
-            <ContentUx />
-            <Projects
-                titleSection={'Our projects ... UX / UI'}
-                content={content}
+            <HeaderService
+                title="ING"
+                subtitle="Ingeniería de Software"
+                description="Creamos productos digitales para desktop o móvil a tu medida, según lo que requieras."
+                bg="ing"
             />
+            <Section1 />
+            <Section2 />
             <CallToContact />
             <Footer />
         </>

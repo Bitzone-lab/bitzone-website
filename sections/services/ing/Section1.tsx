@@ -1,44 +1,53 @@
-import Col from '../../../components/Col'
-
 export default function Section1() {
     return (
         <section>
-            <div className="max-w-7xl w-full mx-auto py-24">
+            <div className="max-w-7xl w-full mx-auto py-32">
                 <h2 className="text-3xl font-sofia-semibold text-secondary mb-16">
                     Fases de desarrollo
                 </h2>
-                <Col cols="6">
+                <div className="flex justify-between">
                     <Fases
                         count={1}
                         src="/images/services/3ds.png"
                         description="Diagnóstico inicial"
+                    />
+                    <img
+                        src="/images/services/arrow_downward.svg"
+                        alt="arrow_downward"
                     />
                     <Fases
                         count={2}
                         src="/images/services/blueprint.png"
                         description="Diseño de la solución"
                     />
+                    <img
+                        src="/images/services/arrow_downward.svg"
+                        alt="arrow_downward"
+                    />
                     <Fases
                         count={3}
                         src="/images/services/3d-display.png"
                         description="Desarrollo del software"
                     />
-                    <Fases
-                        count={4}
-                        src="/images/services/cloud.png"
-                        description="Desarrollo de la infraestructura"
+                    <img
+                        src="/images/services/arrow_downward.svg"
+                        alt="arrow_downward"
                     />
                     <Fases
                         count={5}
                         src="/images/services/3d-design.png"
                         description="Integración de la solución"
                     />
+                    <img
+                        src="/images/services/arrow_downward.svg"
+                        alt="arrow_downward"
+                    />
                     <Fases
-                        count={6}
+                        count={5}
                         src="/images/services/rotation.png"
                         description="Mantenimiento continuo"
                     />
-                </Col>
+                </div>
             </div>
         </section>
     )
