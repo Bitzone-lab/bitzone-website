@@ -44,6 +44,7 @@ module.exports = {
                 header: 'url("/images/home_header.jpg")',
                 'about-header': 'url("/images/about-header.jpg")',
                 'service-header': 'url("/images/services/header.jpg")',
+                'contact-header': 'url("/images/contact-header.jpg")',
                 'service-ing': 'url("/images/services/ing.jpg")',
                 'service-ia': 'url("/images/services/ia.jpg")',
                 'service-cloud': 'url("/images/services/cloud.jpg")',

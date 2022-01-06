@@ -5,35 +5,37 @@ import Input from '../../components/Input'
 import TextArea from '../../components/TextArea'
 import useForm from '../../hooks/useForm'
 import classnames from 'classnames'
+import Col from '../../components/Col'
 
 export default function FormContact() {
     const { success, sendForm, helpers, clearField, loading } = useForm()
     const { t } = useTranslation()
     return (
-        <section className="bg-white relative min-h-screen flex justify-center items-center">
-            <div className="h-2/4 bg-contact-form bg-center absolute top-0 w-full" />
-            <div className="bg-transparent h-full relative z-2 max-w-3xl lg:w-4/5 shadow-md mx-4 mt-20 mb-4 lg:mx-0">
+        <section className="bg-white relative flex justify-center">
+            <div
+                className="bg-contact-header absolute top-0 w-full bg-cover"
+                style={{ height: '535px' }}
+            />
+            <div className="bg-transparent h-full relative z-2 max-w-4xl lg:w-4/5 border-2 mt-64 mb-16 lg:mx-0">
                 {!success && (
                     <form
                         name="contact"
                         method="post"
                         data-netlify="true"
                         onSubmit={sendForm}
-                        className="bg-white px-4 pb-10 pt-14"
+                        className="bg-white px-4 pb-12 pt-14"
                     >
                         <div className="flex justify-center flex-col mx-auto sm:max-w-xl">
                             <h3 className="text-subtle text-3xl font-sofia-bold text-center mb-4">
-                                {t('Get in contact with us')}
+                                Hablemos
                             </h3>
-                            <p className="font-light text-subtle font-sans text-base mb-7 text-center">
-                                {t(
-                                    'We will respond to you in a maximum of 2 business days'
-                                )}
+                            <p className="font-light text-subtle font-sans text-base mb-12 text-center">
+                                Permítenos conocerte y saber que andas haciendo
                             </p>
-                            <div className="sm:flex sm:gap-7">
-                                <div className="sm:w-1/2">
+                            <Col cols="2" gap={12}>
+                                <div className="w-full">
                                     <label className="label-form">
-                                        {t('Name')}
+                                        Mi nombre es
                                     </label>
                                     <Input
                                         placeholder={t('Name')}
@@ -42,9 +44,9 @@ export default function FormContact() {
                                         onFocus={() => clearField('name')}
                                     />
                                 </div>
-                                <div className="sm:w-1/2">
+                                <div className="w-full">
                                     <label className="label-form">
-                                        Correo Electrónico
+                                        Mi correo electrónico es
                                     </label>
                                     <Input
                                         placeholder="ejemplo@mail.com"
@@ -53,13 +55,34 @@ export default function FormContact() {
                                         onFocus={() => clearField('email')}
                                     />
                                 </div>
-                            </div>
-                            <label className="label-form">{t('Reason')}</label>
+                                <div className="w-full">
+                                    <label className="label-form">
+                                        Estoy trabajando en
+                                    </label>
+                                    <Input
+                                        placeholder="Empresa, Institucion o Startup"
+                                        name="work"
+                                        helper={helpers.name}
+                                    />
+                                </div>
+                                <div className="w-full">
+                                    <label className="label-form">
+                                        Mi cargo es
+                                    </label>
+                                    <Input
+                                        placeholder="Jefe de Ventas, RRHH, etc"
+                                        name="email"
+                                        helper=""
+                                        onFocus={() => clearField('email')}
+                                    />
+                                </div>
+                            </Col>
+                            <label className="label-form mt-2">
+                                Cuéntanos que tienes en mente
+                            </label>
                             <TextArea
                                 name="motivo"
-                                placeholder={t(
-                                    'Tell us your reasons, questions...'
-                                )}
+                                placeholder="Cuéntanos tus motivos, consultas, idea de proyecto ... ¡Queremos ayudarte!"
                                 helper={helpers.motivo}
                                 onFocus={() => clearField('motivo')}
                             />
@@ -69,7 +92,7 @@ export default function FormContact() {
                                     type="submit"
                                     className={classnames(
                                         { loading, disabled: loading },
-                                        'px-8 mt-8 sm:w-auto'
+                                        'px-8 mt-10 sm:w-auto'
                                     )}
                                 >
                                     Enviar
