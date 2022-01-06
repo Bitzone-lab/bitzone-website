@@ -1,7 +1,7 @@
-export function ContentHalfItem({ image, title, subtitle, back, textColor }) {
+export function ContentHalfItem({ image, title, subtitle }) {
     return (
         <div
-            className={`w-full pt-28 pb-28 carousel-item h-auto relative items-center bg-${back} text-${textColor}`}
+            className={`w-full pt-28 pb-28 carousel-item h-auto relative items-center bg-white bg-opacity-10 text-white`}
         >
             <div className="max-w-lg">
                 <img className="bg-cover xl:w-full" src={image}></img>

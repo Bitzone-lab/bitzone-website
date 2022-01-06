@@ -9,7 +9,7 @@ interface ContentProject {
 const dataProjects: ContentProject[] = [
     {
         name: 'Inokuos',
-        image: 'img/inokuos.png',
+        image: '/images/project/inokuos.jpg',
         type: 'Proyecto Móvil',
         description:
             'Plataforma tecnológica real-time que gestiona rutinas de limpieza de principio a fin, manteniendo una comunicación activa e inmediata entre todos los actores involucrados en el proceso de limpieza',
@@ -22,7 +22,7 @@ const dataProjects: ContentProject[] = [
     },
     {
         name: 'Advance MTR',
-        image: 'img/mtr.png',
+        image: '/images/project/mtr.jpg',
         type: 'Proyecto Web',
         description:
             'Plataforma web real-time que monitorea en dashboards gráficos datos masivos enviados por sensores IoT. Los datos se procesan y almacenan en una base de datos de series de tiempo para agilizar la ingestión y su procesamiento',
@@ -37,7 +37,7 @@ const dataProjects: ContentProject[] = [
     },
     {
         name: 'Aliados',
-        image: 'img/aliados.png',
+        image: '/images/project/aliados.jpg',
         type: 'Proyecto Web',
         description:
             'Web app que recluta a Aliados para incrementar las ventas a través de referidos. Permite el registro y gestión de aliados, referidos  de pagos.',
@@ -49,11 +49,23 @@ const dataProjects: ContentProject[] = [
     },
     {
         name: 'Procustodia',
-        image: 'img/procustodia.jpg',
+        image: '/images/project/procustodia.jpg',
         type: 'Proyecto Web',
         description:
             'Diseño y desarrollo del Website corporativo de Procustodia asociado a un Headless CMS que gestiona el contenido informativo, de oficinas y documentación e información legal',
         icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
+    },
+    {
+        name: 'MinkAI',
+        image: '/images/project/minkai.jpg',
+        type: 'Proyecto web',
+        description:
+            'Diseño y construcción del Website corporativo de Procustodia asociado a un Headless CMS que gestiona el contenido informativo, de oficinas y documentación e información legal.',
+        icons: [
+            'img/react-logo.svg',
+            'img/csharp-logo.svg',
+            'img/sqlServer-logo.svg'
+        ]
     }
 ]
 
@@ -72,7 +84,7 @@ export default function ListProjects() {
                             }`}
                         >
                             <img
-                                className="bg-cover w-full"
+                                className="bg-cover bg-black w-full"
                                 src={dataProject.image}
                             ></img>
                         </div>

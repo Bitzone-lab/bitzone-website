@@ -2,6 +2,9 @@ import Button from '../../components/Button'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
 
+/**
+ * @deprecated
+ */
 export default function CallToContact() {
     const { t } = useTranslation()
     const router = useRouter()

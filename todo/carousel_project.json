@@ -1,23 +1,17 @@
 [
     {
         "title": "Advance ERP",
-        "subtitle": "Sistema logistico desarrollado para generar compras eficacez y correcto control de movimientos de inventario en el manejo de productos y/o equipos de tratamientos de agua",
-        "image": "/img/erp.png",
-        "back": "erp-background",
-        "textColor": "white"
+        "subtitle": "ERP diseñado y construido a medida para soportar y escalar las operaciones de Inventario y Compras, e integrarse y compartir información con el CRM y demás aplicaciones CORE.",
+        "image": "/img/erp.png"
     },
     {
-        "title": "Callejeros",
-        "subtitle": "Es un API REST serverless el cual ofrece una conjunto de 13 microservicios de información geográfica de direcciones, calles, distritos entre otros elementos geográficos útiles en caso se desee implementar módulos de geolocalización en distintas plataformas comerciales",
-        "image": "/img/callejeros.png",
-        "back": "callejeros-background",
-        "textColor": "black"
+        "title": "Street map",
+        "subtitle": "API REST serverless diseñado y construido para ser el único proveedor de calles y direcciones de todas las aplicaciones CORE de una empresa utilities.",
+        "image": "/images/project/dell_xps.png"
     },
     {
-        "title": "Visor",
-        "subtitle": "Es un sistema web responsive altamente amigable con el usuario, nativo en Cloud y escalable que permite visualizar las redes eléctricas de Enel Perú en forma de capas de información sobre mapas geográficos",
-        "image": "/img/visor.png",
-        "back": "visor-background",
-        "textColor": "white"
+        "title": "Electrical network viewer",
+        "subtitle": "Aplicación web responsive nativa en Cloud y escalable que permite visualizar las redes electricas de la compañia en forma de capas de información sobre mapas geográficos.",
+        "image": "/img/visor.png"
     }
 ]
