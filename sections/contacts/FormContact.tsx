@@ -16,14 +16,14 @@ export default function FormContact() {
                 className="bg-contact-header absolute top-0 w-full bg-cover"
                 style={{ height: '535px' }}
             />
-            <div className="bg-transparent h-full relative z-2 max-w-4xl lg:w-4/5 border-2 mt-64 mb-16 lg:mx-0">
+            <div className="bg-transparent relative z-2 w-full lg:w-4/5 mt-64 mb-16 px-8 lg:px-0">
                 {!success && (
                     <form
                         name="contact"
                         method="post"
                         data-netlify="true"
                         onSubmit={sendForm}
-                        className="bg-white px-4 pb-12 pt-14"
+                        className="bg-white px-8 lg:px-4 pb-12 pt-14 border-2"
                     >
                         <div className="flex justify-center flex-col mx-auto sm:max-w-xl">
                             <h3 className="text-subtle text-3xl font-sofia-bold text-center mb-4">
@@ -32,7 +32,7 @@ export default function FormContact() {
                             <p className="font-light text-subtle font-sans text-base mb-12 text-center">
                                 Permítenos conocerte y saber que andas haciendo
                             </p>
-                            <Col cols="2" gap={12}>
+                            <Col cols="1" gap={12} className="sm:grid-cols-2">
                                 <div className="w-full">
                                     <label className="label-form">
                                         Mi nombre es
