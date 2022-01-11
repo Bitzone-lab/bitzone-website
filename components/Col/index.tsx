@@ -4,7 +4,7 @@ import { PropsCol } from './types'
 export default function Col({
     children,
     className = '',
-    cols = '2',
+    cols = '1',
     gap = 4,
     gapY = 2
 }: PropsCol) {

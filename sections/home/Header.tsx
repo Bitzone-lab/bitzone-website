@@ -14,7 +14,7 @@ export default function Header() {
             <div className="hero-content text-neutral-content xl:h-full xl:max-w-7xl xl:w-full xl:p-0">
                 <div className="max-w-md xl:max-w-full flex items-center xl:w-full xl:flex xl:justify-between xl:h-full">
                     <div className="pb-24 xl:pb-0">
-                        <h1 className="text-6xl font-sofia-semibold leading-tight">
+                        <h1 className="text-4xl md:text-6xl font-sofia-semibold leading-tight">
                             {t('Build your future with Bitzone')}
                         </h1>
                         <p className="text-2xl font-sofia-light hidden xl:block xl:max-w-lg xl:mt-7">

@@ -3,8 +3,8 @@ import Button from '../../components/Button'
 export default function Section2() {
     return (
         <section>
-            <div className="w-full mx-auto py-20 max-w-7xl flex items-center">
-                <div className="w-1/2 pr-32">
+            <div className="w-full mx-auto py-20 max-w-7xl flex items-center flex-wrap lg:flex-nowrap">
+                <div className="w-full px-10 lg:w-1/2 xl:pl-0 lg:pr-32">
                     <h3 className="text-accent font-sofia uppercase mb-4">
                         ¿qué ofrecemos?
                     </h3>
@@ -15,7 +15,7 @@ export default function Section2() {
                         </span>{' '}
                         para el Perú y del mundo
                     </h2>
-                    <p className="mt-12 mb-16 pr-20">
+                    <p className="mt-12 mb-16 pr-0 lg:pr-4 xl:pr-20">
                         Contamos con experiencia en realizar proyectos de
                         tecnologías innovadoras que están automatizando las
                         cosas de forma inteligente para clientes peruanos y
@@ -24,11 +24,13 @@ export default function Section2() {
                         tecnología de calidad.
                     </p>
                     <div className="text-center">
-                        <Button>Descubre nuestros proyectos</Button>
+                        <Button className="mb-6">
+                            Descubre nuestros proyectos
+                        </Button>
                     </div>
                 </div>
-                <div className="w-1/2">
-                    <img src="/images/vsc.jpg" alt="vsc" />
+                <div className="w-full lg:w-1/2">
+                    <img src="/images/vsc.jpg" alt="vsc" className="mx-auto" />
                 </div>
             </div>
         </section>

@@ -3,7 +3,9 @@ import { ReactNode } from 'react'
 export interface PropsCol {
     className?: string
     children: ReactNode
-    cols?: '2' | '3' | '4' | '5' | '6'
+    cols?: SizeCol
     gap?: number
     gapY?: number
 }
+
+type SizeCol = '1' | '2' | '3' | '4' | '5' | '6'
