@@ -5,7 +5,7 @@ import Icon from '../Icon'
 export default function Footer() {
     const { t } = useTranslation()
     return (
-        <footer className="bg-footer text-white px-4 pb-5 w-full">
+        <footer className="bg-footer text-white px-8 xl:px-0 pb-5 w-full">
             <div className="xl:max-w-6xl xl:w-full xl:mx-auto">
                 <div className="flex-wrap flex py-16 xl:justify-between">
                     <div className="w-1/2 xl:w-auto xl:order-2">

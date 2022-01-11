@@ -3,11 +3,15 @@ import Col from '../../../components/Col'
 export default function Section1() {
     return (
         <section>
-            <div className="max-w-7xl w-full mx-auto py-24">
-                <h2 className="text-3xl font-sofia-semibold text-secondary mb-16">
+            <div className="max-w-7xl w-full mx-auto py-24 px-8 xl:px-0">
+                <h2 className="text-3xl font-sofia-semibold text-secondary mb-16 text-center sm:text-left">
                     Fases de desarrollo
                 </h2>
-                <Col cols="6">
+                <Col
+                    cols="1"
+                    className="xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-6"
+                    gapY={8}
+                >
                     <Fases
                         count={1}
                         src="/images/services/3ds.png"

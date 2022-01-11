@@ -3,13 +3,13 @@ import Col from '../../../components/Col'
 export default function Section4() {
     return (
         <section className="bg-service-cloud-benefits bg-cover">
-            <div className="max-w-7xl w-full mx-auto py-32 flex">
-                <div className="w-1/2 text-white">
+            <div className="max-w-7xl w-full mx-auto py-32 flex px-8">
+                <div className="w-full lg:w-1/2 text-white px-8 lg:px-0">
                     <h2 className="text-3xl font-sofia-semibold text-secondary mb-16">
                         ¿De qué manera los servicios de la nube pueden
                         beneficiar a un proyecto?
                     </h2>
-                    <Col cols="2" gap={12}>
+                    <Col cols="1" className="sm:grid-cols-2" gap={12} gapY={6}>
                         <div>
                             <h4 className="font-sofia-bold">Ahorra costos</h4>
                             <p className="font-overpass-light">
@@ -48,7 +48,7 @@ export default function Section4() {
                         </div>
                     </Col>
                 </div>
-                <div className="w-1/2"></div>
+                <div className="w-1/2 hidden lg:block"></div>
             </div>
         </section>
     )

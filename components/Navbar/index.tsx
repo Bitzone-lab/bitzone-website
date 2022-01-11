@@ -153,10 +153,6 @@ export default function Navbar() {
                             {t('Contact')}
                         </a>
                     </Link>
-                    <hr className="w-full border-2 border-white opacity-60 my-8" />
-                    <a className="font-sofia py-4 text-3xl">
-                        {t('Accessibility')}
-                    </a>
                 </div>
             </div>
         </nav>

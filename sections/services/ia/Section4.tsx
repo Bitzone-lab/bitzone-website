@@ -1,8 +1,8 @@
 export default function Section4() {
     return (
-        <section className="bg-service-ia-project bg-cover">
+        <section className="bg-service-ia-project bg-cover px-8 xl:px-0">
             <div className="max-w-7xl w-full mx-auto py-32 flex">
-                <div className="w-1/2 text-white">
+                <div className="w-full sm:w-1/2 text-white">
                     <h2 className="text-3xl font-sofia-semibold text-secondary mb-12">
                         ¿De qué manera la IA pueden beneficiar a un proyecto?
                     </h2>
@@ -27,7 +27,7 @@ export default function Section4() {
                         </p>
                     </div>
                 </div>
-                <div className="w-1/2"></div>
+                <div className="w-1/2 hidden sm:block"></div>
             </div>
         </section>
     )

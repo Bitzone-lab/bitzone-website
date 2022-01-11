@@ -50,16 +50,16 @@ export default function Drawer() {
                 </div>
                 <div>
                     <div
-                        className="bg-ux service-bg-drawer h-bg-drawer"
-                        onClick={() => router.push('/services/ux')}
+                        className="bg-ing service-bg-drawer h-bg-drawer"
+                        onClick={() => router.push('/services/ing')}
                     >
-                        UX
+                        ING
                     </div>
                     <div
-                        className="bg-dev service-bg-drawer h-bg-drawer"
-                        onClick={() => router.push('/services/dev')}
+                        className="bg-ia service-bg-drawer h-bg-drawer"
+                        onClick={() => router.push('/services/ia')}
                     >
-                        DEV
+                        IA
                     </div>
                     <div
                         className="bg-cloud service-bg-drawer h-bg-drawer"

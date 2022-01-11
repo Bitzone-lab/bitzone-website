@@ -4,7 +4,7 @@ import styles from './css/section1.module.css'
 
 export default function Section1() {
     return (
-        <section className="flex">
+        <section className="flex flex-wrap md:flex-nowrap">
             <Item
                 title="ING"
                 description="Ingeniería de Software"
@@ -33,7 +33,7 @@ function Item({ title, description, to, imgName }: ItemProps) {
     return (
         <div
             className={classNames(
-                `service-bg xl:w-1/3 bg-service-${imgName} relative`,
+                `service-bg w-full md:w-1/3 bg-service-${imgName} relative`,
                 {
                     [styles['service-section1']]: true
                 }
