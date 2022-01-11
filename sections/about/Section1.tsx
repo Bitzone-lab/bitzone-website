@@ -12,7 +12,12 @@ export default function Section1() {
                     Es parte de nuestra visión fomentar estos valores en la
                     comunidad Bitzone.
                 </p>
-                <Col cols="4" className="mt-16" gap={12}>
+                <Col
+                    cols="1"
+                    className="mt-16 sm:grid-cols-2 lg:grid-cols-4 px-10 xl:px-0"
+                    gap={12}
+                    gapY={12}
+                >
                     <Security
                         src="/images/about/leadership.png"
                         title="Excelencia"
@@ -48,7 +53,12 @@ function Security({ src, title, description }: SecurityProps) {
             <h3 className="font-sofia-semibold text-secondary text-lg mb-5">
                 {title}
             </h3>
-            <p className="text-left font-sofia-light text-subtle">
+            <p
+                className="text-center sm:text-left font-sofia-light text-subtle mx-auto"
+                style={{
+                    maxWidth: '250px'
+                }}
+            >
                 {description}
             </p>
         </div>

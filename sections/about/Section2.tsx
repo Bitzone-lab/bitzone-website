@@ -5,21 +5,26 @@ export default function Section2() {
         <section className="pt-24 pb-40">
             <div className="xl:max-w-7xl xl:w-full xl:mx-auto">
                 <h4 className="text-center text-accent uppercase font-sofia-semibold mb-4">
-                    nuestro EQUIPO
+                    NUESTRO EQUIPO
                 </h4>
-                <h2 className="font-sofia-bold text-subtle text-center xl:text-4xl max-w-lg mx-auto">
+                <h2 className="font-sofia-bold text-subtle text-3xl text-center xl:text-4xl max-w-lg mx-auto">
                     Siempre embarcándonos a{' '}
                     <span className="text-accent font-sofia-bold">
                         nuevas aventuras
                     </span>
                 </h2>
-                <p className="text-subtle mt-12 font-overpass-light">
+                <p className="text-subtle mt-12 font-overpass-light px-10 xl:px-0">
                     Bitzone es una empresa en alta tecnología fundada en mayo
                     del 2018 en Ica, Perú por Luigui Astohuamán y tiene más de
                     15 colaboradores trabajando remotamente tanto en Perú como
                     en Europa.
                 </p>
-                <Col cols="4" className="mt-20" gap={12}>
+                <Col
+                    cols="1"
+                    className="mt-20 sm:grid-cols-2 lg:grid-cols-4"
+                    gap={12}
+                    gapY={12}
+                >
                     <Profile
                         src="/images/about/luigui.png"
                         title="Luigui Astohuamán"

@@ -5,7 +5,7 @@ export default function Header() {
             style={{ height: '700px' }}
         >
             <div className="hero-content justify-start max-w-7xl w-full">
-                <div className="">
+                <div className="px-2 sm:px-8 xl:px-0">
                     <h1 className="mb-8 text-5xl font-bold font-sofia-semibold text-white">
                         Somos una{' '}
                         <span className="font-sofia-semibold text-accent">

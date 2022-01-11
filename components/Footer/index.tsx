@@ -42,7 +42,7 @@ export default function Footer() {
                                 hello@bitzone.lat
                             </a>
                         </Link>
-                        <p className="font-overpass-light">
+                        <p className="font-overpass-light mb-6">
                             <Icon name="whatsapp" className="inline mr-2" />
                             Escríbenos
                             <a
