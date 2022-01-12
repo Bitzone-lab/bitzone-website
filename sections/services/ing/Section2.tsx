@@ -5,7 +5,7 @@ export default function Section2() {
 
     return (
         <section className="bg-base-100">
-            <div className="max-w-7xl w-full mx-auto py-40 flex items-center flex-wrap md:flex-nowrap px-8 md:px-0">
+            <div className="max-w-7xl w-full mx-auto py-40 flex items-center flex-wrap md:flex-nowrap px-8">
                 <div className="w-full md:w-1/2 flex justify-center md:justify-around md:pr-16 mb-10">
                     <img
                         className="hidden md:block"

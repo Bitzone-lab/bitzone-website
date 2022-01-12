@@ -8,7 +8,7 @@ export default function Section2() {
     return (
         <section>
             <div className="w-full mx-auto py-20 max-w-7xl flex items-center flex-wrap lg:flex-nowrap">
-                <div className="w-full px-10 lg:w-1/2 xl:pl-0 lg:pr-32">
+                <div className="w-full px-10 lg:w-1/2 lg:pr-32">
                     <h3 className="text-accent font-sofia uppercase mb-4">
                         {t('Why Us?')}
                     </h3>

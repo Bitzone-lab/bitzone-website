@@ -5,7 +5,7 @@ export default function Section1() {
 
     return (
         <section>
-            <div className="max-w-7xl w-full mx-auto py-24 flex items-center px-8 xl:px-0 flex-wrap sm:flex-nowrap text-center sm:text-left">
+            <div className="max-w-7xl w-full mx-auto py-24 flex items-center px-8 flex-wrap sm:flex-nowrap text-center sm:text-left">
                 <div className="w-full sm:w-1/2">
                     <img
                         src="/images/services/eye.png"

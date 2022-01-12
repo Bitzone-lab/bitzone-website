@@ -11,16 +11,16 @@ export default function Header() {
             className="hero bg-header text-white bg-cover"
             style={{ height: '700px' }}
         >
-            <div className="hero-content text-neutral-content xl:h-full xl:max-w-7xl xl:w-full xl:p-0">
-                <div className="max-w-md xl:max-w-full flex items-center xl:w-full xl:flex xl:justify-between xl:h-full">
-                    <div className="pb-24 xl:pb-0">
+            <div className="hero-content text-neutral-content lg:h-full lg:max-w-7xl lg:w-full px-8">
+                <div className="max-w-md lg:max-w-full flex items-center lg:w-full lg:flex lg:justify-between lg:h-full">
+                    <div className="pb-24 lg:pb-0">
                         <h1 className="text-4xl md:text-6xl font-sofia-semibold leading-tight">
                             {t('Build your future with Bitzone')}
                         </h1>
-                        <p className="text-2xl font-sofia-light hidden xl:block xl:max-w-lg xl:mt-7">
+                        <p className="text-2xl font-sofia-light hidden lg:block lg:max-w-lg lg:mt-7">
                             {t('Take your business to the next level with...')}
                         </p>
-                        <p className="text-2xl xl:hidden mt-6 font-sofia-light">
+                        <p className="text-2xl lg:hidden mt-6 font-sofia-light">
                             {t(
                                 'At Bitzone we have the professionals to build your future'
                             )}

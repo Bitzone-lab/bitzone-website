@@ -9,7 +9,7 @@ export default function HeaderService({
             className={`bg-${bg} bg-cover flex items-center`}
             style={{ height: '575px' }}
         >
-            <div className="p-10 text-white xl:max-w-7xl xl:w-full xl:mx-auto text-left xl:pl-0">
+            <div className="p-10 text-white xl:max-w-7xl xl:w-full xl:mx-auto text-left">
                 <h1 className="font-sofia-bold text-6xl md:text-8xl mb-8">
                     {title}
                 </h1>

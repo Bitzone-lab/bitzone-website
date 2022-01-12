@@ -4,7 +4,7 @@ export default function Section4() {
     const { t } = useTranslation()
 
     return (
-        <section className="bg-service-ia-project bg-cover px-8 xl:px-0">
+        <section className="bg-service-ia-project bg-cover px-8">
             <div className="max-w-7xl w-full mx-auto py-32 flex">
                 <div className="w-full sm:w-1/2 text-white">
                     <h2 className="text-3xl font-sofia-semibold text-secondary mb-12">

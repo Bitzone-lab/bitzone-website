@@ -8,11 +8,11 @@ export default function Section1() {
 
     return (
         <section className="bg-black text-white py-20">
-            <div className="max-w-7xl w-full mx-auto text-center">
+            <div className="max-w-7xl w-full mx-auto text-center px-8">
                 <h4 className="text-accent font-overpass uppercase text-lg">
                     {t('Why we?')}
                 </h4>
-                <h2 className="text-4xl md:text-5xl font-sofia-semibold max-w-2xl mx-auto mt-2 px-10 md:px-0">
+                <h2 className="text-4xl md:text-5xl font-sofia-semibold max-w-2xl mx-auto mt-2">
                     {t('We are a team passionate about-')}{' '}
                     <span className="text-accent font-sofia-semibold">
                         {t('-high technology')}

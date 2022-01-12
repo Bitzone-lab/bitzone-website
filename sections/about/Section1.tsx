@@ -6,7 +6,7 @@ export default function Section1() {
 
     return (
         <section className="py-28">
-            <div className="xl:max-w-7xl xl:w-full xl:mx-auto">
+            <div className="xl:max-w-7xl xl:w-full xl:mx-auto px-8">
                 <h2 className="font-sofia-bold text-3xl text-subtle text-center xl:text-4xl">
                     {t('Our set of-')}{' '}
                     <span className="text-accent font-sofia-bold">
@@ -18,7 +18,7 @@ export default function Section1() {
                 </p>
                 <Col
                     cols="1"
-                    className="mt-16 sm:grid-cols-2 lg:grid-cols-4 px-10 xl:px-0"
+                    className="mt-16 sm:grid-cols-2 lg:grid-cols-4"
                     gap={12}
                     gapY={12}
                 >

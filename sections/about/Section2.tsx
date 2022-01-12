@@ -10,7 +10,7 @@ export default function Section2() {
                 <h4 className="text-center text-accent uppercase font-sofia-semibold mb-4">
                     {t('Our team')}
                 </h4>
-                <h2 className="font-sofia-bold text-subtle text-3xl text-center xl:text-4xl max-w-lg mx-auto">
+                <h2 className="font-sofia-bold text-subtle text-3xl text-center xl:text-4xl max-w-lg mx-auto px-8">
                     {t('Always embarking on-')}{' '}
                     <span className="text-accent font-sofia-bold">
                         {t('-new adventures')}
@@ -21,7 +21,7 @@ export default function Section2() {
                 </p>
                 <Col
                     cols="1"
-                    className="mt-20 sm:grid-cols-2 lg:grid-cols-4"
+                    className="mt-20 sm:grid-cols-2 lg:grid-cols-4 px-8"
                     gap={12}
                     gapY={12}
                 >

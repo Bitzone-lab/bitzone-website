@@ -6,7 +6,7 @@ export default function Section1() {
 
     return (
         <section>
-            <div className="max-w-7xl w-full mx-auto py-24 px-8 xl:px-0">
+            <div className="max-w-7xl w-full mx-auto py-24 px-8">
                 <h2 className="text-3xl font-sofia-semibold text-secondary mb-16 text-center sm:text-left">
                     {t('Development phases')}
                 </h2>
