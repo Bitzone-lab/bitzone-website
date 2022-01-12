@@ -1,16 +1,20 @@
+import { useTranslation } from 'react-i18next'
 import Col from '../../components/Col'
 
 export default function Section1() {
+    const { t } = useTranslation()
+
     return (
         <section className="py-28">
             <div className="xl:max-w-7xl xl:w-full xl:mx-auto">
                 <h2 className="font-sofia-bold text-3xl text-subtle text-center xl:text-4xl">
-                    Nuestro conjunto de{' '}
-                    <span className="text-accent font-sofia-bold">valores</span>
+                    {t('Our set of-')}{' '}
+                    <span className="text-accent font-sofia-bold">
+                        {t('-values')}
+                    </span>
                 </h2>
                 <p className="text-subtle mt-12 text-center">
-                    Es parte de nuestra visión fomentar estos valores en la
-                    comunidad Bitzone.
+                    {t('It is part of our...')}
                 </p>
                 <Col
                     cols="1"
@@ -20,25 +24,23 @@ export default function Section1() {
                 >
                     <Security
                         src="/images/about/leadership.png"
-                        title="Excelencia"
-                        description="Mejoramos constantemente para superar las expectativas"
+                        title={t('Excellence')}
+                        description={t('We constantly improve to...')}
                     />
                     <Security
                         src="/images/about/like.png"
-                        title="Confianza"
-                        description="Con nuestros clientes, la sociedad, nuestro equipo y nuestro entorno.
-
-                        "
+                        title={t('Trust')}
+                        description={t('With our clients, our...')}
                     />
                     <Security
                         src="/images/about/adaptive.png"
-                        title="Compromiso"
-                        description="Esencial para el correcto desarrollo de las actividades que realizamos a diario."
+                        title={t('Commitment')}
+                        description={t('Essential for the...')}
                     />
                     <Security
                         src="/images/about/supporter.png"
-                        title="Respeto"
-                        description="Reconocemos en nuestro equipo a personas plenas y que merecen el reconocimiento de sus acciones en pro de la organización."
+                        title={t('Respect')}
+                        description={t('We recognize in our...')}
                     />
                 </Col>
             </div>

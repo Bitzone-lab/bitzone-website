@@ -1,23 +1,23 @@
+import { useTranslation } from 'react-i18next'
 import Col from '../../components/Col'
 
 export default function Section2() {
+    const { t } = useTranslation()
+
     return (
         <section className="pt-24 pb-40">
             <div className="xl:max-w-7xl xl:w-full xl:mx-auto">
                 <h4 className="text-center text-accent uppercase font-sofia-semibold mb-4">
-                    NUESTRO EQUIPO
+                    {t('Our team')}
                 </h4>
                 <h2 className="font-sofia-bold text-subtle text-3xl text-center xl:text-4xl max-w-lg mx-auto">
-                    Siempre embarcándonos a{' '}
+                    {t('Always embarking on-')}{' '}
                     <span className="text-accent font-sofia-bold">
-                        nuevas aventuras
+                        {t('-new adventures')}
                     </span>
                 </h2>
                 <p className="text-subtle mt-12 font-overpass-light px-10 xl:px-0">
-                    Bitzone es una empresa en alta tecnología fundada en mayo
-                    del 2018 en Ica, Perú por Luigui Astohuamán y tiene más de
-                    15 colaboradores trabajando remotamente tanto en Perú como
-                    en Europa.
+                    {t('Bitzone is a high-tech...')}
                 </p>
                 <Col
                     cols="1"
@@ -33,17 +33,17 @@ export default function Section2() {
                     <Profile
                         src="/images/about/diana.png"
                         title="Diana Barriga"
-                        description="Jefa de Proyectos"
+                        description={t('Project Lead')}
                     />
                     <Profile
                         src="/images/about/rodo.png"
                         title="Rodolfo Zevallos"
-                        description="Investigador en Inteligencia Artificial"
+                        description={t('Artificial Intelligence Researcher')}
                     />
                     <Profile
                         src="/images/about/mj.png"
                         title="María José Campos"
-                        description="Diseñadora Digital Principal"
+                        description={t('Lead Digital Designer')}
                     />
                 </Col>
             </div>

@@ -478,6 +478,90 @@
     },
     "Cloud Computing": {
         "es": "Cloud Computing",
-        "em": "Cloud Computing"
+        "en": "Cloud Computing"
+    },
+    "We are a-": {
+        "es": "Somos una",
+        "en": "We are a"
+    },
+    "-community": {
+        "es": "comunidad",
+        "en": "community"
+    },
+    "Bitzone's culture is...": {
+        "es": "La cultura de Bitzone está enfocada en las personas y su desarrollo. No solo somos compañeros de trabajo, somos amigos y formamos parte de una comunidad. Queremos dar oportunidades a grandes talentos.",
+        "en": "Bitzone's culture is focused on people and their development. We are not just co-workers, we are friends and we are part of a community. We want to give opportunities to great talent."
+    },
+    "Our set of-": {
+        "es": "Nuestro conjunto de",
+        "en": "Our set of"
+    },
+    "-values": {
+        "es": "valores",
+        "en": "values"
+    },
+    "It is part of our...": {
+        "es": "Es parte de nuestra visión fomentar estos valores en la comunidad Bitzone.",
+        "en": "It is part of our vision to promote these values in the Bitzone community."
+    },
+    "Excellence": {
+        "es": "Excelencia",
+        "en": "Excellence"
+    },
+    "We constantly improve to...": {
+        "es": "Mejoramos constantemente para superar las expectativas.",
+        "en": "We constantly improve to exceed expectations."
+    },
+    "Trust": {
+        "es": "Confianza",
+        "en": "Trust"
+    },
+    "With our clients, our...": {
+        "es": "Con nuestros clientes, la sociedad, nuestro equipo y nuestro entorno.",
+        "en": "With our clients, our society, our team and our environment."
+    },
+    "Commitment": {
+        "es": "Compromiso",
+        "en": "Commitment"
+    },
+    "Essential for the...": {
+        "es": "Esencial para el correcto desarrollo de las actividades que realizamos a diario.",
+        "en": "Essential for the correct activity development we carry out on a daily basis."
+    },
+    "Respect": {
+        "es": "Respeto",
+        "en": "Respect"
+    },
+    "We recognize in our...": {
+        "es": "Reconocemos en nuestro equipo a personas plenas y que merecen el reconocimiento de sus acciones en pro de la organización.",
+        "en": "We recognize in our team integral people who deserve recognition for their actions, in favor of the organization."
+    },
+    "Our team": {
+        "es": "Nuestro equipo",
+        "en": "Our team"
+    },
+    "Always embarking on-": {
+        "es": "Siempre embarcándonos a",
+        "en": "Always embarking on"
+    },
+    "-new adventures": {
+        "es": "nuevas aventuras",
+        "en": "new adventures"
+    },
+    "Bitzone is a high-tech...": {
+        "es":  "Bitzone es una empresa en alta tecnología fundada en mayo del 2018 en Ica, Perú por Luigui Astohuamán y tiene más de 15 colaboradores trabajando remotamente tanto en Perú como en Europa.",
+        "en": "Bitzone is a high-tech company founded in May 2018 in Ica, Peru by Luigui Astohuamán and has more than 15 collaborators working remotely both in Peru and in Europe."
+    },
+    "Project Lead": {
+        "es": "Jefa de Proyectos",
+        "en": "Project Lead"
+    },
+    "Artificial Intelligence Researcher": {
+        "es": "Investigador en Inteligencia Artificial",
+        "en": "Artificial Intelligence Researcher"
+    },
+    "Lead Digital Designer": {
+        "es": "Diseñadora Digital Principal",
+        "en": "Lead Digital Designer"
     }
 }
