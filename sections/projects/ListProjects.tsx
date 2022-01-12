@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next'
+
 interface ContentProject {
     name: string
     description: string
@@ -6,58 +8,67 @@ interface ContentProject {
     icons: string[]
 }
 
-const dataProjects: ContentProject[] = [
-    {
-        name: 'Inokuos',
-        image: 'img/inokuos.png',
-        type: 'Proyecto Móvil',
-        description:
-            'Plataforma tecnológica real-time que gestiona rutinas de limpieza de principio a fin, manteniendo una comunicación activa e inmediata entre todos los actores involucrados en el proceso de limpieza',
-        icons: [
-            'img/kotlin-logo.svg',
-            'img/android-logo.svg',
-            'img/firebase-logo.svg',
-            'img/react-logo.svg'
-        ]
-    },
-    {
-        name: 'Advance MTR',
-        image: 'img/mtr.png',
-        type: 'Proyecto Web',
-        description:
-            'Plataforma web real-time que monitorea en dashboards gráficos datos masivos enviados por sensores IoT. Los datos se procesan y almacenan en una base de datos de series de tiempo para agilizar la ingestión y su procesamiento',
-        icons: [
-            'img/react-logo.svg',
-            'img/hasura-logo.svg',
-            'img/graphQL-logo.svg',
-            'img/expressJs-logo.svg',
-            'img/d3Js-logo.svg',
-            'img/postgresql-logo.svg'
-        ]
-    },
-    {
-        name: 'Aliados',
-        image: 'img/aliados.png',
-        type: 'Proyecto Web',
-        description:
-            'Web app que recluta a Aliados para incrementar las ventas a través de referidos. Permite el registro y gestión de aliados, referidos  de pagos.',
-        icons: [
-            'img/react-logo.svg',
-            'img/csharp-logo.svg',
-            'img/sqlServer-logo.svg'
-        ]
-    },
-    {
-        name: 'Procustodia',
-        image: 'img/procustodia.jpg',
-        type: 'Proyecto Web',
-        description:
-            'Diseño y desarrollo del Website corporativo de Procustodia asociado a un Headless CMS que gestiona el contenido informativo, de oficinas y documentación e información legal',
-        icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
-    }
-]
-
 export default function ListProjects() {
+    const { t } = useTranslation()
+
+    const dataProjects: ContentProject[] = [
+        {
+            name: 'Inokuos',
+            image: '/images/project/inokuos.jpg',
+            type: t('Mobile project'),
+            description: t('Real-time technological platform...'),
+            icons: [
+                'img/kotlin-logo.svg',
+                'img/android-logo.svg',
+                'img/firebase-logo.svg',
+                'img/react-logo.svg'
+            ]
+        },
+        {
+            name: 'Advance MTR',
+            image: '/images/project/mtr.jpg',
+            type: t('Web Project'),
+            description: t('Real-time web platform that...'),
+            icons: [
+                'img/react-logo.svg',
+                'img/hasura-logo.svg',
+                'img/graphQL-logo.svg',
+                'img/expressJs-logo.svg',
+                'img/d3Js-logo.svg',
+                'img/postgresql-logo.svg'
+            ]
+        },
+        {
+            name: 'Aliados',
+            image: '/images/project/aliados.jpg',
+            type: t('Web Project'),
+            description: t('Web app that recruits Aliados to...'),
+            icons: [
+                'img/react-logo.svg',
+                'img/csharp-logo.svg',
+                'img/sqlServer-logo.svg'
+            ]
+        },
+        {
+            name: 'Procustodia',
+            image: '/images/project/procustodia.jpg',
+            type: t('Web Project'),
+            description: t('Design and construction of the...'),
+            icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
+        },
+        {
+            name: 'MinkAI',
+            image: '/images/project/minkai.jpg',
+            type: t('Web Project'),
+            description: t('Recruitment management platform...'),
+            icons: [
+                'img/react-logo.svg',
+                'img/csharp-logo.svg',
+                'img/sqlServer-logo.svg'
+            ]
+        }
+    ]
+
     return (
         <section>
             {dataProjects.map((dataProject, i) => (
@@ -72,7 +83,7 @@ export default function ListProjects() {
                             }`}
                         >
                             <img
-                                className="bg-cover w-full"
+                                className="bg-cover bg-black w-full"
                                 src={dataProject.image}
                             ></img>
                         </div>

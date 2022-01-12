@@ -6,6 +6,9 @@ interface PropsCardImage {
     y?: number
 }
 
+/**
+ * @deprecated
+ */
 function CardImage({
     src,
     title,

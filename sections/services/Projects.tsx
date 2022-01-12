@@ -1,10 +1,12 @@
 import { useTranslation } from 'react-i18next'
 import Carousel from '../../components/CarouselLabel'
-// import Anchor from '../../../components/CarouselLabel/Anchor'
 import CarouselContent from '../../components/CarouselLabel/CarouselContent'
 import CarouselItem from '../../components/CarouselLabel/CarouselItem'
 import useIntervalCarousel from '../../hooks/useIntervalCarousel'
 
+/**
+ * @deprecated
+ */
 export default function Projects({ titleSection, content }) {
     const { t } = useTranslation()
     const { index, setIndex, toLeft, toRight } = useIntervalCarousel(1, 10000)

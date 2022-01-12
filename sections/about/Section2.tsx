@@ -1,39 +1,70 @@
+import { useTranslation } from 'react-i18next'
+import Col from '../../components/Col'
+
 export default function Section2() {
+    const { t } = useTranslation()
+
     return (
-        <section className="px-4 mt-8 mb-14 xl:max-w-5xl xl:w-full xl:mx-auto xl:mt-40 xl:px-0 xl:mb-40">
-            <div className="xl:max-w-3xl xl:w-full xl:mx-auto">
-                <h2 className="font-sofia-bold text-3xl text-subtle text-center xl:text-5xl">
-                    Creemos en la mejora de nuestro mundo usando la tecnología
+        <section className="pt-24 pb-40">
+            <div className="xl:max-w-7xl xl:w-full xl:mx-auto">
+                <h4 className="text-center text-accent uppercase font-sofia-semibold mb-4">
+                    {t('Our team')}
+                </h4>
+                <h2 className="font-sofia-bold text-subtle text-3xl text-center xl:text-4xl max-w-lg mx-auto">
+                    {t('Always embarking on-')}{' '}
+                    <span className="text-accent font-sofia-bold">
+                        {t('-new adventures')}
+                    </span>
                 </h2>
-                <p className="text-subtle mt-8 xl:mt-12 xl:text-xl xl:px-12 mb-4">
-                    Vivimos en un mundo que atraviesa cambios acelerados gracias
-                    a la tecnología. Al día de hoy, es parte de nuestros
-                    procesos productivos, de cómo vemos y entendemos nuestro
-                    mundo e incluso nos permite estar conectados con quienes más
-                    queremos.
+                <p className="text-subtle mt-12 font-overpass-light px-10 xl:px-0">
+                    {t('Bitzone is a high-tech...')}
                 </p>
-                <p className="text-subtle mb-16 xl:mt-12 xl:text-xl xl:px-12 xl:mb-40">
-                    Sin embargo, aún hay un gran camino por recorrer. Todavía
-                    existen emergencias humanas, sociales y medio ambientales
-                    que siguen sin ser atendidas; amenazas, problemas e
-                    incógnitas que siguen sin ser resueltas.
-                </p>
-            </div>
-            <div className="flex justify-center px-14 xl:px-0">
-                <div className="w-48 xl:flex xl:w-full xl:gap-60">
-                    <img
-                        className="w-48 text-center xl:max-w-md xl:w-full"
-                        src="./img/good-team.svg"
-                        alt=""
+                <Col
+                    cols="1"
+                    className="mt-20 sm:grid-cols-2 lg:grid-cols-4"
+                    gap={12}
+                    gapY={12}
+                >
+                    <Profile
+                        src="/images/about/luigui.png"
+                        title="Luigui Astohuamán"
+                        description="CEO"
                     />
-                    <p className="text-subtle font-overpass mt-12 xl:text-xl xl:mt-0 xl:max-w-sm text-center">
-                        Es por ello que en Bitzone estamos comprometidos con los
-                        grandes cambios, con la mejora de la calidad de vida de
-                        quienes nos rodean y con dar oportunidades a talentos
-                        como el tuyo. ¡Únetenos en esta gran transformación!
-                    </p>
-                </div>
+                    <Profile
+                        src="/images/about/diana.png"
+                        title="Diana Barriga"
+                        description={t('Project Lead')}
+                    />
+                    <Profile
+                        src="/images/about/rodo.png"
+                        title="Rodolfo Zevallos"
+                        description={t('Artificial Intelligence Researcher')}
+                    />
+                    <Profile
+                        src="/images/about/mj.png"
+                        title="María José Campos"
+                        description={t('Lead Digital Designer')}
+                    />
+                </Col>
             </div>
         </section>
     )
+}
+
+function Profile({ src, title, description }: ProfileProps) {
+    return (
+        <div className="text-center">
+            <img src={src} alt={title} className="mx-auto mb-3" />
+            <h3 className="font-sofia-semibold text-secondary text-lg">
+                {title}
+            </h3>
+            <p className="font-sofia-light w-40 mx-auto">{description}</p>
+        </div>
+    )
+}
+
+interface ProfileProps {
+    src: string
+    title: string
+    description: string
 }

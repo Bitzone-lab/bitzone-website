@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next'
 import useIntervalCarousel from '../../hooks/useIntervalCarousel'
 import CarouselContentHalf from './CarouselContentHalf'
 import { ContentHalfItem } from './CarouselHalfItem'
-import content from '../../todo/carousel_project.json'
 
 import Icon from '../../components/Icon'
 import classNames from 'classnames'
@@ -37,21 +36,43 @@ function Arrow({ className = '', right = false, onClick }: ArrowProps) {
 export default function Header() {
     const { t } = useTranslation()
     const { index, toLeft, toRight } = useIntervalCarousel(2, 10000)
+
+    const content = [
+        {
+            title: 'Advance ERP',
+            subtitle: t('ERP designed and built to...'),
+            image: '/img/erp.png'
+        },
+        {
+            title: 'Street map',
+            subtitle: t('Serverless REST API designed and...'),
+            image: '/images/project/dell_xps.png'
+        },
+        {
+            title: 'Electrical network viewer',
+            subtitle: t('Responsive web application native...'),
+            image: '/img/visor.png'
+        }
+    ]
+
     return (
-        <header className="px-4 bg-linear-primary text-white xl:px-0 xl:bg-header-projects-mobile">
-            <div className="text-neutral-content  xl:w-full xl:mx-auto xl:flex ">
-                <div className="w-11/12 pt-28 pb-10 xl:w-1/2 xl:pt-40 flex xl:pr-24 justify-end xl:pb-28">
-                    <div className="flex flex-col xl:max-w-sm justify-center h-full">
+        <header className="px-4 bg-project-header bg-cover text-white xl:px-0">
+            <div className="text-neutral-content xl:w-full xl:mx-auto xl:flex">
+                <div className="w-full pt-40 pb-28 xl:w-1/2 flex px-8 xl:px-0 xl:pr-24 justify-start xl:justify-end">
+                    <div className="flex flex-col max-w-sm justify-center h-full">
                         <p className="mb-8 font-sans text-sm uppercase xl:mb-12">
-                            {t('Our projects...')}
+                            {t('Our projects')}
                         </p>
                         <div className="mb-5 xl:mb-24">
-                            <h1 className="text-2xl font-sofia-bold xl:text-4xl">
-                                {t('We improve the world with technology...')}
+                            <h1 className="text-4xl font-sofia-bold">
+                                {t('We improve the world and business with-')}{' '}
+                                <span className="font-sofia-bold text-accent">
+                                    {t('-technology')}
+                                </span>
                             </h1>
                         </div>
-                        <p className="mb-7 font-overpass-light text-base xl:text-2xl">
-                            {t("Check out the projects we've done...")}
+                        <p className="mb-7 font-overpass-light text-2xl">
+                            {t('We transform your ideas and...')}
                         </p>
                     </div>
                 </div>

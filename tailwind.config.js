@@ -12,13 +12,12 @@ module.exports = {
         },
         extend: {
             backgroundColor: {
-                navbar: 'rgba(74,37,170,0.5)',
-                'navbar-2': 'rgba(74,37,170, 1)',
                 footer: '#00007A',
                 'why-whe': '#4A25AA',
                 input: '#EEEEEE'
             },
             backgroundImage: {
+                navbar: 'linear-gradient(111.34deg, #7F52DD 0%, #00007A 100%)',
                 'navbar-hidden':
                     'linear-gradient(111.34deg, #7f52dd 0%, #00007a 100%)',
                 'linear-accent':
@@ -33,8 +32,7 @@ module.exports = {
                     'radial-gradient(50% 50% at 50% 50%, #FFFF7E 0%, #EDE04B 100%)',
                 'radial-primary':
                     'radial-gradient(50% 50% at 50% 50%, #7F52DD 0%, #4A25AA 100%)',
-                'call-to-contact':
-                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call_to_contact.jpg)',
+                'call-to-contact': 'url(/images/call_to_contact.jpg)',
                 'call-to-contact-project':
                     'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call-to-contact-project.png)',
                 'contact-form':
@@ -43,8 +41,21 @@ module.exports = {
                     'linear-gradient(225deg, #FFFF7E 0%, #EDE04B 100%)',
                 'bits-img': 'url("/img/bits.png")',
                 'services-dev': 'url("/img/dev_bg.png")',
+                header: 'url("/images/home_header.jpg")',
+                'about-header': 'url("/images/about-header.jpg")',
+                'service-header': 'url("/images/services/header.jpg")',
+                'contact-header': 'url("/images/contact-header.jpg")',
+                'project-header': 'url("/images/project/project-header.jpg")',
+                'service-ing': 'url("/images/services/ing.jpg")',
+                'service-ia': 'url("/images/services/ia.jpg")',
+                'service-cloud': 'url("/images/services/cloud.jpg")',
+                'service-cloud-benefits':
+                    'url("/images/services/image-15.jpg")',
                 ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
-                cloud: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/cloud_bg.jpeg)',
+                cloud: 'url(/images/services/cloud-header.jpg)',
+                ia: 'url("/images/services/ia-header.jpg")',
+                ing: 'url("/images/services/ing-header.jpg")',
+                'service-ia-project': 'url("/images/services/image-16.jpg")',
                 dev: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/dev_bg.png)',
                 about1: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_1.png)',
                 about2: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_2.png)',
@@ -67,11 +78,12 @@ module.exports = {
                 primary: '#4A25AA',
                 'primary-light': '#7F52DD',
                 'primary-dark': '#00007A',
-                accent: '#EDE04B',
+                accent: '#E5D300',
                 'accent-light': '#FFFF7E',
                 'accent-dark': '#B7AE08',
                 'border-normal': '#111111',
-                'border-subtle': '#AAAAAA'
+                'border-subtle': '#AAAAAA',
+                'accent-alt': '#99E6FD'
             },
             textColor: {
                 subtle: 'rgba(28, 14, 64, 0.87)',

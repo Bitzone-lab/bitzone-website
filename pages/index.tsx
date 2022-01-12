@@ -1,11 +1,11 @@
-import Footer from '../components/Footer'
+import Footer from '../sections/Footer'
 import Header from '../sections/home/Header'
-import WeAre from '../sections/home/WeAre'
+import Section1 from '../sections/home/Section1'
 import Navbar from '../components/Navbar'
-import TrustUs from '../sections/home/TrustUs'
-import CallToContact from '../sections/home/CallToContact'
-import WhyWe from '../sections/home/WhyWe'
+import CallToContact from '../sections/CallToContact'
 import PageHead from '../components/PageHead'
+import Section3 from '../sections/home/Section3'
+import Section2 from '../sections/home/Section2'
 
 export default function Home() {
     return (
@@ -16,9 +16,9 @@ export default function Home() {
             />
             <Navbar />
             <Header />
-            <WeAre />
-            <WhyWe />
-            <TrustUs />
+            <Section1 />
+            <Section2 />
+            <Section3 />
             <CallToContact />
             <Footer />
         </>
