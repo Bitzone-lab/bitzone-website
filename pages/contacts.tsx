@@ -9,6 +9,7 @@ export default function Contacts() {
             <PageHead
                 title="Bitzone: Contactos"
                 description="Ponte en contacto con nosotros"
+                image="/img/logo_image.svg"
             />
             <Navbar />
             <FormContact />

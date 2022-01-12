@@ -10,6 +10,7 @@ export default function Services() {
             <PageHead
                 title="Bitzone: Servicios"
                 description="Eche un vistazo a lo que podemos ofrecerle"
+                image="/img/logo_image.svg"
             />
             <Navbar />
             <Header />

@@ -18,6 +18,7 @@ export default function Cloud() {
             <PageHead
                 title="Bitzone: Cloud computing"
                 description={t('Through our Cloud infrastructure, we...')}
+                image="/img/logo_image.svg"
             />
             <Navbar />
             <Drawer />

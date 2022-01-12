@@ -16,8 +16,9 @@ export default function IA() {
     return (
         <>
             <PageHead
-                title="Bitzone: Services AI"
+                title="Bitzone: Services Artificial Intelligence"
                 description={t('Our AI algorithms allow the...')}
+                image="/img/logo_image.svg"
             />
             <Navbar />
             <Drawer />
