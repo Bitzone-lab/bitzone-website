@@ -563,5 +563,145 @@
     "Lead Digital Designer": {
         "es": "Diseñadora Digital Principal",
         "en": "Lead Digital Designer"
+    },
+    "Always on the-": {
+        "es": "Siempre a la",
+        "en": "Always on the"
+    },
+    "-avant-garde": {
+        "es": "vanguardia",
+        "en": "avant-garde"
+    },
+    "Discover what we...": {
+        "es": "Descubre lo que podemos ofrecerte",
+        "en": "Discover what we can offer you"
+    },
+    "We create digital...": {
+        "es": "Creamos productos digitales para desktop o móvil a tu medida, según lo que requieras.",
+        "en": "We create digital products for desktop or mobile tailored to your needs, depending on what you require."
+    },
+    "Our AI algorithms allow the...": {
+        "es": "Nuestros algoritmos de IA permiten la efectiva construcción, categorización y reconocimiento de datos, agilizando y automatizando procesos.",
+        "en": "Our AI algorithms allow the effective construction, categorization and recognition of data, streamlining and automating processes."
+    },
+    "Through our Cloud infrastructure, we...": {
+        "es": "A través de nuestra infraestructura Cloud, resolvemos los problemas de nuestros clientes proponiendo y diseñando una infraestructura moderna para el almacenamiento, mantenimiento y acceso de sus datos.",
+        "en": "Through our Cloud infrastructure, we solve the problems of our clients by proposing and designing a modern infrastructure for the storage, maintenance and access of their data."
+    },
+    "Development phases": {
+        "es": "Fases de desarrollo",
+        "en": "Development phases"
+    },
+    "Initial diagnosis": {
+        "es": "Diagnóstico inicial",
+        "en": "Initial diagnosis"
+    },
+    "Solution design": {
+        "es": "Diseño de la solución",
+        "en": "Solution design"
+    },
+    "Solution integration": {
+        "es": "Integración de la solución",
+        "en": "Solution integration"
+    },
+    "Continuous maintenance": {
+        "es": "Mantenimiento continuo",
+        "en": "Continuous maintenance"
+    },
+    "Types of development": {
+        "es": "Tipos de desarrollo",
+        "en": "Types of development"
+    },
+    "We offer the following...": {
+        "es": "Ofrecemos los siguientes tipos de desarrollo de productos digitales:",
+        "en": "We offer the following types of digital product development:"
+    },
+    "Mobile applications": {
+        "es": "Aplicaciones móvil",
+        "en": "Mobile applications"
+    },
+    "Websites": {
+        "es": "Sitios web",
+        "en": "Websites"
+    },
+    "Do you need to obtain...": {
+        "es": "¿Necesitas obtener información sobre tus clientes de forma sistemática? No hay problema. En Bitzone te ofrecemos IA dedicada a Customer Intelligence, que realiza actividades como segmentación de clientes, cálculo de precios, mantenimiento predictivo y fidelización de clientes.",
+        "en": "Do you need to obtain information about your clients in a systematic way? No problem. At Bitzone we offer you AI dedicated to Customer Intelligence, which performs activities such as customer segmentation, pricing, predictive maintenance and customer loyalty."
+    },
+    "Artificial vision": {
+        "es": "Visión Artificial",
+        "en": "Artificial Vision"
+    },
+    "Do you need to analyze...": {
+        "es": "¿Necesitas analizar imágenes y procesarlas? Ofrecemos varias herramientas de visión artificial utilizando IA para obtener data de imágenes de forma sistemática. Esto incluye guiado 2D/3D, lectura de códigos, y sistemas de control de calidad.",
+        "en": "Do you need to analyze images and process them? We offer various machine vision tools using AI to systematically obtain image data. This includes 2D / 3D guidance, code reading, and quality control systems."
+    },
+    "Natural language processing": {
+        "es": "Procesamiento del lenguaje natural",
+        "en": "Natural language processing"
+    },
+    "Do you need to process natural...": {
+        "es": "¿Necesitas procesar lenguaje natural de forma sistemática? Contamos con herramientas de IA dedicadas a esta tarea como por ejemplo clasificadores de texto, analizadores de sentimiento, generadores de expresiones y desarrollador de léxico.",
+        "en": "Do you need to process natural language in a systematic way? We have AI tools dedicated to this task, such as text classifiers, sentiment analyzers, expression generators and lexicon developer."
+    },
+    "How can AI benefit a project?": {
+        "es": "¿De qué manera la IA pueden beneficiar a un proyecto?",
+        "en": "How can AI benefit a project?"
+    },
+    "Time optimization in processes": {
+        "es": "Optimzación de tiempos en los procesos",
+        "en": "Time optimization in processes"
+    },
+    "By minimizing human error and...": {
+        "es": "Al minimizar el error humano y al tener los procesos automatizados, el tiempo de proceso de datos se reduce de forma significativa.",
+        "en": "By minimizing human error and having automated processes, data processing time is significantly reduced."
+    },
+    "Introduce an added value": {
+        "es": "Añade un valor agregado",
+        "en": "Introduce an added value"
+    },
+    "The precision of the data...": {
+        "es": "La precisión de los datos obtenidos a través de IA, al igual que la variedad de estos le darán a tu trabajo un valor agregado importante.",
+        "en": "The precision of the data obtained through AI, as well as the variety of these will give your work an important added value."
+    },
+    "Infraestructure development": {
+        "es": "Desarrollo de la infraestructura",
+        "en": "Infraestructure development"
+    },
+    "The creation of infrastructure in the cloud": {
+        "es": "La creación de infraestructura en la nube",
+        "en": "The creation of infrastructure in the cloud"
+    },
+    "The application of the DevOps methodology": {
+        "es": "La aplicación de la metodología DevOps",
+        "en": "The application of the DevOps methodology"
+    },
+    "Testing and monitoring or alerts": {
+        "es": "Pruebas y supervisión o alertas",
+        "en": "Testing and monitoring or alerts"
+    },
+    "How can cloud services benefit a project?": {
+        "es": "¿De qué manera los servicios de la nube pueden beneficiar a un proyecto?",
+        "en": "How can cloud services benefit a project?"
+    },
+    "Saves costs": {
+        "es": "Ahorra costos",
+        "en": "Saves costs"
+    },
+    "It is not necessary to...": {
+        "es": "No se necesita tener un hardware propio, ya que todo está alojado en los servidores.",
+        "en": "It is not necessary to have your own hardware, since everything is hosted on the servers."
+    },
+    "Deployment times are...": {
+        "es": "Los tiempos de implementación son casi nulos, y las aplicaciones siempre están en línea.",
+        "en": "Deployment times are almost inexistent and applications are always online."
+    },
+    "Cloud hosting eliminates the...": {
+        "es": "El alojamiento en la nube elimina la posibilidad de que el servidor falle y cause un tiempo de inactividad.",
+        "en": "Cloud hosting eliminates the possibility of server failure and causing downtime."
+    },
+    "It offers high-performance...": {
+        "es": "Ofrece servidores de alto rendimiento con tecnología como CPU potentes y unidades SSD súper rápidas.",
+        "en": "It offers high-performance servers with technology like powerful CPUs and super-fast SSDs."
     }
 }

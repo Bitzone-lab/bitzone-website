@@ -1,11 +1,14 @@
+import { useTranslation } from 'react-i18next'
 import Col from '../../../components/Col'
 
 export default function Section1() {
+    const { t } = useTranslation()
+
     return (
         <section>
             <div className="max-w-7xl w-full mx-auto py-24 px-8 xl:px-0">
                 <h2 className="text-3xl font-sofia-semibold text-secondary mb-16 text-center sm:text-left">
-                    Fases de desarrollo
+                    {t('Development phases')}
                 </h2>
                 <Col
                     cols="1"
@@ -15,32 +18,32 @@ export default function Section1() {
                     <Fases
                         count={1}
                         src="/images/services/3ds.png"
-                        description="Diagnóstico inicial"
+                        description={t('Initial diagnosis')}
                     />
                     <Fases
                         count={2}
                         src="/images/services/blueprint.png"
-                        description="Diseño de la solución"
+                        description={t('Solution design')}
                     />
                     <Fases
                         count={3}
                         src="/images/services/3d-display.png"
-                        description="Desarrollo del software"
+                        description={t('Software development')}
                     />
                     <Fases
                         count={4}
                         src="/images/services/cloud.png"
-                        description="Desarrollo de la infraestructura"
+                        description={t('Infraestructure development')}
                     />
                     <Fases
                         count={5}
                         src="/images/services/3d-design.png"
-                        description="Integración de la solución"
+                        description={t('Solution integration')}
                     />
                     <Fases
                         count={6}
                         src="/images/services/rotation.png"
-                        description="Mantenimiento continuo"
+                        description={t('Continuous maintenance')}
                     />
                 </Col>
             </div>

@@ -1,25 +1,28 @@
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
+import { useTranslation } from 'react-i18next'
 import styles from './css/section1.module.css'
 
 export default function Section1() {
+    const { t } = useTranslation()
+
     return (
         <section className="flex flex-wrap md:flex-nowrap">
             <Item
                 title="ING"
-                description="Ingeniería de Software"
+                description={t('Software Engineering')}
                 to="/services/ing"
                 imgName="ing"
             />
             <Item
                 title="IA"
-                description="Inteligencia Artificial"
+                description={t('Artificial Intelligence')}
                 to="/services/ia"
                 imgName="ia"
             />
             <Item
                 title="CLOUD"
-                description="Cloud computing"
+                description={t('Cloud Computing')}
                 to="/services/cloud"
                 imgName="cloud"
             />

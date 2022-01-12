@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next'
+
 export default function Section1() {
+    const { t } = useTranslation()
+
     return (
         <section>
             <div className="max-w-7xl w-full mx-auto py-24 flex items-center px-8 xl:px-0 flex-wrap sm:flex-nowrap text-center sm:text-left">
@@ -14,12 +18,7 @@ export default function Section1() {
                         Customer Intelligence
                     </h2>
                     <p className="max-w-xl text-subtle font-overpass-light mx-auto sm:mx-0">
-                        ¿Necesitas obtener información sobre tus clientes de
-                        forma sistemática? No hay problema. En Bitzone te
-                        ofrecemos IA dedicada a Customer Intelligence, que
-                        realiza actividades como segmentación de clientes,
-                        cálculo de precios, mantenimiento predictivo y
-                        fidelización de clientes.
+                        {t('Do you need to obtain...')}
                     </p>
                 </div>
             </div>
