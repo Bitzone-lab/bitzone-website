@@ -147,10 +147,6 @@
         "es": "La guía visual proporcionará al cliente una visión de cómo acabará siendo su sitio web o su proyecto. ",
         "en": "The visual guide will provide a view to the customer of what their website or project will end up looking like. "
     },
-    "Our projects...": {
-        "es": "Nuestros proyectos ",
-        "en": "Our projects"
-    },
     "Our projects ... UX / UI": {
         "es": "Nuestros proyectos enfocados en UX/UI",
         "en": "Our projects focused on UX / UI"
@@ -703,5 +699,61 @@
     "It offers high-performance...": {
         "es": "Ofrece servidores de alto rendimiento con tecnología como CPU potentes y unidades SSD súper rápidas.",
         "en": "It offers high-performance servers with technology like powerful CPUs and super-fast SSDs."
+    },
+    "Our projects": {
+        "es": "Nuestros Proyectos",
+        "en": "Our Projects"
+    },
+    "We improve the world and business with-": {
+        "es": "Mejoramos el mundo y los negocios con",
+        "en": "We improve the world and business with"
+    },
+    "-technology": {
+        "es": "tecnología",
+        "en": "technology"
+    },
+    "We transform your ideas and...": {
+        "es": "Transformamos tus ideas e iniciativas en soluciones reales",
+        "en": "We transform your ideas and initiatives into real solutions"
+    },
+    "ERP designed and built to...": {
+        "es": "ERP diseñado y construido a medida para soportar y escalar las operaciones de Inventario y Compras, e integrarse y compartir información con el CRM y demás aplicaciones CORE.",
+        "en": "ERP designed and built to measure to support and scale Inventory and Purchasing operations, and integrate and share information with CRM and other CORE applications."
+    },
+    "Serverless REST API designed and...": {
+        "es": "API REST serverless diseñado y construido para ser el único proveedor de calles y direcciones de todas las aplicaciones CORE de una empresa utilities.",
+        "en": "Serverless REST API designed and built to be the only street and address provider for all CORE applications of a utility company."
+    },
+    "Responsive web application native...": {
+        "es": "Aplicación web responsive nativa en Cloud y escalable que permite visualizar las redes electricas de la compañia en forma de capas de información sobre mapas geográficos.",
+        "en": "Responsive web application native in Cloud and scalable that allows to visualize the electrical networks of the company in the form of layers of information on geographic maps."
+    },
+    "Mobile project": {
+        "es": "Proyecto Móvil",
+        "en": "Mobile project"
+    },
+    "Real-time technological platform...": {
+        "es": "Plataforma tecnológica real-time que gestiona rutinas de limpieza de principio a fin, manteniendo una comunicación activa e inmediata entre todos los actores involucrados en el proceso de limpieza",
+        "en": "Real-time technological platform that manages cleaning routines from start to finish, maintaining active and immediate communication between all the actors involved in the cleaning process."
+    },
+    "Web Project": {
+        "es": "Proyecto Web",
+        "en": "Web Project"
+    },
+    "Real-time web platform that...": {
+        "es": "Plataforma web real-time que monitorea en dashboards gráficos datos masivos enviados por sensores IoT. Los datos se procesan y almacenan en una base de datos de series de tiempo para agilizar la ingestión y su procesamiento.",
+        "en": "Real-time web platform that monitors massive data sent by IoT sensors on dashboards. Data is processed and stored in a time series database to streamline the ingestion and processing of information."
+    },
+    "Web app that recruits Aliados to...": {
+        "es": "Web app que recluta a Aliados para incrementar las ventas a través de referidos. Permite el registro y gestión de aliados, referidos de pagos.",
+        "en": "Web app that recruits Aliados to increase loan placement through referrals. It allows the recruitment of allies, administration of referrals and the management of payments."
+    },
+    "Design and construction of the...": {
+        "es": "Diseño y desarrollo del Website corporativo de Procustodia asociado a un Headless CMS que gestiona el contenido informativo, de oficinas y documentación e información legal.",
+        "en": "Design and construction of the Procustodia corporate Website associated with a Headless CMS that manages the informative content, offices and documentation and legal information."
+    },
+    "Recruitment management platform...": {
+        "es": "Plataforma de gestion de reclutamientos para los diferentes campos profesionales técnicos.",
+        "en": "Recruitment management platform for different technical professional fields."
     }
 }
