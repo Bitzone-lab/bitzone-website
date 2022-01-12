@@ -27,15 +27,15 @@ export default function FormContact() {
                     >
                         <div className="flex justify-center flex-col mx-auto sm:max-w-xl">
                             <h3 className="text-subtle text-3xl font-sofia-bold text-center mb-4">
-                                Hablemos
+                                {t('Let’s talk')}
                             </h3>
                             <p className="font-light text-subtle font-sans text-base mb-12 text-center">
-                                Permítenos conocerte y saber que andas haciendo
+                                {t('Let us meet you and...')}
                             </p>
                             <Col cols="1" gap={12} className="sm:grid-cols-2">
                                 <div className="w-full">
                                     <label className="label-form">
-                                        Mi nombre es
+                                        {t('My name is')}
                                     </label>
                                     <Input
                                         placeholder={t('Name')}
@@ -46,7 +46,7 @@ export default function FormContact() {
                                 </div>
                                 <div className="w-full">
                                     <label className="label-form">
-                                        Mi correo electrónico es
+                                        {t('My email is')}
                                     </label>
                                     <Input
                                         placeholder="ejemplo@mail.com"
@@ -57,28 +57,29 @@ export default function FormContact() {
                                 </div>
                                 <div className="w-full">
                                     <label className="label-form">
-                                        Estoy trabajando en
+                                        {t('I am working on')}
                                     </label>
                                     <Input
                                         placeholder="Empresa, Institucion o Startup"
                                         name="work"
-                                        helper={helpers.name}
+                                        helper={helpers.work}
+                                        onFocus={() => clearField('work')}
                                     />
                                 </div>
                                 <div className="w-full">
                                     <label className="label-form">
-                                        Mi cargo es
+                                        {t('My job position is')}
                                     </label>
                                     <Input
                                         placeholder="Jefe de Ventas, RRHH, etc"
-                                        name="email"
-                                        helper=""
-                                        onFocus={() => clearField('email')}
+                                        name="position"
+                                        helper={helpers.position}
+                                        onFocus={() => clearField('position')}
                                     />
                                 </div>
                             </Col>
                             <label className="label-form mt-2">
-                                Cuéntanos que tienes en mente
+                                {t('Tell us what you have in mind')}
                             </label>
                             <TextArea
                                 name="motivo"
@@ -95,7 +96,7 @@ export default function FormContact() {
                                         'px-8 mt-10 sm:w-auto'
                                     )}
                                 >
-                                    Enviar
+                                    {t('Send')}
                                 </Button>
                             </div>
                         </div>

@@ -755,5 +755,61 @@
     "Recruitment management platform...": {
         "es": "Plataforma de gestion de reclutamientos para los diferentes campos profesionales técnicos.",
         "en": "Recruitment management platform for different technical professional fields."
+    },
+    "Let’s talk": {
+        "es": "Hablemos",
+        "en": "Let’s talk"
+    },
+    "Let us meet you and...": {
+        "es": "Permítenos conocerte y saber que andas haciendo",
+        "en": "Let us meet you and know what you are doing"
+    },
+    "My name is": {
+        "es": "Mi nombre es",
+        "en": "My name is"
+    },
+    "My email is": {
+        "es": "Mi correo electrónico es",
+        "en": "My email is"
+    },
+    "I am working on": {
+        "es": "Estoy trabajando en",
+        "en": "I am working on"
+    },
+    "My job position is": {
+        "es": "Mi cargo es",
+        "en": "My job position is"
+    },
+    "Tell us what you have in mind": {
+        "es": "Cuéntanos que tienes en mente",
+        "en": "Tell us what you have in mind"
+    },
+    "Send": {
+        "es": "Enviar",
+        "en": "Send"
+    },
+    "The name is required": {
+        "es": "El nombre es requerido",
+        "en": "The name is required "
+    },
+    "Email is required": {
+        "es": "El correo electrónico es requerido",
+        "en": "Email is required"
+    },
+    "It is not a valid email":{
+        "es": "No es un correo válido",
+        "en": "It is not a valid email"
+    },
+    "Write where you are working": {
+        "es": "Escribe donde estás trabajando",
+        "en": "Write where you are working "
+    },
+    "Write your position": {
+        "es": "Escribe tu cargo",
+        "en": "Write your position "
+    },
+    "Write a reason": {
+        "es": "Escribe un motivo",
+        "en": "Write a reason"
     }
 }
