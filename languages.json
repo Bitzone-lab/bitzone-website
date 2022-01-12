@@ -55,10 +55,6 @@
         "es": "Regresar a home",
         "en": "Back to home"
     },
-    "WHY WE?": {
-        "es": "¿POR QUÉ NOSOTROS?",
-        "en": "WHY WE?"
-    },
     "We are constantly growing": {
         "es": "Estamos en constante crecimiento",
         "en": "We are constantly growing"
@@ -81,7 +77,7 @@
     },
     "Services": {
         "es": "Servicios",
-        "en": "services"
+        "en": "Services"
     },
     "Take your business to the next level with...": {
         "es": "Lleva tu negocio al siguiente nivel con el poder de la tecnología. ¡Únete al cambio que está revolucionando al mundo!",
@@ -381,7 +377,7 @@
     },
 
     "Why we?": {
-        "es": "¿Por qué nosotros",
+        "es": "¿Por qué nosotros?",
         "en": "Why we?"
     },
     "More about us": {
@@ -395,5 +391,93 @@
     "High-tech development company": {
         "es": "Empresa de desarrollo de alta tecnología",
         "en": "High-tech development company"
+    },
+    "Why Us?": {
+        "es": "¿Que ofrecemos?",
+        "en": "Why Us?"
+    },
+    "We are a team passionate about-": {
+        "es": "Somos un equipo apasionado por",
+        "en": "We are a team passionate about"
+    },
+    "-high technology": {
+        "es": "la alta tecnología",
+        "en": "high technology"
+    },
+    "We adapt to each project in...": {
+        "es": "Nos adaptamos a cada proyecto de forma creativa, siempre en búsqueda de crecer y ser agentes de cambio.",
+        "en": "We adapt to each project in a creative way, always aiming to grow and be agents of change."
+    },
+    "We value feedback from our...": {
+        "es": "Valoramos la retroalimentación con nuestros clientes para brindarles el mejor producto.",
+        "en": "We value feedback from our customers so we can provide them the best product."
+    },
+    "Our team has group...": {
+        "es": "Nuestro equipo dispone de dinámicas de grupo, acceso a buena educación y un ambiente laboral comprensivo y empático.",
+        "en" : "Our team has group dynamics, access to good education and a comprehensive and empathetic work environment."
+    },
+    "We train new talent": {
+        "es": "Formamos nuevos talentos",
+        "en": "We train new talent"
+    },
+    "We are committed to new...": {
+        "es": "Apostamos por nuevos integrantes que busquen crecer con nosotros en tecnología que transforme al mundo.",
+        "en": "We are committed to new members who seek to grow with us in technology that transforms the world."
+    },
+    "They trust the-": {
+        "es": "Ellos confían en la",
+        "en": "They trust the"
+    },
+    "-quality-": {
+        "es": "calidad",
+        "en": "quality"
+    },
+    "-of our work": {
+        "es": "de nuestro trabajo",
+        "en": "of our work"
+    },
+    "Several Peruvian and foreign...": {
+        "es": "Varias empresas peruanas y extranjeras ya confían en Bitzone y en sus soluciones en alta tecnología.",
+        "en": "Several Peruvian and foreign companies already trust Bitzone and its high-tech solutions."
+    },
+    "We develop-": {
+        "es": "Desarrollamos",
+        "en": "We develop"
+    },
+    "-innovative technologies-": {
+        "es": "tecnologías innovadoras",
+        "en": "innovative technologies"
+    },
+    "-for Peru and the world": {
+        "es": "para el Perú y del mundo",
+        "en": "for Peru and the world"
+    },
+    "We have experience in...": {
+        "es": "Contamos con experiencia en realizar proyectos de tecnologías innovadoras que están automatizando las cosas de forma inteligente para clientes peruanos y extranjeros. No importa cuan grande o pequeño sea tu negocio, te podemos ofrecer una solución de alta tecnología de calidad.",
+        "en": "We have experience in carrying out innovative technology projects that are intelligently automating things for Peruvian and foreign clients. No matter how big or small your business is, we can offer you a quality high-tech solution."
+    },
+    "Discover our projects": {
+        "es": "Descubre nuestros proyectos",
+        "en": "Discover our projects"
+    },
+    "Write to us": {
+        "es": "Escríbenos",
+        "en": "Write to us"
+    },
+    "Here": {
+        "es": "Aquí",
+        "en": "Here"
+    },
+    "Software Engineering": {
+        "es": "Ingeniería de Software",
+        "en": "Software Engineering"
+    },
+    "Artificial Intelligence": {
+        "es": "Inteligencia Artificial",
+        "en": "Artificial Intelligence"
+    },
+    "Cloud Computing": {
+        "es": "Cloud Computing",
+        "em": "Cloud Computing"
     }
 }

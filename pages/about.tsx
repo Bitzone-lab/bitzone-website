@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Footer from '../sections/Footer'
 import Section2 from '../sections/about/Section2'
 import PageHead from '../components/PageHead'
 import Header from '../sections/about/Header'

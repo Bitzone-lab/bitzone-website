@@ -9,7 +9,12 @@ import Button from '../Button'
 export default function Navbar() {
     const [show, setShow] = useState(false)
     const router = useRouter()
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
+
+    const changeLanguage = (lng: 'es' | 'en') => {
+        i18n.changeLanguage(lng)
+    }
+
     const [floatNav, setFlotNav] = useState(false)
 
     const cb = useCallback(() => {
@@ -97,17 +102,30 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div className="hidden text-white text-base xl:flex items-center">
-                        <Link href="/contacts">
-                            <Button className="btn-sm bg-white hover:bg-white">
-                                {t('Contact')}
-                            </Button>
-                        </Link>
+                        <Button
+                            className="btn-sm bg-white hover:bg-white"
+                            onClick={() => router.push('/contacts')}
+                        >
+                            {t('Contact')}
+                        </Button>
                         <div className="ml-8 text-xs">
-                            <span className="cursor-pointer">
-                                <b>ESP</b>
+                            <span
+                                className={`cursor-pointer font-sofia-${
+                                    i18n.language === 'es' ? 'bold' : 'light'
+                                }`}
+                                onClick={() => changeLanguage('es')}
+                            >
+                                ESP
                             </span>
                             <span className="inline mx-1">|</span>
-                            <span className="cursor-pointer">ENG</span>
+                            <span
+                                className={`cursor-pointer font-sofia-${
+                                    i18n.language === 'en' ? 'bold' : 'light'
+                                }`}
+                                onClick={() => changeLanguage('en')}
+                            >
+                                ENG
+                            </span>
                         </div>
                     </div>
                     <div className="block xl:hidden"></div>

@@ -1,4 +1,4 @@
-import Footer from '../components/Footer'
+import Footer from '../sections/Footer'
 import Navbar from '../components/Navbar'
 import PageHead from '../components/PageHead'
 import FormContact from '../sections/contacts/FormContact'

@@ -1,15 +1,20 @@
+import { useTranslation } from 'react-i18next'
+
 export default function Section3() {
+    const { t } = useTranslation()
+
     return (
         <section>
             <div className="w-full mx-auto pt-16 pb-40 max-w-7xl text-center">
                 <h2 className="text-4xl font-sofia-bold mx-auto max-w-md text-primary">
-                    Ellos confían en la{' '}
-                    <span className="font-sofia-bold text-accent">calidad</span>{' '}
-                    de nuestro trabajo
+                    {t('They trust the-')}{' '}
+                    <span className="font-sofia-bold text-accent">
+                        {t('-quality-')}
+                    </span>{' '}
+                    {t('-of our work')}
                 </h2>
                 <p className="mt-12 mb-20 px-10 lg:px-0">
-                    Varias empresas peruanas y extranjeras ya confían en Bitzone
-                    y en sus soluciones en alta tecnología.
+                    {t('Several Peruvian and foreign...')}
                 </p>
                 <div className="flex justify-between items-center gap-12 flex-wrap px-10">
                     <img

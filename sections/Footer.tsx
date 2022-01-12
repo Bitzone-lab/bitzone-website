@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
-import Icon from '../Icon'
+import Icon from '../components/Icon'
 
 export default function Footer() {
     const { t } = useTranslation()
@@ -14,28 +14,30 @@ export default function Footer() {
                         </p>
                         <Link href="/about">
                             <a className="text-base mb-4 hover:underline block">
-                                Nosotros
+                                {t('We')}
                             </a>
                         </Link>
                         <Link href="/projects">
                             <a className="text-base hover:underline">
-                                Proyectos
+                                {t('Projects')}
                             </a>
                         </Link>
                     </div>
                     <div className="w-1/2 xl:w-auto xl:order-3">
                         <p className="text-base font-sofia-bold mb-5">
-                            Servicios
+                            {t('Services')}
                         </p>
-                        <p className="text-base mb-4">Ingeniería de Software</p>
                         <p className="text-base mb-4">
-                            Inteligencia Artificial
+                            {t('Software Engineering')}
                         </p>
-                        <p className="text-base mb-4">Cloud Computing</p>
+                        <p className="text-base mb-4">
+                            {t('Artificial Intelligence')}
+                        </p>
+                        <p className="text-base mb-4">{t('Cloud Computing')}</p>
                     </div>
                     <div className="w-full mt-11 xl:w-auto xl:mt-0 xl:order-4">
                         <p className="text-base font-sofia-bold mb-5">
-                            Contacto
+                            {t('Contact')}
                         </p>
                         <Link href="mailto: hello@bitzone.lat">
                             <a className="text-base mb-4 block hover:underline">
@@ -44,14 +46,14 @@ export default function Footer() {
                         </Link>
                         <p className="font-overpass-light mb-6">
                             <Icon name="whatsapp" className="inline mr-2" />
-                            Escríbenos
+                            {t('Write to us')}
                             <a
                                 href="https://api.whatsapp.com/send?phone=51956941872&text=Hola+Bitzone+deseo+informaci%C3%B3n+sobre+un+proyecto+a+realizar"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-base ml-2 underline font-overpass-bold"
                             >
-                                Aquí
+                                {t('Here')}
                             </a>
                         </p>
                     </div>

@@ -1,6 +1,6 @@
-import Footer from '../components/Footer'
+import Footer from '../sections/Footer'
 import Header from '../sections/home/Header'
-import WeAre from '../sections/home/WeAre'
+import Section1 from '../sections/home/Section1'
 import Navbar from '../components/Navbar'
 import CallToContact from '../sections/CallToContact'
 import PageHead from '../components/PageHead'
@@ -16,7 +16,7 @@ export default function Home() {
             />
             <Navbar />
             <Header />
-            <WeAre />
+            <Section1 />
             <Section2 />
             <Section3 />
             <CallToContact />
