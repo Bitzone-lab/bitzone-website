@@ -9,13 +9,13 @@ export default function Section1() {
     return (
         <section className="flex flex-wrap md:flex-nowrap">
             <Item
-                title="ING"
+                title={t('SE')}
                 description={t('Software Engineering')}
                 to="/services/ing"
                 imgName="ing"
             />
             <Item
-                title="IA"
+                title={t('IA')}
                 description={t('Artificial Intelligence')}
                 to="/services/ia"
                 imgName="ia"

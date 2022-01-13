@@ -867,5 +867,13 @@
     "Tell us your reasons...": {
         "es": "Cuéntanos tus motivos, idea de proyecto ... ¡Queremos ayudarte!",
         "en" : "Tell us your reasons, project idea...we want to help you!"
+    },
+    "SE": {
+        "es": "ING",
+        "en": "SE"
+    },
+    "AI": {
+        "es": "IA",
+        "en": "AI"
     }
 }

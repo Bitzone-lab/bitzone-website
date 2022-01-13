@@ -22,7 +22,7 @@ export default function Ing() {
             <Navbar />
             <Drawer />
             <HeaderService
-                title="ING"
+                title={t('SE')}
                 subtitle={t('Software Engineering')}
                 description={t('We create digital...')}
                 bg="ing"

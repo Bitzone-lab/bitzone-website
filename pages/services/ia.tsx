@@ -24,7 +24,7 @@ export default function IA() {
             <Drawer />
             <HeaderService
                 bg="ia"
-                title="IA"
+                title={t('AI')}
                 subtitle={t('Artificial Intelligence')}
                 description={t('Our AI algorithms allow the...')}
             />
