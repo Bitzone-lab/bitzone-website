@@ -51,6 +51,7 @@ module.exports = {
                 'service-cloud': 'url("/images/services/cloud.jpg")',
                 'service-cloud-benefits':
                     'url("/images/services/image-15.jpg")',
+                'service-se-benefits': 'url("/images/services/image-14.jpg")',
                 ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
                 cloud: 'url(/images/services/cloud-header.jpg)',
                 ia: 'url("/images/services/ia-header.jpg")',

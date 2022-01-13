@@ -831,5 +831,41 @@
     "Thank you very much...": {
         "es": "Muchas gracias por contactarnos. Alguien de nuestro equipo comercial se comunicará contigo pronto.",
         "en": "Thank you very much for contacting us. Someone from our sales team will contact you soon."
+    },
+    "How can software...": {
+        "es": "¿De qué manera la ingeniería de software pueden beneficiar a un proyecto?",
+        "en": "How can software engineering benefit a project?"
+    },
+    "Professional exposure of your brand": {
+        "es": "Exposición profesional de tu marca",
+        "en": "Professional exposure of your brand"
+    },
+    "Have a website or...": {
+        "es": "Ten un sitio web o aplicación hecho a tu medida, según las necesidades de tu marca o negocio, por un equipo especialista en ingeniería de software.",
+        "en": "Have a website or application tailored to your needs, according to the needs of your brand or business, by a team specialized in software engineering."
+    },
+    "Processes’ systematization": {
+        "es": "Sistematización de procesos",
+        "en": "Processes’ systematization"
+    },
+    "We will help you...": {
+        "es": "Te ayudaremos a jerarquizar y organizar tus etapas de trabajo y operaciones de forma efectiva y productiva.",
+        "en": "We will help you to prioritize and organize your work stages and operations effectively and productively."
+    },
+    "About": {
+        "es": "Acerca de",
+        "en": "About"
+    },
+    "Company or Startup": {
+        "es": "Empresa, Institución o Startup",
+        "en": "Company or Startup"
+    },
+    "Project Manager, Commercial, etc": {
+        "es": "Jefe de Ventas, RRHH, etc",
+        "en": "Project Manager, Commercial, etc"
+    },
+    "Tell us your reasons...": {
+        "es": "Cuéntanos tus motivos, idea de proyecto ... ¡Queremos ayudarte!",
+        "en" : "Tell us your reasons, project idea...we want to help you!"
     }
 }

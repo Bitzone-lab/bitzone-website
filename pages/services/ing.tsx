@@ -4,8 +4,9 @@ import Footer from '../../sections/Footer'
 import PageHead from '../../components/PageHead'
 import CallToContact from '../../sections/CallToContact'
 import HeaderService from '../../sections/services/HeaderService'
-import Section2 from '../../sections/services/ing/Section2'
 import Section1 from '../../sections/services/ing/Section1'
+import Section2 from '../../sections/services/ing/Section2'
+import Section3 from '../../sections/services/ing/Section3'
 import { useTranslation } from 'react-i18next'
 
 export default function Ing() {
@@ -28,6 +29,7 @@ export default function Ing() {
             />
             <Section1 />
             <Section2 />
+            <Section3 />
             <CallToContact
                 title={t('Do you have a project...')}
                 description={t('Write to us and...')}

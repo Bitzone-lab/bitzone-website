@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="flex-wrap flex py-16 xl:justify-between">
                     <div className="w-1/2 xl:w-auto xl:order-2">
                         <p className="text-base font-sofia-bold mb-5">
-                            Acerca de
+                            {t('About')}
                         </p>
                         <Link href="/about">
                             <a className="text-base mb-4 hover:underline block">
@@ -44,7 +44,7 @@ export default function Footer() {
                             </a>
                         </Link>
                     </div>
-                    <div className="w-full mt-11 xl:w-auto xl:mt-0 xl:order-4">
+                    <div className="mt-11 w-1/2 xl:w-auto xl:mt-0 xl:order-4 pr-4 xl:pr-0">
                         <p className="text-base font-sofia-bold mb-5">
                             {t('Contact')}
                         </p>
@@ -66,7 +66,7 @@ export default function Footer() {
                             </a>
                         </p>
                     </div>
-                    <div className="w-full xl:w-auto xl:order-1">
+                    <div className="w-1/2 xl:w-auto xl:order-1 mt-12 xl:mt-0">
                         <div className="flex gap-2 mb-7">
                             <img
                                 width="26px"

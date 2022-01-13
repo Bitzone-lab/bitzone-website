@@ -61,7 +61,7 @@ export default function FormContact() {
                                         {t('I am working on')}
                                     </label>
                                     <Input
-                                        placeholder="Empresa, Institucion o Startup"
+                                        placeholder={t('Company or Startup')}
                                         name="work"
                                         helper={helpers.work}
                                         onFocus={() => clearField('work')}
@@ -72,7 +72,9 @@ export default function FormContact() {
                                         {t('My job position is')}
                                     </label>
                                     <Input
-                                        placeholder="Jefe de Ventas, RRHH, etc"
+                                        placeholder={t(
+                                            'Project Manager, Commercial, etc'
+                                        )}
                                         name="position"
                                         helper={helpers.position}
                                         onFocus={() => clearField('position')}
@@ -84,7 +86,7 @@ export default function FormContact() {
                             </label>
                             <TextArea
                                 name="motivo"
-                                placeholder="Cuéntanos tus motivos, consultas, idea de proyecto ... ¡Queremos ayudarte!"
+                                placeholder={t('Tell us your reasons...')}
                                 helper={helpers.motivo}
                                 onFocus={() => clearField('motivo')}
                             />
