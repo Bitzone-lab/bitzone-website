@@ -19,8 +19,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
 function getLanguage() {
     const navigatorLng = navigator.language
-    if (!localStorage.getItem('lang')) {
+    const currentNavigatorLng = localStorage.getItem('navigator.lng')
+
+    if (!localStorage.getItem('lang') || navigatorLng !== currentNavigatorLng) {
         localStorage.setItem('lang', navigatorLng || 'es')
+        localStorage.setItem('navigator.lng', navigatorLng)
     }
 
     return localStorage.getItem('lang') as 'es' | 'en'

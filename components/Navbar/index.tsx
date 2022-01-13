@@ -172,7 +172,7 @@ function Lang() {
         <div className="xl:ml-8 mt-5 xl:mt-0 text-xl xl:text-xs">
             <span
                 className={`cursor-pointer font-sofia-${
-                    i18n.language === 'es' ? 'bold' : 'light'
+                    lng === 'es' ? 'bold' : 'light'
                 }`}
                 onClick={() => changeLanguage('es')}
             >
