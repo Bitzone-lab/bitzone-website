@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import Col from '../../../components/Col'
 
 export default function Section1() {
     const { t } = useTranslation()
@@ -10,42 +9,43 @@ export default function Section1() {
                 <h2 className="text-3xl font-sofia-semibold text-secondary mb-16 text-center sm:text-left">
                     {t('Development phases')}
                 </h2>
-                <Col
-                    cols="1"
-                    className="xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-6"
-                    gapY={8}
-                >
+                <div className="grid grid-cols-1 sm:grid-cols-3 lg:flex lg:justify-between lg:items-center">
                     <Fases
                         count={1}
                         src="/images/services/3ds.png"
                         description={t('Initial diagnosis')}
                     />
+                    <Arrow />
                     <Fases
                         count={2}
                         src="/images/services/blueprint.png"
                         description={t('Solution design')}
                     />
+                    <Arrow />
                     <Fases
                         count={3}
                         src="/images/services/3d-display.png"
                         description={t('Software development')}
                     />
+                    <Arrow />
                     <Fases
                         count={4}
                         src="/images/services/cloud.png"
                         description={t('Infraestructure development')}
                     />
+                    <Arrow />
                     <Fases
                         count={5}
                         src="/images/services/3d-design.png"
                         description={t('Solution integration')}
                     />
+                    <Arrow />
                     <Fases
                         count={6}
                         src="/images/services/rotation.png"
                         description={t('Continuous maintenance')}
                     />
-                </Col>
+                </div>
             </div>
         </section>
     )
@@ -64,6 +64,16 @@ function Fases({ count, src, description }: FasesProps) {
                 {description}
             </p>
         </div>
+    )
+}
+
+function Arrow() {
+    return (
+        <img
+            src="/images/services/arrow_downward.svg"
+            alt="arrow_downward"
+            className="w-6 hidden lg:block xl:w-max"
+        />
     )
 }
 

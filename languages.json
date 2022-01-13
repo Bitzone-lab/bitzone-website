@@ -47,10 +47,6 @@
         "es": "¡Genial!",
         "en": "¡Cool!"
     },
-    "Thank you for taking this first...": {
-        "es": "Gracias por dar este primer paso junto con nosotros. Te estaremos respondiendo lo más pronto posible.",
-        "en": "Thank you for taking this first step together with us. We will be answering you as soon as possible."
-    },
     "Back to home": {
         "es": "Regresar a home",
         "en": "Back to home"
@@ -831,5 +827,9 @@
     "Do you have a project...": {
         "es": "¿Tienes un proyecto que requiera ingeniería de software?",
         "en": "Do you have a project that requires software engineering?"
+    },
+    "Thank you very much...": {
+        "es": "Muchas gracias por contactarnos. Alguien de nuestro equipo comercial se comunicará contigo pronto.",
+        "en": "Thank you very much for contacting us. Someone from our sales team will contact you soon."
     }
 }

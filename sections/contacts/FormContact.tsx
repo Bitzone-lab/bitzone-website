@@ -10,13 +10,14 @@ import Col from '../../components/Col'
 export default function FormContact() {
     const { success, sendForm, helpers, clearField, loading } = useForm()
     const { t } = useTranslation()
+
     return (
         <section className="bg-white relative flex justify-center">
             <div
                 className="bg-contact-header absolute top-0 w-full bg-cover"
                 style={{ height: '535px' }}
             />
-            <div className="bg-transparent relative z-2 w-full lg:w-4/5 mt-64 mb-16 px-8 lg:px-0">
+            <div className="bg-transparent relative z-2 w-full max-w-3xl mx-auto mt-64 mb-16 px-8 lg:px-0">
                 {!success && (
                     <form
                         name="contact"
