@@ -32,7 +32,10 @@ export default function IA() {
             <Section2 />
             <Section3 />
             <Section4 />
-            <CallToContact />
+            <CallToContact
+                title={t('Do you have an AI project in mind?')}
+                description={t('Write to us and...')}
+            />
             <Footer />
         </>
     )

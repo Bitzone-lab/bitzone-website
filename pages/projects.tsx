@@ -4,8 +4,11 @@ import Header from '../sections/projects/Header'
 import ListProjects from '../sections/projects/ListProjects'
 import PageHead from '../components/PageHead'
 import CallToContact from '../sections/CallToContact'
+import { useTranslation } from 'react-i18next'
 
 export default function Projects() {
+    const { t } = useTranslation()
+
     return (
         <>
             <PageHead
@@ -16,7 +19,10 @@ export default function Projects() {
             <Navbar />
             <Header />
             <ListProjects />
-            <CallToContact />
+            <CallToContact
+                title={t('Did you find it cool?')}
+                description={t('Write to us and...')}
+            />
             <Footer />
         </>
     )

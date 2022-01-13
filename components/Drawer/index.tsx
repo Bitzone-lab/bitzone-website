@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import { useState, ReactNode } from 'react'
 import Icon from '../Icon'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
+import classNames from 'classnames'
+import styles from './drawer.module.css'
 
 export default function Drawer() {
     const [showUniverses, setShowUniverses] = useState(false)
     const [show, setShow] = useState(false)
-    const router = useRouter()
     const { t } = useTranslation()
 
     return (
@@ -43,30 +44,21 @@ export default function Drawer() {
                     </div>
                 </div>
                 <div
-                    className="hidden xl:block absolute right-0 px-2 py-2"
+                    className="hidden xl:block absolute right-0 px-2 py-2 z-10"
                     onClick={() => setShowUniverses(false)}
                 >
                     <Icon size={28} pointer name="close" />
                 </div>
                 <div>
-                    <div
-                        className="bg-ing service-bg-drawer h-bg-drawer"
-                        onClick={() => router.push('/services/ing')}
-                    >
+                    <Item bg="ing" to="/ing">
                         ING
-                    </div>
-                    <div
-                        className="bg-ia service-bg-drawer h-bg-drawer"
-                        onClick={() => router.push('/services/ia')}
-                    >
+                    </Item>
+                    <Item bg="ia" to="/ia">
                         IA
-                    </div>
-                    <div
-                        className="bg-cloud service-bg-drawer h-bg-drawer"
-                        onClick={() => router.push('/services/cloud')}
-                    >
+                    </Item>
+                    <Item bg="cloud" to="/cloud">
                         CLOUD
-                    </div>
+                    </Item>
                 </div>
             </div>
             <div
@@ -91,7 +83,7 @@ export default function Drawer() {
                     </div>
                 </div>
                 <div className="flex flex-col text-white items-center justify-center p-14 text-2xl">
-                    <Link href="/">
+                    <Link href="/about">
                         <a className="font-sofia py-4 text-3xl">{t('We')}</a>
                     </Link>
                     <Link href="/services">
@@ -109,12 +101,40 @@ export default function Drawer() {
                             {t('Contact')}
                         </a>
                     </Link>
-                    <hr className="w-full border-2 border-white opacity-60 my-8" />
-                    <a className="font-sofia py-4 text-3xl">
-                        {t('Accessibility')}
-                    </a>
                 </div>
             </div>
         </nav>
     )
+}
+
+export function Item({ children, to, bg }: ItemsProps) {
+    const router = useRouter()
+
+    return (
+        <div
+            className={classNames(
+                `bg-${bg} service-bg-drawer h-bg-drawer relative`,
+                {
+                    [styles['drawer-item']]: true
+                }
+            )}
+            onClick={() => router.push(`/services${to}`)}
+        >
+            <div
+                className={classNames(
+                    'bg-black w-full h-full absolute transition-opacity',
+                    {
+                        [styles.shape]: true
+                    }
+                )}
+            />
+            {children}
+        </div>
+    )
+}
+
+interface ItemsProps {
+    children: ReactNode
+    to: string
+    bg: string
 }

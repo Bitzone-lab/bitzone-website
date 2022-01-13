@@ -28,7 +28,10 @@ export default function Ing() {
             />
             <Section1 />
             <Section2 />
-            <CallToContact />
+            <CallToContact
+                title={t('Do you have a project...')}
+                description={t('Write to us and...')}
+            />
             <Footer />
         </>
     )

@@ -51,7 +51,7 @@ function Item({ title, description, to, imgName }: ItemProps) {
                         [styles.shape]: true
                     }
                 )}
-            ></div>
+            />
             <div className="text-center relative z-10">
                 <p className="title-service">{title}</p>
                 <p className="subtitle-service">{description}</p>

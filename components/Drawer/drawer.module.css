@@ -1,0 +1,7 @@
+.drawer-item .shape {
+    opacity: .7;
+}
+
+.drawer-item:hover .shape{
+    opacity: 0;
+}

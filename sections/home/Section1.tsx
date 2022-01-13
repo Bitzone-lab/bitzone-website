@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router'
 import { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import Button from '../../components/Button'
@@ -5,6 +6,7 @@ import Col from '../../components/Col'
 
 export default function Section1() {
     const { t } = useTranslation()
+    const { push } = useRouter()
 
     return (
         <section className="bg-black text-white py-20">
@@ -61,7 +63,9 @@ export default function Section1() {
                         <Desc>{t('We are committed to new...')}</Desc>
                     </div>
                 </Col>
-                <Button className="mt-16 btn-md">{t('More about us')}</Button>
+                <Button onClick={() => push('/about')} className="mt-16 btn-md">
+                    {t('More about us')}
+                </Button>
             </div>
         </section>
     )

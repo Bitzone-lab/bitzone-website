@@ -9,11 +9,7 @@ import Button from '../Button'
 export default function Navbar() {
     const [show, setShow] = useState(false)
     const router = useRouter()
-    const { t, i18n } = useTranslation()
-
-    const changeLanguage = (lng: 'es' | 'en') => {
-        i18n.changeLanguage(lng)
-    }
+    const { t } = useTranslation()
 
     const [floatNav, setFlotNav] = useState(false)
 
@@ -108,25 +104,7 @@ export default function Navbar() {
                         >
                             {t('Contact')}
                         </Button>
-                        <div className="ml-8 text-xs">
-                            <span
-                                className={`cursor-pointer font-sofia-${
-                                    i18n.language === 'es' ? 'bold' : 'light'
-                                }`}
-                                onClick={() => changeLanguage('es')}
-                            >
-                                ESP
-                            </span>
-                            <span className="inline mx-1">|</span>
-                            <span
-                                className={`cursor-pointer font-sofia-${
-                                    i18n.language === 'en' ? 'bold' : 'light'
-                                }`}
-                                onClick={() => changeLanguage('en')}
-                            >
-                                ENG
-                            </span>
-                        </div>
+                        <Lang />
                     </div>
                     <div className="block xl:hidden"></div>
                 </div>
@@ -171,8 +149,44 @@ export default function Navbar() {
                             {t('Contact')}
                         </a>
                     </Link>
+                    <div className="text-center">
+                        <Lang />
+                    </div>
                 </div>
             </div>
         </nav>
+    )
+}
+
+function Lang() {
+    const { i18n } = useTranslation()
+
+    const changeLanguage = (language: 'es' | 'en') => {
+        localStorage.setItem('lang', language)
+        i18n.changeLanguage(language)
+    }
+
+    const lng = i18n.language.split('-')[0]
+
+    return (
+        <div className="xl:ml-8 mt-5 xl:mt-0 text-xl xl:text-xs">
+            <span
+                className={`cursor-pointer font-sofia-${
+                    i18n.language === 'es' ? 'bold' : 'light'
+                }`}
+                onClick={() => changeLanguage('es')}
+            >
+                ESP
+            </span>
+            <span className="inline mx-1">|</span>
+            <span
+                className={`cursor-pointer font-sofia-${
+                    lng === 'en' ? 'bold' : 'light'
+                }`}
+                onClick={() => changeLanguage('en')}
+            >
+                ENG
+            </span>
+        </div>
     )
 }

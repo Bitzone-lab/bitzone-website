@@ -27,6 +27,8 @@ export default function Section2() {
                     </p>
                     <ul className="list-disc list-inside mt-12 text-subtle">
                         <li className="mb-6">{t('Mobile applications')}</li>
+                        <li className="mb-6">{t('Web applications')}</li>
+                        <li className="mb-6">APIs</li>
                         <li>{t('Websites')}</li>
                     </ul>
                 </div>

@@ -811,5 +811,25 @@
     "Write a reason": {
         "es": "Escribe un motivo",
         "en": "Write a reason"
+    },
+    "Web applications": {
+        "es": "Aplicaciones web",
+        "en": "Web applications"
+    },
+    "Are you interested in a CLOUD infrastructure?": {
+        "es": "¿Te interesa una infraestructura CLOUD?",
+        "en": "Are you interested in a CLOUD infrastructure?"
+    },
+    "Write to us and...": {
+        "es": "Anímate a escribirnos y veamos qué podemos construir juntos.",
+        "en": "Write to us and let's see what we can build together."
+    },
+    "Do you have an AI project in mind?": {
+        "es": "¿Tienes en mente un proyecto con IA?",
+        "en": "Do you have an AI project in mind?"
+    },
+    "Do you have a project...": {
+        "es": "¿Tienes un proyecto que requiera ingeniería de software?",
+        "en": "Do you have a project that requires software engineering?"
     }
 }

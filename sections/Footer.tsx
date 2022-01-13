@@ -4,6 +4,7 @@ import Icon from '../components/Icon'
 
 export default function Footer() {
     const { t } = useTranslation()
+
     return (
         <footer className="bg-footer text-white px-8 xl:px-0 pb-5 w-full">
             <div className="xl:max-w-6xl xl:w-full xl:mx-auto">
@@ -27,13 +28,21 @@ export default function Footer() {
                         <p className="text-base font-sofia-bold mb-5">
                             {t('Services')}
                         </p>
-                        <p className="text-base mb-4">
-                            {t('Software Engineering')}
-                        </p>
-                        <p className="text-base mb-4">
-                            {t('Artificial Intelligence')}
-                        </p>
-                        <p className="text-base mb-4">{t('Cloud Computing')}</p>
+                        <Link href="/services/ing">
+                            <a className="text-base mb-4 block hover:underline">
+                                {t('Software Engineering')}
+                            </a>
+                        </Link>
+                        <Link href="/services/ia">
+                            <a className="text-base mb-4 block hover:underline">
+                                {t('Artificial Intelligence')}
+                            </a>
+                        </Link>
+                        <Link href="/services/cloud">
+                            <a className="text-base mb-4 hover:underline">
+                                {t('Cloud Computing')}
+                            </a>
+                        </Link>
                     </div>
                     <div className="w-full mt-11 xl:w-auto xl:mt-0 xl:order-4">
                         <p className="text-base font-sofia-bold mb-5">

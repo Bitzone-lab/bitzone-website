@@ -32,7 +32,10 @@ export default function Cloud() {
             <Section2 />
             <Section3 />
             <Section4 />
-            <CallToContact />
+            <CallToContact
+                title={t('Are you interested in a CLOUD infrastructure?')}
+                description={t('Write to us and...')}
+            />
             <Footer />
         </>
     )

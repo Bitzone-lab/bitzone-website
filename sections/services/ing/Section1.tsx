@@ -29,7 +29,7 @@ export default function Section1() {
                     />
                     <Arrow />
                     <Fases
-                        count={5}
+                        count={4}
                         src="/images/services/3d-design.png"
                         description={t('Solution integration')}
                     />
