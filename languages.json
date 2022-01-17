@@ -717,8 +717,8 @@
         "en": "ERP designed and built to measure to support and scale Inventory and Purchasing operations, and integrate and share information with CRM and other CORE applications."
     },
     "Serverless REST API designed and...": {
-        "es": "API REST serverless diseñado y construido para ser el único proveedor de calles y direcciones de todas las aplicaciones CORE de una empresa utilities.",
-        "en": "Serverless REST API designed and built to be the only street and address provider for all CORE applications of a utility company."
+        "es": "API REST serverless diseñado y construido para ser el único proveedor de calles y direcciones de todas las aplicaciones CORE de una empresa de servicios.",
+        "en": "Serverless REST API designed and built to be the only street and address provider for all CORE applications of a service company."
     },
     "Responsive web application native...": {
         "es": "Aplicación web responsive nativa en Cloud y escalable que permite visualizar las redes electricas de la compañia en forma de capas de información sobre mapas geográficos.",
@@ -737,12 +737,12 @@
         "en": "Web Project"
     },
     "Real-time web platform that...": {
-        "es": "Plataforma web real-time que monitorea en dashboards gráficos datos masivos enviados por sensores IoT. Los datos se procesan y almacenan en una base de datos de series de tiempo para agilizar la ingestión y su procesamiento.",
-        "en": "Real-time web platform that monitors massive data sent by IoT sensors on dashboards. Data is processed and stored in a time series database to streamline the ingestion and processing of information."
+        "es": "Plataforma web real-time que monitorea en dashboards datos masivos enviados por sensores IoT. Los datos se procesan y almacenan en una base de datos de series de tiempo para agilizar la ingesta y el procesamiento de información.",
+        "en": "Real-time web platform that monitors massive data sent by IoT sensors in dashboards. The data is processed and stored in a time series database to speed up the ingestion and processing of information."
     },
     "Web app that recruits Aliados to...": {
-        "es": "Web app que recluta a Aliados para incrementar las ventas a través de referidos. Permite el registro y gestión de aliados, referidos de pagos.",
-        "en": "Web app that recruits Aliados to increase loan placement through referrals. It allows the recruitment of allies, administration of referrals and the management of payments."
+        "es": "Web app que recluta a Aliados para incrementar la colocación de préstamos a través de referidos. Permite el reclutamiento de aliados, administración de referidos y la gestión de pagos.",
+        "en": "Web app that recruits Allies to increase the placement of loans through referrals. Allows the recruitment of allies, administration of referrals and payment management."
     },
     "Design and construction of the...": {
         "es": "Diseño y desarrollo del Website corporativo de Procustodia asociado a un Headless CMS que gestiona el contenido informativo, de oficinas y documentación e información legal.",
@@ -875,5 +875,9 @@
     "AI": {
         "es": "IA",
         "en": "AI"
+    },
+    "AI & Web Project": {
+        "es": "Proyecto IA & Web",
+        "en": "AI & Web Project"
     }
 }

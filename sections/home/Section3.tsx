@@ -30,8 +30,8 @@ export default function Section3() {
                         style={{ maxWidth: '131px' }}
                     />
                     <img
-                        src="/images/home-section3/astrum.png"
-                        alt="astrum"
+                        src="/images/home-section3/senati.svg"
+                        alt="senati"
                         className="mx-auto w-full"
                         style={{ maxWidth: '142px' }}
                     />

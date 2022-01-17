@@ -41,17 +41,17 @@ export default function Header() {
         {
             title: 'Advance ERP',
             subtitle: t('ERP designed and built to...'),
-            image: '/img/erp.png'
+            image: '/images/project/erp.png'
         },
         {
             title: 'Street map',
             subtitle: t('Serverless REST API designed and...'),
-            image: '/images/project/dell_xps.png'
+            image: '/images/project/street_map.png'
         },
         {
-            title: 'Electrical network viewer',
+            title: 'Utility network viewer',
             subtitle: t('Responsive web application native...'),
-            image: '/img/visor.png'
+            image: '/images/project/dell_xps.png'
         }
     ]
 

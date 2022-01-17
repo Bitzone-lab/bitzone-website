@@ -57,7 +57,7 @@ export default function Footer() {
                             <Icon name="whatsapp" className="inline mr-2" />
                             {t('Write to us')}
                             <a
-                                href="https://api.whatsapp.com/send?phone=51956941872&text=Hola+Bitzone+deseo+informaci%C3%B3n+sobre+un+proyecto+a+realizar"
+                                href="https://api.whatsapp.com/send?phone=51956941872&text=Hola+Bitzone,+quiero+hablar+acerca+de+esta+idea+que+tengo"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-base ml-2 underline font-overpass-bold"

@@ -96,7 +96,7 @@ export default function Drawer() {
                             {t('Projects')}
                         </a>
                     </Link>
-                    <Link href="/contacts">
+                    <Link href="/contact">
                         <a className="font-sofia py-4 text-3xl">
                             {t('Contact')}
                         </a>

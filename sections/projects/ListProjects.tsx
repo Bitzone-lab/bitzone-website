@@ -57,14 +57,14 @@ export default function ListProjects() {
             icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
         },
         {
-            name: 'MinkAI',
+            name: t('AI & Web Project'),
             image: '/images/project/minkai.jpg',
             type: t('Web Project'),
             description: t('Recruitment management platform...'),
             icons: [
                 'img/react-logo.svg',
-                'img/csharp-logo.svg',
-                'img/sqlServer-logo.svg'
+                'images/project/python.png',
+                'images/project/aws.png'
             ]
         }
     ]

@@ -100,7 +100,7 @@ export default function Navbar() {
                     <div className="hidden text-white text-base xl:flex items-center">
                         <Button
                             className="btn-sm bg-white hover:bg-white"
-                            onClick={() => router.push('/contacts')}
+                            onClick={() => router.push('/contact')}
                         >
                             {t('Contact')}
                         </Button>
@@ -144,7 +144,7 @@ export default function Navbar() {
                             {t('Projects')}
                         </a>
                     </Link>
-                    <Link href="/contacts">
+                    <Link href="/contact">
                         <a className="font-sofia py-4 text-3xl">
                             {t('Contact')}
                         </a>

@@ -22,7 +22,7 @@ export default function CallToContact({
                 </div>
                 <Button
                     className="w-full lg:w-auto lg:py-2 lg:px-5 mt-5 lg:mt-0"
-                    onClick={() => router.push('/contacts')}
+                    onClick={() => router.push('/contact')}
                 >
                     {t('Contact us')}
                 </Button>
