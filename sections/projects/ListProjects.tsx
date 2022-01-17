@@ -57,9 +57,9 @@ export default function ListProjects() {
             icons: ['img/netlify.svg', 'img/nextjs.svg', 'img/prismic.svg']
         },
         {
-            name: t('AI & Web Project'),
+            name: 'Minkai',
             image: '/images/project/minkai.jpg',
-            type: t('Web Project'),
+            type: t('AI & Web Project'),
             description: t('Recruitment management platform...'),
             icons: [
                 'img/react-logo.svg',
@@ -95,10 +95,10 @@ export default function ListProjects() {
                             }`}
                         >
                             <div className="xl:flex xl:justify-center xl:flex-col xl:items-center xl:h-full">
-                                <p className="text-tagline uppercase mt-8 hidden font-overpass-bold text-sm xl:block">
+                                <p className="text-tagline uppercase mt-8 font-overpass-bold text-sm">
                                     {dataProject.type}
                                 </p>
-                                <p className="font-sofia font-bold text-3xl text-subtle mt-8 xl:mt-5 xl:text-4xl">
+                                <p className="font-sofia font-bold text-3xl text-subtle mt-4 xl:mt-5 xl:text-4xl">
                                     {dataProject.name}
                                 </p>
                                 <p className="font-sans font-light text-base text-normal mt-5">
