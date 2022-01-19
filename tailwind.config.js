@@ -30,16 +30,11 @@ module.exports = {
                     'linear-gradient(249.52deg, #6FCF97 0%, #219653 100%)',
                 'radial-accent':
                     'radial-gradient(50% 50% at 50% 50%, #FFFF7E 0%, #EDE04B 100%)',
+                'call-to-contact': 'url(/images/call_to_contact.jpg)',
                 'radial-primary':
                     'radial-gradient(50% 50% at 50% 50%, #7F52DD 0%, #4A25AA 100%)',
-                'call-to-contact': 'url(/images/call_to_contact.jpg)',
-                'call-to-contact-project':
-                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/call-to-contact-project.png)',
-                'contact-form':
-                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/contact-form.png)',
                 'why-whe-wrapper-image':
                     'linear-gradient(225deg, #FFFF7E 0%, #EDE04B 100%)',
-                'bits-img': 'url("/img/bits.png")',
                 'services-dev': 'url("/img/dev_bg.png")',
                 header: 'url("/images/home_header.jpg")',
                 'about-header': 'url("/images/about-header.jpg")',
@@ -52,17 +47,10 @@ module.exports = {
                 'service-cloud-benefits':
                     'url("/images/services/image-15.jpg")',
                 'service-se-benefits': 'url("/images/services/image-14.jpg")',
-                ux: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/ux_bg.png)',
                 cloud: 'url(/images/services/cloud-header.jpg)',
                 ia: 'url("/images/services/ia-header.jpg")',
                 ing: 'url("/images/services/ing-header.jpg")',
                 'service-ia-project': 'url("/images/services/image-16.jpg")',
-                dev: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/dev_bg.png)',
-                about1: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_1.png)',
-                about2: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_2.png)',
-                about3: 'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/about_3.png)',
-                wireframes:
-                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/wireframes.png)',
                 'header-projects-mobile':
                     'linear-gradient(to right, #7F52DD 0%, #00007A 50.01%, #29A6FF 50%, #0C69AB 100%)',
                 'erp-background':
@@ -70,9 +58,7 @@ module.exports = {
                 'callejeros-background':
                     'linear-gradient(to right, #FFFF7E 0%, #D8CC44 100%)',
                 'visor-background':
-                    'linear-gradient(to right, #0049C3 0%, #002056 100%)',
-                'phrase-about':
-                    'linear-gradient(0deg, rgba(74, 37, 170, 0.5), rgba(74, 37, 170, 0.5)), url(/img/phrase_bg.png)'
+                    'linear-gradient(to right, #0049C3 0%, #002056 100%)'
             },
             colors: {
                 background: '#EEEEEE',
