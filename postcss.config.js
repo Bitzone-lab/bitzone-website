@@ -20,7 +20,7 @@ module.exports = {
         'postcss-easy-import',
         'tailwindcss',
         'autoprefixer',
-        // process.env.NODE_ENV === 'production' ? purgecss : undefined,
+        process.env.NODE_ENV === 'production' ? purgecss : undefined,
         'cssnano'
     ]
 }

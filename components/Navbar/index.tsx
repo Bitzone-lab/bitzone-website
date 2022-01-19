@@ -61,8 +61,8 @@ export default function Navbar() {
                         <img
                             className="hidden xl:block bg-cover xl:pl-2 cursor-pointer"
                             alt="logo text"
-                            width="auto"
-                            height="auto"
+                            width="105"
+                            height="21"
                             src="/img/logo.png"
                             onClick={() => router.push('/')}
                         />

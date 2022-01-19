@@ -37,7 +37,7 @@ export default function Section2() {
                         alt="vsc"
                         className="mx-auto"
                         width="100%"
-                        height="auto"
+                        height="427.55"
                     />
                 </div>
             </div>
