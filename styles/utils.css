@@ -1,0 +1,51 @@
+.wrapper-contact {
+    @apply bg-white h-36 filter drop-shadow-contact flex justify-center items-center xl:h-48;
+}
+
+.label-form {
+    @apply text-subtle font-sofia text-sm mb-3;
+}
+
+.wrapper-image-why-whe {
+    @apply border-accent flex justify-center items-center px-5 py-8 h-32 w-32 m-4 bg-transparent;
+}
+
+.active-wrapper-image-why-whe {
+    @apply bg-why-whe-wrapper-image shadow-wrapper-image-why-whe;
+}
+
+.focus-input {
+    @apply focus:bg-white focus:ring-offset-primary-light focus:ring-primary-light focus:ring;
+}
+
+.service-bg {
+    @apply bg-cover h-28 flex justify-center items-center text-white cursor-pointer bg-center;
+}
+
+.service-bg-drawer {
+    @apply bg-cover flex justify-center items-center text-white font-sofia-bold text-5xl cursor-pointer;
+}
+
+.h-bg-drawer {
+    height: calc(calc(100vh - 64px) / 3);
+}
+
+.title-service {
+    @apply font-sofia-bold text-5xl xl:text-8xl;
+}
+
+.subtitle-service {
+    @apply hidden font-sofia font-normal xl:block xl:mt-5;
+}
+
+.swiper-slide-active{
+    @apply transform scale-110  rounded-md;
+}
+
+.swiper-slide-prev{
+    @apply transform scale-90 opacity-50;
+}
+
+.swiper-slide-next{
+    @apply transform scale-90 opacity-50;
+}

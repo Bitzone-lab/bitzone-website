@@ -24,7 +24,10 @@ export default function PageHead({ title, description, image }: PropsPageHead) {
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.bitzone.lat/" />
             <meta property="og:image" content={image} />
-            <meta property="og:description" content={description} />
+            <meta
+                property="og:description"
+                content="Lleva tu negocio al siguiente nivel con el poder de la tecnología. ¡Únete al cambio que está revolucionando al mundo!"
+            />
         </Head>
     )
 }
