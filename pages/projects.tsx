@@ -14,7 +14,7 @@ export default function Projects() {
             <PageHead
                 title="Bitzone: Proyectos"
                 description="Mejoramos el mundo con tecnología, y he aquí la prueba de ello"
-                image="/img/logo_image.svg"
+                image="/images/bitzone.png"
             />
             <Navbar />
             <Header />

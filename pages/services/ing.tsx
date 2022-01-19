@@ -17,7 +17,7 @@ export default function Ing() {
             <PageHead
                 title="Bitzone: Service Engineering"
                 description={t('We create digital...')}
-                image="/img/logo_image.svg"
+                image="/images/bitzone.png"
             />
             <Navbar />
             <Drawer />

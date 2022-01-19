@@ -16,7 +16,7 @@ export default function Home() {
             <PageHead
                 title="Bitzone"
                 description="Construye tu futuro con Bitzone"
-                image="/img/logo_image.svg"
+                image="/images/bitzone.png"
             />
             <Navbar />
             <Header />

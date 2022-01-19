@@ -15,7 +15,7 @@ export default function About() {
             <PageHead
                 title="Bitzone: Nosotros"
                 description="Más que una empresa, somos una comunidad."
-                image="/img/logo_image.svg"
+                image="/images/bitzone.png"
             />
             <Navbar />
             <Header />
