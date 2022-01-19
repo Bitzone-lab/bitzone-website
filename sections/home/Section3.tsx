@@ -17,49 +17,44 @@ export default function Section3() {
                     {t('Several Peruvian and foreign...')}
                 </p>
                 <div className="flex justify-between items-center gap-12 flex-wrap px-10">
-                    <div style={{ maxWidth: '298px' }}>
+                    <div style={{ maxWidth: '298px' }} className="mx-auto">
                         <img
                             src="/images/home-section3/inversiones_la_cruz.png"
                             alt="inversiones_la_cruz"
-                            className="mx-auto w-full"
                             width="100%"
-                            height="auto"
+                            height="40"
                         />
                     </div>
-                    <div style={{ maxWidth: '131px' }}>
+                    <div style={{ maxWidth: '131px' }} className="mx-auto">
                         <img
                             src="/images/home-section3/advance.png"
                             alt="advance"
-                            className="mx-auto w-full"
                             width="100%"
-                            height="auto"
+                            height="60"
                         />
                     </div>
-                    <div style={{ maxWidth: '142px' }}>
+                    <div style={{ maxWidth: '142px' }} className="mx-auto">
                         <img
                             src="/images/home-section3/senati.svg"
                             alt="senati"
-                            className="mx-auto w-full"
                             width="100%"
-                            height="auto"
+                            height="37.19"
                         />
                     </div>
-                    <div style={{ maxWidth: '219px' }}>
+                    <div style={{ maxWidth: '219px' }} className="mx-auto">
                         <img
                             src="/images/home-section3/inmotus.png"
                             alt="inmotus"
-                            className="mx-auto w-full"
                             width="100%"
-                            height="auto"
+                            height="50"
                         />
                     </div>
-                    <div style={{ maxWidth: '197px' }}>
+                    <div style={{ maxWidth: '197px' }} className="mx-auto">
                         <img
                             src="/images/home-section3/procustodia.png"
                             alt="procustodia"
-                            className="mx-auto w-full"
                             width="100%"
-                            height="auto"
+                            height="50"
                         />
                     </div>
                 </div>
