@@ -11,11 +11,15 @@ export default function Section2() {
                         className="hidden md:block"
                         src="/images/services/mobile.png"
                         alt="red-cloud"
+                        width="181"
+                        height="211"
                     />
                     <img
                         className=""
                         src="/images/services/pc.png"
                         alt="red-cloud"
+                        width="211"
+                        height="211"
                     />
                 </div>
                 <div className="w-full md:w-1/2 md:pl-16">

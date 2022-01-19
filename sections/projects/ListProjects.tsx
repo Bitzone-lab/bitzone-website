@@ -63,8 +63,8 @@ export default function ListProjects() {
             description: t('Recruitment management platform...'),
             icons: [
                 'img/react-logo.svg',
-                'images/project/python.png',
-                'images/project/aws.png'
+                'images/project/python.svg',
+                'images/project/aws.svg'
             ]
         }
     ]
@@ -85,7 +85,9 @@ export default function ListProjects() {
                             <img
                                 className="bg-cover bg-black w-full"
                                 src={dataProject.image}
-                            ></img>
+                                width="512"
+                                height="461.25"
+                            />
                         </div>
                         <div
                             className={`px-4 text-center xl:w-1/2 xl:px-0 ${

@@ -51,7 +51,13 @@ export default function Section1() {
 function Security({ src, title, description }: SecurityProps) {
     return (
         <div className="text-center">
-            <img src={src} alt={title} className="mx-auto mb-3" />
+            <img
+                src={src}
+                alt={title}
+                className="mx-auto mb-3"
+                width="70"
+                height="70"
+            />
             <h3 className="font-sofia-semibold text-secondary text-lg mb-5">
                 {title}
             </h3>

@@ -11,6 +11,8 @@ export default function Section2() {
                         src="/images/services/red-cloud.png"
                         alt="red-cloud"
                         className="mx-auto mb-6"
+                        width="317"
+                        height="317"
                     />
                 </div>
                 <div className="w-full sm:w-1/2">

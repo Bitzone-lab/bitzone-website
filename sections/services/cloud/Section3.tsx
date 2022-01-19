@@ -30,6 +30,8 @@ export default function Section3() {
                         src="/images/services/automatization.png"
                         alt="automatization"
                         className="mx-auto"
+                        width="276"
+                        height="276"
                     />
                 </div>
             </div>

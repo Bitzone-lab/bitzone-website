@@ -58,7 +58,7 @@ function Fases({ count, src, description }: FasesProps) {
                 {count}
             </h4>
             <div className="mx-auto mb-3 w-36 h-36 border-4 border-dashed border-accent-alt flex justify-center items-center rounded-full">
-                <img src={src} alt="3ds" />
+                <img src={src} alt="3ds" width="80" height="80" />
             </div>
             <p className="text-secondary font-sofia-bold w-32 text-center mx-auto">
                 {description}
@@ -73,6 +73,8 @@ function Arrow() {
             src="/images/services/arrow_downward.svg"
             alt="arrow_downward"
             className="w-6 hidden lg:block xl:w-max"
+            width="34"
+            height="34"
         />
     )
 }

@@ -11,6 +11,8 @@ export default function Section1() {
                         src="/images/services/eye.png"
                         alt="eye"
                         className="mx-auto sm:mx-0 mb-6"
+                        height="290"
+                        width="290"
                     />
                 </div>
                 <div className="w-full sm:w-1/2">

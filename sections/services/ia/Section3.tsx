@@ -19,6 +19,8 @@ export default function Section3() {
                         src="/images/services/ia2.png"
                         alt="red-cloud"
                         className="mx-auto mb-6 sm:mb-0"
+                        height="260"
+                        width="260"
                     />
                 </div>
             </div>

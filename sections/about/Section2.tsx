@@ -54,7 +54,13 @@ export default function Section2() {
 function Profile({ src, title, description }: ProfileProps) {
     return (
         <div className="text-center">
-            <img src={src} alt={title} className="mx-auto mb-3" />
+            <img
+                src={src}
+                alt={title}
+                className="mx-auto mb-3"
+                width="204"
+                height="204"
+            />
             <h3 className="font-sofia-semibold text-secondary text-lg">
                 {title}
             </h3>
