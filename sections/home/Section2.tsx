@@ -32,7 +32,13 @@ export default function Section2() {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <img src="/images/vsc.jpg" alt="vsc" className="mx-auto" />
+                    <img
+                        src="/images/vsc.jpg"
+                        alt="vsc"
+                        className="mx-auto"
+                        width="100%"
+                        height="auto"
+                    />
                 </div>
             </div>
         </section>

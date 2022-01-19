@@ -17,36 +17,51 @@ export default function Section3() {
                     {t('Several Peruvian and foreign...')}
                 </p>
                 <div className="flex justify-between items-center gap-12 flex-wrap px-10">
-                    <img
-                        src="/images/home-section3/inversiones_la_cruz.png"
-                        alt="inversiones_la_cruz"
-                        className="mx-auto w-full"
-                        style={{ maxWidth: '298px' }}
-                    />
-                    <img
-                        src="/images/home-section3/advance.png"
-                        alt="advance"
-                        className="mx-auto w-full"
-                        style={{ maxWidth: '131px' }}
-                    />
-                    <img
-                        src="/images/home-section3/senati.svg"
-                        alt="senati"
-                        className="mx-auto w-full"
-                        style={{ maxWidth: '142px' }}
-                    />
-                    <img
-                        src="/images/home-section3/inmotus.png"
-                        alt="inmotus"
-                        className="mx-auto w-full"
-                        style={{ maxWidth: '219px' }}
-                    />
-                    <img
-                        src="/images/home-section3/procustodia.png"
-                        alt="procustodia"
-                        className="mx-auto w-full"
-                        style={{ maxWidth: '197px' }}
-                    />
+                    <div style={{ maxWidth: '298px' }}>
+                        <img
+                            src="/images/home-section3/inversiones_la_cruz.png"
+                            alt="inversiones_la_cruz"
+                            className="mx-auto w-full"
+                            width="100%"
+                            height="auto"
+                        />
+                    </div>
+                    <div style={{ maxWidth: '131px' }}>
+                        <img
+                            src="/images/home-section3/advance.png"
+                            alt="advance"
+                            className="mx-auto w-full"
+                            width="100%"
+                            height="auto"
+                        />
+                    </div>
+                    <div style={{ maxWidth: '142px' }}>
+                        <img
+                            src="/images/home-section3/senati.svg"
+                            alt="senati"
+                            className="mx-auto w-full"
+                            width="100%"
+                            height="auto"
+                        />
+                    </div>
+                    <div style={{ maxWidth: '219px' }}>
+                        <img
+                            src="/images/home-section3/inmotus.png"
+                            alt="inmotus"
+                            className="mx-auto w-full"
+                            width="100%"
+                            height="auto"
+                        />
+                    </div>
+                    <div style={{ maxWidth: '197px' }}>
+                        <img
+                            src="/images/home-section3/procustodia.png"
+                            alt="procustodia"
+                            className="mx-auto w-full"
+                            width="100%"
+                            height="auto"
+                        />
+                    </div>
                 </div>
             </div>
         </section>

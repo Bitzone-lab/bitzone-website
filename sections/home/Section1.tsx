@@ -31,6 +31,8 @@ export default function Section1() {
                             src="/images/why_we_us/selfconfident.png"
                             alt="selfconfident"
                             className="mx-auto"
+                            width="70px"
+                            height="70px"
                         />
                         <SubTitle>{t('We are constantly growing')}</SubTitle>
                         <Desc>{t('We adapt to each project in...')}</Desc>
@@ -40,6 +42,8 @@ export default function Section1() {
                             src="/images/why_we_us/change.png"
                             alt="change"
                             className="mx-auto"
+                            width="70px"
+                            height="70px"
                         />
                         <SubTitle>{t('We believe in communication')}</SubTitle>
                         <Desc>{t('We value feedback from our...')}</Desc>
@@ -49,6 +53,8 @@ export default function Section1() {
                             src="/images/why_we_us/friendly.png"
                             alt="friendly"
                             className="mx-auto"
+                            width="70px"
+                            height="70px"
                         />
                         <SubTitle>{t('We are a motivated team')}</SubTitle>
                         <Desc>{t('Our team has group...')}</Desc>
@@ -58,6 +64,8 @@ export default function Section1() {
                             src="/images/why_we_us/bubbles.png"
                             alt="bubbles"
                             className="mx-auto"
+                            width="70px"
+                            height="70px"
                         />
                         <SubTitle>{t('We train new talent')}</SubTitle>
                         <Desc>{t('We are committed to new...')}</Desc>
