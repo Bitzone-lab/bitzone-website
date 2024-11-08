@@ -13,6 +13,19 @@ export default function ListProjects() {
 
     const dataProjects: ContentProject[] = [
         {
+            name: 'A la Orden',
+            image: '/images/project/a-la-orden.jpg',
+            type: t('Web & Mobile Project'),
+            description: t('Is a restaurant management platform...'),
+            icons: [
+                'img/react-logo.svg',
+                'img/typescript-logo.svg',
+                'img/nodejs-logo.svg',
+                'img/postgresql-logo.svg',
+                'images/project/aws.svg'
+            ]
+        },
+        {
             name: 'Inokuos',
             image: '/images/project/inokuos.jpg',
             type: t('Mobile project'),
@@ -69,6 +82,8 @@ export default function ListProjects() {
         }
     ]
 
+    const orderStart = 1
+
     return (
         <section>
             {dataProjects.map((dataProject, i) => (
@@ -79,7 +94,9 @@ export default function ListProjects() {
                     <div className="xl:flex">
                         <div
                             className={`xl:w-1/2 ${
-                                i % 2 === 0 ? 'xl:order-2' : 'xl:order-1'
+                                i % 2 === orderStart
+                                    ? 'xl:order-2'
+                                    : 'xl:order-1'
                             }`}
                         >
                             <img
@@ -91,7 +108,7 @@ export default function ListProjects() {
                         </div>
                         <div
                             className={`px-4 text-center xl:w-1/2 xl:px-0 ${
-                                i % 2 === 0
+                                i % 2 === orderStart
                                     ? 'xl:pr-20 xl:order-1'
                                     : 'xl:pl-20 xl:order-2'
                             }`}

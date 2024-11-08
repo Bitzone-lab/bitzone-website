@@ -879,5 +879,13 @@
     "AI & Web Project": {
         "es": "Proyecto IA & Web",
         "en": "AI & Web Project"
+    },
+    "Web & Mobile Project": {
+        "es": "Proyecto Web & Móvil",
+        "en": "Web Mobile & Project"
+    },
+    "Is a restaurant management platform...": {
+        "es": "Es una plataforma de gestión para negocios gastronómicos que optimiza ventas, pedidos y control de inventario. Como SaaS, permite a los restaurantes mejorar la eficiencia operativa y tomar decisiones basadas en datos desde una interfaz fácil de usar.",
+        "en": "Is a restaurant management platform that optimizes sales, orders, and inventory control. As a SaaS, it allows restaurants to improve operational efficiency and make data-driven decisions from an easy-to-use interface."
     }
 }
